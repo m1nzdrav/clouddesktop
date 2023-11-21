@@ -1,0 +1,292 @@
+{
+  "font": "Jost-Light",
+  "singleTexts": [
+    {
+      "question": "En esta etapa, el acceso a la Plataforma es limitado.",
+      "onlyAnswer": true,
+      "answer": ""
+    },
+    {
+      "question": "Los primeros códigos de acceso se proporcionarán",
+      "delay": 2,
+      "onlyAnswer": true,
+      "answer": ""
+    },
+    {
+      "question": "a Socios y primeros participantes en el Proyecto.",
+      "delay": 1.7,
+      "onlyAnswer": true,
+      "answer": ""
+    },
+    {
+      "question": "A continuación",
+      "delay": 2,
+      "onlyAnswer": true,
+      "answer": ""
+    },
+    {
+      "question": "habrá una venta inicial de tokens a los primeros inversores",
+      "delay": 1.5,
+      "onlyAnswer": true,
+      "answer": ""
+    },
+    {
+      "question": "en la que podrá participar un número limitado de usuarios.",
+      "delay": 1.8,
+      "onlyAnswer": true,
+      "answer": ""
+    },
+    {
+      "question": "Esperamos su comprensión.",
+      "delay": 2.2,
+      "variantAnswer": [
+        "Bien, adelante"
+      ],
+      "childDialogModels": [
+        {
+          "key": "Bien, adelante",
+          "question": "A continuación",
+          "delay": 1.5,
+          "onlyAnswer": true,
+          "answer": ""
+        },
+        {
+          "key": "Bien, adelante",
+          "question": "junto con Socios de la industria cinematográfica",
+          "delay": 1.5,
+          "onlyAnswer": true,
+          "answer": ""
+        },
+        {
+          "key": "Bien, adelante",
+          "question": "junto con Socios líderes de opinión",
+          "delay": 1.5,
+          "onlyAnswer": true,
+          "answer": ""
+        },
+        {
+          "key": "Bien, adelante",
+          "question": "y comunidades de usuarios activas",
+          "delay": 1.6,
+          "onlyAnswer": true,
+          "answer": ""
+        },
+        {
+          "key": "Bien, adelante",
+          "question": "empezaremos a crear proyectos y portales 3D descentralizados",
+          "delay": 1.6,
+          "onlyAnswer": true,
+          "answer": ""
+        },
+        {
+          "key": "Bien, adelante",
+          "question": "dando forma a una nueva Internet descentralizada.",
+          "delay": 2.1,
+          "onlyAnswer": true,
+          "answer": ""
+        },
+        {
+          "key": "Bien, adelante",
+          "question": "Demostraremos todo el proceso de creación",
+          "delay": 1.8,
+          "onlyAnswer": true,
+          "answer": ""
+        }, 
+        {
+          "key": "Bien, adelante",
+          "question": "en una serie a gran escala.",
+          "delay": 2,
+          "variantAnswer": [
+            "Bien, ¿qué sigue?"
+          ],
+          "childDialogModels": [
+            {
+              "key": "Bien, ¿qué sigue?",
+              "delay": 1.6,
+              "question": "La creación de Proyectos y la selección de los equipos adecuados",
+              "onlyAnswer": true,
+              "answer": ""
+            },
+            {
+              "key": "Bien, ¿qué sigue?",
+              "delay": 1.9,
+              "question": "se llevarán a cabo a través de la blockchain.",
+              "onlyAnswer": true,
+              "answer": ""
+            },
+            {
+              "key": "Bien, ¿qué sigue?",
+              "delay": 1.6,
+              "question": "Cada uno de los Proyectos estará acompañado de",
+              "onlyAnswer": true,
+              "answer": ""
+            },
+            {
+              "key": "Bien, ¿qué sigue?",
+              "delay": 1.6,
+              "question": "su propia venta inicial de tokens.",
+              "onlyAnswer": true,
+              "answer": ""
+            },
+            {
+              "key": "Bien, ¿qué sigue?",
+              "delay": 2,
+              "question": "En esta fase",
+              "onlyAnswer": true,
+              "answer": ""
+            },
+            {
+              "key": "Bien, ¿qué sigue?",
+              "delay": 1.5,
+              "question": "cada usuario podrá participar activamente",
+              "onlyAnswer": true,
+              "answer": ""
+            },
+            {
+              "key": "Bien, ¿qué sigue?",
+              "delay": 2,
+              "question": "en cualquiera de los Proyectos que desee.",
+              "onlyAnswer": true,
+              "answer": ""
+            },
+            {
+              "key": "Bien, ¿qué sigue?",
+              "delay": 1.6,
+              "question": "Y podrá dejar su huella",
+              "onlyAnswer": true,
+              "answer": ""
+            },
+            {
+              "key": "Bien, ¿qué sigue?",
+              "delay": 1.6,
+              "question": "en el mayor acontecimiento de nuestro tiempo.",
+              "onlyAnswer": true,
+              "answer": ""
+            },
+            {
+              "key": "Bien, ¿qué sigue?",
+              "delay": 2,
+              "question": "En el papel de participante, inversor, promotor y muchos otros.",
+              "variantAnswer": [
+                "¿Cómo puedo mantenerme informado?"
+              ],
+              "childDialogModels": [
+                {
+                  "key": "¿Cómo puedo mantenerme informado?",
+                  "delay": 1.5,
+                  "question": "Anunciaremos todas las novedades",
+                  "onlyAnswer": true,
+                  "answer": ""
+                },
+                {
+                  "key": "¿Cómo puedo mantenerme informado?",
+                  "delay": 1.6,
+                  "question": "plazos y fechas de tokenseals",
+                  "onlyAnswer": true,
+                  "answer": ""
+                },
+                {
+                  "key": "¿Cómo puedo mantenerme informado?",
+                  "delay": 1.6,
+                  "question": "lanzamientos de nuevos Proyectos",
+                  "onlyAnswer": true,
+                  "answer": ""
+                },
+                {
+                  "key": "¿Cómo puedo mantenerme informado?",
+                  "delay": 1.6,
+                  "question": "y fechas de estreno de nuevos episodios de las Series",
+                  "onlyAnswer": true,
+                  "answer": ""
+                },
+                {
+                  "key": "¿Cómo puedo mantenerme informado?",
+                  "delay": 1.6,
+                  "question": "en nuestro canal de Telegram.",
+                  "variantAnswer": [
+                    "¿Qué puedo hacer ahora?"
+                  ],
+                  "childDialogModels": [
+                    {
+                      "key": "¿Qué puedo hacer ahora?",
+                      "delay": 1.6,
+                      "question": "Una vez que continúe",
+                      "onlyAnswer": true,
+                      "answer": ""
+                    },
+                    {
+                      "key": "¿Qué puedo hacer ahora?",
+                      "delay": 1.6,
+                      "question": "podrá registrarse",
+                      "onlyAnswer": true,
+                      "answer": ""
+                    },
+                    {
+                      "key": "¿Qué puedo hacer ahora?",
+                      "delay": 1.6,
+                      "question": "y tendrá la oportunidad de invitar a nuevos usuarios",
+                      "onlyAnswer": true,
+                      "answer": ""
+                    },
+                    {
+                      "key": "¿Qué puedo hacer ahora?",
+                      "delay": 1.9,
+                      "question": "a su programa de referidos.",
+                      "onlyAnswer": true,
+                      "answer": ""
+                    },
+                    {
+                      "key": "¿Qué puedo hacer ahora?",
+                      "delay": 1.6,
+                      "question": "Por sus acciones y compras",
+                      "onlyAnswer": true,
+                      "answer": ""
+                    },
+                    {
+                      "key": "¿Qué puedo hacer ahora?",
+                      "delay": 1.8,
+                      "question": "recibirás fichas de Proyecto gratuitas.",
+                      "onlyAnswer": true,
+                      "answer": ""
+                    },
+                    {
+                      "key": "¿Qué puedo hacer ahora?",
+                      "delay": 1.5,
+                      "question": "Además, sus acciones aumentan tu Valoración de Usuario",
+                      "onlyAnswer": true,
+                      "answer": ""
+                    },
+                    {
+                      "key": "¿Qué puedo hacer ahora?",
+                      "delay": 2,
+                      "question": "que es la base de la moderación y gestión de toda la Plataforma.",
+                      "variantAnswer": [
+                        "Continuar"
+                      ],
+                      "childDialogModels": [
+                        {
+                          "key": "Continuar",
+                          "delay": 2,
+                          "question": "Continúa",
+                          "onlyAnswer": true,
+                          "needUnlock": true,
+                          "nextAction": true,
+                          "answer": ""
+                        }
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "answer": ""
+                }
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        }
+      ],
+      "answer": ""
+    }
+  ]
+}

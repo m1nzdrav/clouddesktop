@@ -1,0 +1,1372 @@
+{
+  "StartPages": [
+    1
+  ],
+  "Pages": [
+    {
+      "Number": 1,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": " ",
+          "point": false,
+          "size": 10,
+          "font": "Jost-Light",
+          "color": {
+            "r": 0.2,
+            "g": 0.45,
+            "b": 0.95,
+            "a": 0.9
+          },
+          "childContents": [],
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "Circles": {
+            "Circle": [
+              {
+                "radius": 20,
+                "color": {
+                  "r": 0.7490196228027344,
+                  "g": 0.09803922474384308,
+                  "b": 0.8313726186752319,
+                  "a": 0.27450981736183167
+                }
+              },
+              {
+                "radius": 15,
+                "color": {
+                  "r": 0.13725490868091583,
+                  "g": 0.3764706254005432,
+                  "b": 0.8392157554626465,
+                  "a": 0.27450981736183167
+                }
+              }
+            ]
+          },
+          "text": "..... как нам это удалось?",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "text": "       многие пытались",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       это сделать...",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "..... но, в этот раз",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "text": "       создается не просто",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       свободный Интернет",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": " ",
+          "point": false,
+          "size": 10,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 0
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "..... создается",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "..... новая вселенная",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "..... для нового Интернета",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "text": "       совершенно новое",
+          "point": true,
+          "audio": "Series About melt-down-quiet_end",
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       3D пространство",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       для всех данных в мире",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": " ",
+          "point": false,
+          "size": 10,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 0
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "..... архитектура",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "..... данного пространства",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "..... представляет из себя",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "text": "       комплекс технических",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "button": "NextPage",
+          "autoNextPage": true,
+          "buttonPages": [
+            1,
+            2
+          ],
+          "text": "       и пользовательских экосистем",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "  ",
+          "point": false,
+          "size": 0,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.5
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 1
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    },
+    {
+      "Number": 2,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": " ",
+          "point": false,
+          "size": 10,
+          "font": "Jost-Light",
+          "color": {
+            "r": 0.2,
+            "g": 0.45,
+            "b": 0.95,
+            "a": 0.9
+          },
+          "childContents": [],
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "text": "..... а, именно:",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 0.85,
+            "g": 0.29,
+            "b": 0.67,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "text": " ",
+          "point": false,
+          "size": 10,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 0
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       Экосистему новых",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       типов данных",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       Экосистему распределенных",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       реестров хранения",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       Экосистему генерации интерфейсов",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       и клиентских приложений",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       Экосистему графических",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       3D и 2D движков",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       Экосистему инструментов",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       командного сотрудничества",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       и взаимодействия",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       сообществ пользователей",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       Экосистему p2p",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       каналов взаимодействия",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       Экосистему дорожных карт",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       рабочих процессов",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       Экосистему совместимых",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       блокчейн цепочек данных",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       Экосистему токенизации",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       информации и активности",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       Экосистему локализации",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       и перевода",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       всех данных в сети",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "button": "NextPage",
+          "autoNextPage": true,
+          "buttonPages": [
+            1,
+            2,
+            3
+          ],
+          "text": "       на все языки сообщества",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "  ",
+          "point": false,
+          "size": 0,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.5
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 1
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    },
+    {
+      "Number": 3,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": " ",
+          "point": false,
+          "size": 10,
+          "font": "Jost-Light",
+          "color": {
+            "r": 0.2,
+            "g": 0.45,
+            "b": 0.95,
+            "a": 0.9
+          },
+          "childContents": [],
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "text": "..... а, также, еще 7 Экосистем",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 0.85,
+            "g": 0.29,
+            "b": 0.67,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "button": "NextPageContents",
+          "autoNextPage": true,
+          "buttonPages": [
+            1,
+            2,
+            3,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "text": "..... продолжение следует..",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "  ",
+          "point": false,
+          "size": 0,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.5
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 1
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    }
+  ]
+}

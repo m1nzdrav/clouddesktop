@@ -1,0 +1,35 @@
+namespace _Game._Scripts.Panel
+{
+    public enum Prefab
+    {
+        Button,
+        MYTIcon60_60,
+        MYTFolder,
+        WindowAction,
+        MYTMain,
+        MYTIcon30_30,
+        MYTDesktop,
+        MYT3dHall,
+        MYTAudio,
+        MYTCalendar,
+        MYTSeveralVideos,
+        MYTDocument,
+        MYTHierarhuList,
+        MYTImage,
+        MYTMassage,
+        MYTPrezentation,
+        MYTProfile,
+        MYTSpreadSheet,
+        MYTVideo,
+        MYTVideoChat,
+        MYTMainGrid,
+        MYTUserForm,
+        MYTPromo1,
+        TwoVideos1,
+        MYTFolderNewDesign,
+        MYTMultiPrefab,
+        MYTSubtitles,
+        MYTSubtitlesRight,
+        MYTSubPlane
+    }
+}

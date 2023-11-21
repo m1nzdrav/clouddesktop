@@ -1,0 +1,389 @@
+{
+  "font": "Jost-Light",
+  "singleTexts": [
+    {
+      "question": "Vous avez reçu l'accès au test",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Donc ",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "J'aimerais vous voir",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "parmi les partenaires du projet",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Donc ",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Soit vous avez les coordonnées de mes supérieurs",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Ou je peux les fournir pour vous",
+      "variantAnswer": [
+        "Merci, oui, j'ai déjà leurs coordonnées.",
+        "Je n'ai pas leurs coordonnées",
+        "Pourquoi ai-je besoin des coordonnées de vos supérieurs ?"
+      ],
+      "childDialogModels": [
+        
+        {
+          "key": "Merci, oui, j'ai déjà leurs coordonnées.",
+          "question": "D'accord",
+          "onlyAnswer": true,
+          "childDialogModels": [
+          ],
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Merci, oui, j'ai déjà leurs coordonnées.",
+          "question": "Cordialement",
+          "onlyAnswer": true,
+          "childDialogModels": [
+          ],
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Merci, oui, j'ai déjà leurs coordonnées.",
+          "question": "À bientôt",
+          "variantAnswer": [
+            "Telegram",
+            "Email"
+          ],
+          "childDialogModels": [
+            {
+              "key": "Telegram",
+              "question": "Telegram",
+              "refAfter": true,
+              "onlyAnswer": true,
+              "keyRef": "GoTelegram",
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Email",
+              "question": "Email",
+              "refAfter": true,
+              "onlyAnswer": true,
+              "keyRef": "GoMail",
+              "variantAnswer": [
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Je n'ai pas leurs coordonnées",
+          "question": "Réparez-le maintenant",
+          "variantAnswer": [
+            "Telegram",
+            "Email"
+          ],
+          "childDialogModels": [
+            {
+              "key": "Telegram",
+              "question": "Telegram",
+              "refAfter": true,
+              "onlyAnswer": true,
+              "keyRef": "GoTelegram",
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Email",
+              "question": "Email",
+              "refAfter": true,
+              "onlyAnswer": true,
+              "keyRef": "GoMail",
+              "variantAnswer": [
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Pourquoi ai-je besoin des coordonnées de vos supérieurs ?",
+          "question": "Vous devez plaisanter",
+          "variantAnswer": [
+            "Je plaisante.",
+            "Je ne plaisante pas, pourquoi aurais-je besoin des coordonnées de vos supérieurs ?"
+          ],
+          "childDialogModels": [
+            {
+              "key": "Je plaisante.",
+              "question": "D'accord",
+              "variantAnswer": [
+                "Merci, oui, j'ai déjà leurs coordonnées.",
+                "Je n'ai pas leurs coordonnées"
+              ],
+              "childDialogModels": [
+                {
+                  "key": "Merci, oui, j'ai déjà leurs coordonnées.",
+                  "question": "Cordialement",
+                  "onlyAnswer": true,
+                  "childDialogModels": [
+                  ],
+                  "variantAnswer": [
+                  ],
+                  "answer": ""
+                },
+                {
+                  "key": "Merci, oui, j'ai déjà leurs coordonnées.",
+                  "question": "À bientôt",
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "Telegram",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "Email",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                },
+                {
+                  "key": "Je n'ai pas leurs coordonnées",
+                  "question": "Réparez-le maintenant",
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "Telegram",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "Email",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                }
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Je ne plaisante pas, pourquoi aurais-je besoin des coordonnées de vos supérieurs ?",
+              "question": "imaginez",
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Je ne plaisante pas, pourquoi aurais-je besoin des coordonnées de vos supérieurs ?",
+              "question": "si internet",
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Je ne plaisante pas, pourquoi aurais-je besoin des coordonnées de vos supérieurs ?",
+              "question": "avait son propre Bitcoin",
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Je ne plaisante pas, pourquoi aurais-je besoin des coordonnées de vos supérieurs ?",
+              "question": "pendant qu'il était créé",
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Je ne plaisante pas, pourquoi aurais-je besoin des coordonnées de vos supérieurs ?",
+              "question": "imaginez maintenant",
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Je ne plaisante pas, pourquoi aurais-je besoin des coordonnées de vos supérieurs ?",
+              "question": "que vous allez passer...",
+              "variantAnswer": [
+                "Merci, oui, j'ai déjà leurs coordonnées.",
+                "Je n'ai pas leurs coordonnées"
+              ],
+              "childDialogModels": [
+                {
+                  "key": "Merci, oui, j'ai déjà leurs coordonnées.",
+                  "question": "Cordialement",
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "Telegram",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "Email",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                },
+                {
+                  "key": "Merci, oui, j'ai déjà leurs coordonnées.",
+                  "question": "À bientôt",
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "Telegram",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "Email",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                },
+                {
+                  "key": "Je n'ai pas leurs coordonnées",
+                  "question": "Réparez-le maintenant",
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "Telegram",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "Email",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                }
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        }
+      ],
+      "answer": ""
+    }
+  ]
+}

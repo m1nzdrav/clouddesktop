@@ -1,0 +1,258 @@
+{
+  "font": "Jost-Light",
+  "singleTexts": [
+    {
+      "question": "À ce stade, l'accès à la Plateforme est limité",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Les premiers codes d'accès seront fournis aux",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Partenaires et premiers participants au projet",
+      "variantAnswer": [
+        "Je veux participer au projet",
+        "Continuer tel quel"
+      ],
+      "childDialogModels": [
+        {
+          "key": "Je veux participer au projet",
+          "question": "Il y a 6 domaines différents dans lesquels vous pouvez coopérer avec nous à ce stade",
+          "onlyAnswer": true,
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Je veux participer au projet",
+          "question": "Les autres seront disponibles un peu plus tard",
+          "onlyAnswer": true,
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Je veux participer au projet",
+          "question": "Choisissez un ou plusieurs domaines",
+          "allVariant": true,
+          "keyRef": "SendDirection",
+          "variantAnswer": [
+            "Représentant de l'industrie cinématographique",
+            "Blogueur, influenceur",
+            "Investisseur Crypto",
+            "Représentant d'un parc technologique ou informatique",
+            "Représentant de la structure de l'État",
+            "Utilisateur actif, prêt à développer sa propre communauté",
+            "Je ne suis pas là."
+          ],
+          "childDialogModels": [
+            {
+              "key": "default",
+              "question": "Choisissez votre pays",
+              "keyRef": "SendCountry",
+              "dropdownDialog": {
+                "nameDropdown": "CC_French",
+                "nameField": "name",
+                "nameFirstElement": "Pays"
+              },
+              "variantAnswer": [
+              ],
+              "childDialogModels": [
+                {
+                  "key": "default",
+                  "question": "Veuillez nous donner un lien vers l'une de vos pages de réseaux sociaux.",
+                  "onlyAnswer": true,
+                  "variantAnswer": [
+                  ],
+                  "childDialogModels": [],
+                  "answer": ""
+                },
+                {
+                  "key": "default",
+                  "question": "Un lien qui nous permet d'en savoir un peu plus sur vous.",
+                  "keyRef": "SendLink",
+                  "errorText": {
+                    "textError": "Utiliser les chiffres et les lettres latines",
+                    "accessTexts": [
+                      0,
+                      1,
+                      2
+                    ]
+                  },
+                  "variantAnswer": [
+                  ],
+                  "childDialogModels": [
+                    {
+                      "key": "default",
+                      "question": "Entrez votre adresse e-mail ou votre identifiant Telegram",
+                      "variantAnswer": [
+                        "Courriel",
+                        "Telegram"
+                      ],
+                      "childDialogModels": [
+                        {
+                          "key": "Courriel",
+                          "question": "Entrez votre adresse courriel",
+                          "keyRef": "SetEmail",
+                          "errorText": {
+                            "textError": "Utiliser les chiffres et les lettres latines",
+                            "accessTexts": [
+                              0,
+                              1,
+                              2
+                            ]
+                          },
+                          "variantAnswer": [
+                          ],
+                          "childDialogModels": [
+                            {
+                              "key": "default",
+                              "label": "email",
+                              "question": "Merci",
+                              "onlyAnswer": true,
+                              "variantAnswer": [
+                              ],
+                              "childDialogModels": [],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "S'il plaît aux cieux",
+                              "onlyAnswer": true,
+                              "refAfter": true,
+                              "keyRef": "SendEmail",
+                              "variantAnswer": [
+                              ],
+                              "childDialogModels": [],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "La coopération commencera sous peu",
+                              "onlyAnswer": true,
+                              "variantAnswer": [
+                              ],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "Veuillez patienter. Nous vous contacterons.",
+                              "variantAnswer": [
+                                "Continuer"
+                              ],
+                              "childDialogModels": [
+                                {
+                                  "key": "Continuer",
+                                  "question": "Continuer",
+                                  "needUnlock": true,
+                                  "onlyAnswer": true,
+                                  "nextAction": true,
+                                  "variantAnswer": [
+                                  ],
+                                  "answer": ""
+                                }
+                              ]
+                            }
+                          ],
+                          "answer": ""
+                        },
+                        {
+                          "key": "Telegram",
+                          "question": "Entrez votre identifiant Telegram",
+                          "keyRef": "SetEmail",
+                          "errorText": {
+                            "textError": "Utiliser les chiffres et les lettres latines",
+                            "accessTexts": [
+                              0,
+                              1,
+                              2
+                            ]
+                          },
+                          "variantAnswer": [
+                          ],
+                          "childDialogModels": [
+                            {
+                              "key": "default",
+                              "label": "email",
+                              "question": "Merci",
+                              "onlyAnswer": true,
+                              "variantAnswer": [
+                              ],
+                              "childDialogModels": [],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "S'il plaît aux cieux",
+                              "onlyAnswer": true,
+                              "refAfter": true,
+                              "keyRef": "SendEmail",
+                              "variantAnswer": [
+                              ],
+                              "childDialogModels": [],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "La coopération commencera sous peu",
+                              "onlyAnswer": true,
+                              "variantAnswer": [
+                              ],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "Veuillez patienter. Nous vous contacterons.",
+                              "variantAnswer": [
+                                "Continuer"
+                              ],
+                              "childDialogModels": [
+                                {
+                                  "key": "Continuer",
+                                  "question": "Continuer",
+                                  "needUnlock": true,
+                                  "onlyAnswer": true,
+                                  "nextAction": true,
+                                  "variantAnswer": [
+                                  ],
+                                  "answer": ""
+                                }
+                              ]
+                            }
+                          ],
+                          "answer": ""
+                        }
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "answer": ""
+                }
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Continuer tel quel",
+          "question": "Continuer",
+          "needUnlock": true,
+          "onlyAnswer": true,
+          "nextAction": true,
+          "variantAnswer": [
+          ],
+          "answer": ""
+        }
+      ],
+      "answer": ""
+    }
+  ]
+}

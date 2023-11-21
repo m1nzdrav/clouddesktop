@@ -1,0 +1,389 @@
+{
+  "font": "Jost-Light",
+  "singleTexts": [
+    {
+      "question": "Hai ottenuto l'accesso al test",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Quindi ",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Mi piacerebbe vederti",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "tra i partner del Progetto",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Quindi ",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "O hai già i contatti del mio superiore",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Oppure posso fornirteli",
+      "variantAnswer": [
+        "Grazie, ho già i contatti",
+        "Non ho i contatti",
+        "Perché dovrei aver bisogno dei contatti del tuo superiore"
+      ],
+      "childDialogModels": [
+       
+        {
+          "key": "Grazie, ho già i contatti",
+          "question": "Bene",
+          "onlyAnswer": true,
+          "childDialogModels": [
+          ],
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Grazie, ho già i contatti",
+          "question": "Buona fortuna",
+          "onlyAnswer": true,
+          "childDialogModels": [
+          ],
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Grazie, ho già i contatti",
+          "question": "Alla prossima",
+          "variantAnswer": [
+            "Telegram",
+            "Email"
+          ],
+          "childDialogModels": [
+            {
+              "key": "Telegram",
+              "question": "Telegram",
+              "refAfter": true,
+              "onlyAnswer": true,
+              "keyRef": "GoTelegram",
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Email",
+              "question": "Email",
+              "refAfter": true,
+              "onlyAnswer": true,
+              "keyRef": "GoMail",
+              "variantAnswer": [
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Non ho i contatti",
+          "question": "Correggo",
+          "variantAnswer": [
+            "Telegram",
+            "Email"
+          ],
+          "childDialogModels": [
+            {
+              "key": "Telegram",
+              "question": "Telegram",
+              "refAfter": true,
+              "onlyAnswer": true,
+              "keyRef": "GoTelegram",
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Email",
+              "question": "Email",
+              "refAfter": true,
+              "onlyAnswer": true,
+              "keyRef": "GoMail",
+              "variantAnswer": [
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Perché dovrei aver bisogno dei contatti del tuo superiore",
+          "question": "Stai scherzando",
+          "variantAnswer": [
+            "Scherzo",
+            "Non scherzo, non mi servono i contatti del tuo superiore"
+          ],
+          "childDialogModels": [
+            {
+              "key": "Scherzo",
+              "question": "Bene",
+              "variantAnswer": [
+                "Grazie, ho già i contatti",
+                "Non ho i contatti"
+              ],
+              "childDialogModels": [
+                {
+                  "key": "Grazie, ho già i contatti",
+                  "question": "Buona fortuna",
+                  "onlyAnswer": true,
+                  "childDialogModels": [
+                  ],
+                  "variantAnswer": [
+                  ],
+                  "answer": ""
+                },
+                {
+                  "key": "Grazie, ho già i contatti",
+                  "question": "Alla prossima",
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "Telegram",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "Email",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                },
+                {
+                  "key": "Non ho i contatti",
+                  "question": "Correggo",
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "Telegram",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "Email",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                }
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Non scherzo, non mi servono i contatti del tuo superiore",
+              "question": "immagina",
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Non scherzo, non mi servono i contatti del tuo superiore",
+              "question": "se Internet",
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Non scherzo, non mi servono i contatti del tuo superiore",
+              "question": "al momento della sua creazione",
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Non scherzo, non mi servono i contatti del tuo superiore",
+              "question": "avesse avuto il suo Bitcoin...",
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Non scherzo, non mi servono i contatti del tuo superiore",
+              "question": "ora immagina",
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Non scherzo, non mi servono i contatti del tuo superiore",
+              "question": "di trovartici di fronte...",
+              "variantAnswer": [
+                "Grazie, ho già i contatti",
+                "Non ho i contatti"
+              ],
+              "childDialogModels": [
+                {
+                  "key": "Grazie, ho già i contatti",
+                  "question": "Buona fortuna",
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "Telegram",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "Email",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                },
+                {
+                  "key": "Grazie, ho già i contatti",
+                  "question": "Alla prossima",
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "Telegram",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "Email",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                },
+                {
+                  "key": "Non ho i contatti",
+                  "question": "Correggo",
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "Telegram",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "Email",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                }
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        }
+      ],
+      "answer": ""
+    }
+  ]
+}

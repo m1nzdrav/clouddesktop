@@ -1,0 +1,389 @@
+{
+  "font": "Khand-Light",
+  "singleTexts": [
+    {
+      "question": "आपको टेस्ट एक्सेस मिल गया है",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "इसलिए ",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "मैं आपको प्रोजेक्ट के",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "भागीदारों के बीच देखना चाहता हूँ",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "इसलिए ",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "या तो आपके पास मेरे वरिष्ठ अधिकारियों का संपर्क विवरण होना चाहिए",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "या मैं उन्हें आपको प्रदान कर सकता हूँ",
+      "variantAnswer": [
+        "धन्यवाद, हाँ, मेरे पास पहले से ही उनका संपर्क विवरण है",
+        "मेरे पास उनका संपर्क विवरण नहीं है",
+        "मुझे आपके वरिष्ठ अधिकारियों के संपर्क विवरण की क्या ज़रूरत है?"
+      ],
+      "childDialogModels": [
+        
+        {
+          "key": "धन्यवाद, हाँ, मेरे पास पहले से ही उनका संपर्क विवरण है",
+          "question": "ठीक है",
+          "onlyAnswer": true,
+          "childDialogModels": [
+          ],
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "धन्यवाद, हाँ, मेरे पास पहले से ही उनका संपर्क विवरण है",
+          "question": "शुभकामनाएं",
+          "onlyAnswer": true,
+          "childDialogModels": [
+          ],
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "धन्यवाद, हाँ, मेरे पास पहले से ही उनका संपर्क विवरण है",
+          "question": "जल्द ही फिर मिलेंगे",
+          "variantAnswer": [
+            "Telegram",
+            "Email"
+          ],
+          "childDialogModels": [
+            {
+              "key": "Telegram",
+              "question": "Telegram",
+              "refAfter": true,
+              "onlyAnswer": true,
+              "keyRef": "GoTelegram",
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Email",
+              "question": "Email",
+              "refAfter": true,
+              "onlyAnswer": true,
+              "keyRef": "GoMail",
+              "variantAnswer": [
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "key": "मेरे पास उनका संपर्क विवरण नहीं है",
+          "question": "इसे अभी ठीक कर रहे हैं",
+          "variantAnswer": [
+            "Telegram",
+            "Email"
+          ],
+          "childDialogModels": [
+            {
+              "key": "Telegram",
+              "question": "Telegram",
+              "refAfter": true,
+              "onlyAnswer": true,
+              "keyRef": "GoTelegram",
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Email",
+              "question": "Email",
+              "refAfter": true,
+              "onlyAnswer": true,
+              "keyRef": "GoMail",
+              "variantAnswer": [
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "key": "मुझे आपके वरिष्ठ अधिकारियों के संपर्क विवरण की क्या ज़रूरत है?",
+          "question": "आप ज़रूर मजाक कर रहे",
+          "variantAnswer": [
+            "मैं मजाक कर रहा हूँ",
+            "मैं मजाक नहीं कर रहा हूँ, मुझे आपके वरिष्ठ अधिकारियों के संपर्क विवरण की क्या ज़रूरत है?"
+          ],
+          "childDialogModels": [
+            {
+              "key": "मैं मजाक कर रहा हूँ",
+              "question": "ठीक है",
+              "variantAnswer": [
+                "धन्यवाद, हाँ, मेरे पास पहले से ही उनका संपर्क विवरण है",
+                "मेरे पास उनका संपर्क विवरण नहीं है"
+              ],
+              "childDialogModels": [
+                {
+                  "key": "धन्यवाद, हाँ, मेरे पास पहले से ही उनका संपर्क विवरण है",
+                  "question": "शुभकामनाएं",
+                  "onlyAnswer": true,
+                  "childDialogModels": [
+                  ],
+                  "variantAnswer": [
+                  ],
+                  "answer": ""
+                },
+                {
+                  "key": "धन्यवाद, हाँ, मेरे पास पहले से ही उनका संपर्क विवरण है",
+                  "question": "जल्द ही फिर मिलेंगे",
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "Telegram",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "Email",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                },
+                {
+                  "key": "मेरे पास उनका संपर्क विवरण नहीं है",
+                  "question": "इसे अभी ठीक कर रहे हैं",
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "Telegram",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "Email",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                }
+              ],
+              "answer": ""
+            },
+            {
+              "key": "मैं मजाक नहीं कर रहा हूँ, मुझे आपके वरिष्ठ अधिकारियों के संपर्क विवरण की क्या ज़रूरत है?",
+              "question": "कल्पना कीजिए",
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "मैं मजाक नहीं कर रहा हूँ, मुझे आपके वरिष्ठ अधिकारियों के संपर्क विवरण की क्या ज़रूरत है?",
+              "question": "अगर इंटरनेट",
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "मैं मजाक नहीं कर रहा हूँ, मुझे आपके वरिष्ठ अधिकारियों के संपर्क विवरण की क्या ज़रूरत है?",
+              "question": "के निर्माण के समय उसका",
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "मैं मजाक नहीं कर रहा हूँ, मुझे आपके वरिष्ठ अधिकारियों के संपर्क विवरण की क्या ज़रूरत है?",
+              "question": "अपना बिटकॉइन होता",
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "मैं मजाक नहीं कर रहा हूँ, मुझे आपके वरिष्ठ अधिकारियों के संपर्क विवरण की क्या ज़रूरत है?",
+              "question": "अब कल्पना कीजिए",
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "मैं मजाक नहीं कर रहा हूँ, मुझे आपके वरिष्ठ अधिकारियों के संपर्क विवरण की क्या ज़रूरत है?",
+              "question": "कि आप अतीत में जा रहे हैं...",
+              "variantAnswer": [
+                "धन्यवाद, हाँ, मेरे पास पहले से ही उनका संपर्क विवरण है",
+                "मेरे पास उनका संपर्क विवरण नहीं है"
+              ],
+              "childDialogModels": [
+                {
+                  "key": "धन्यवाद, हाँ, मेरे पास पहले से ही उनका संपर्क विवरण है",
+                  "question": "शुभकामनाएं",
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "Telegram",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "Email",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                },
+                {
+                  "key": "धन्यवाद, हाँ, मेरे पास पहले से ही उनका संपर्क विवरण है",
+                  "question": "जल्द ही फिर मिलेंगे",
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "Telegram",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "Email",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                },
+                {
+                  "key": "मेरे पास उनका संपर्क विवरण नहीं है",
+                  "question": "इसे अभी ठीक कर रहे हैं",
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "Telegram",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "Email",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                }
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        }
+      ],
+      "answer": ""
+    }
+  ]
+}

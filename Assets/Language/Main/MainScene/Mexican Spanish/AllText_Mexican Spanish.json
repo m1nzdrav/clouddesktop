@@ -1,0 +1,805 @@
+{
+  "Key": [
+    {
+      "MYTId": "Enter password35",
+      "MYTName": "Enter password",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "6",
+          "MYTName": "Ingresa tu segunda contraseña de invitado",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Jura-Medium",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Enter password35",
+      "MYTName": "PlatformAds",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "6",
+          "MYTName": "PLATAFORMA\n Token publicitario",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Jura-Medium",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Home96",
+      "MYTName": "Home",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "Home65",
+          "MYTName": "Inicio",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Jura-Medium",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Home96",
+      "MYTName": "Music",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "Home65",
+          "MYTName": "Música:",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Jura-Medium",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Home96",
+      "MYTName": "Right",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "Home65",
+          "MYTName": "PLATAFORMA",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Jura-Medium",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Home96",
+      "MYTName": "error",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "Home65",
+          "MYTName": "Izquierda",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Jura-Medium",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Home96",
+      "MYTName": "Left",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "Home65",
+          "MYTName": "ACERCA DE LA PLATAFORMA",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Jura-Medium",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Home96",
+      "MYTName": "More",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "Home65",
+          "MYTName": "Más",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Jura-Medium",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Menu0",
+      "MYTName": "Menu",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "Menu48",
+          "MYTName": "Menú",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Jura-Medium",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "What12",
+      "MYTName": "What",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "What35",
+          "MYTName": "Qué",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Jura-Medium",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "When46",
+      "MYTName": "When",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "When52",
+          "MYTName": "Cuándo",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Jura-Medium",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Who16",
+      "MYTName": "Who",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "Who16",
+          "MYTName": "Quién",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Jura-Medium",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Where57",
+      "MYTName": "Where",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "Where23",
+          "MYTName": "Dónde",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Jura-Medium",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Next39",
+      "MYTName": "Next",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "Button67",
+          "MYTName": "Siguiente",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Jura-Medium",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Next39",
+      "MYTName": "Balance",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "Button67",
+          "MYTName": "Balance",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Jura-Medium",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Language23",
+      "MYTName": "Language",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "LANGUAGE35",
+          "MYTName": "Idioma",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Jura-Medium",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Language23",
+      "MYTName": "Video",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "LANGUAGE35",
+          "MYTName": "Video",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Jura-Medium",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Language23",
+      "MYTName": "Continue",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "LANGUAGE35",
+          "MYTName": "Continuará",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Jura-Medium",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Home96",
+      "MYTName": "Follow",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "Home65",
+          "MYTName": "Seguir",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Jura-Medium",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Home96",
+      "MYTName": "Soon",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "Home65",
+          "MYTName": "Pronto",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Jura-Medium",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },{
+      "MYTId": "Home96",
+      "MYTName": "Search",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "Home65",
+          "MYTName": "Búsqueda",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Jura-Medium",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },{
+      "MYTId": "Home96",
+      "MYTName": "no access yet",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "Home65",
+          "MYTName": "todavía no hay acceso",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Jura-Medium",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },  {
+      "MYTId": "Language23",
+      "MYTName": "BEGIN",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "LANGUAGE35",
+          "MYTName": "INICIO",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Jura-Medium",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    }, {
+      "MYTId": "Language23",
+      "MYTName": "White Paper",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "LANGUAGE35",
+          "MYTName": "White Paper",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Jura-Medium",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Language23",
+      "MYTName": "Tokensale",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "LANGUAGE35",
+          "MYTName": "Tokensale",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Jura-Medium",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },{
+      "MYTId": "Language23",
+      "MYTName": "Invitation",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "LANGUAGE35",
+          "MYTName": "Invitacion",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Jura-Medium",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    }
+  ]
+}

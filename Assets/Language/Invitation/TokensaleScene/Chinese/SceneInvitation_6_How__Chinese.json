@@ -1,0 +1,1372 @@
+{
+  "StartPages": [
+    1
+  ],
+  "Pages": [
+    {
+      "Number": 1,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": " ",
+          "point": false,
+          "size": 10,
+          "font": "Jost-Light",
+          "color": {
+            "r": 0.2,
+            "g": 0.45,
+            "b": 0.95,
+            "a": 0.9
+          },
+          "childContents": [],
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "Circles": {
+            "Circle": [
+              {
+                "radius": 20,
+                "color": {
+                  "r": 0.7490196228027344,
+                  "g": 0.09803922474384308,
+                  "b": 0.8313726186752319,
+                  "a": 0.27450981736183167
+                }
+              },
+              {
+                "radius": 15,
+                "color": {
+                  "r": 0.13725490868091583,
+                  "g": 0.3764706254005432,
+                  "b": 0.8392157554626465,
+                  "a": 0.27450981736183167
+                }
+              }
+            ]
+          },
+          "text": ".....我们是如何做到的？",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "text": "       有许多人都曾试过",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       这么做",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": ".....但这次",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       不仅仅是创建一个免费",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       的互联网",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": " ",
+          "point": false,
+          "size": 10,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 0
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "..... создается",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": ".....互联网的",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": ".....新宇宙",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       一个全新的",
+          "point": true,
+          "audio": "Series About melt-down-quiet_end",
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       3D 空间",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       供世界所有的数据使用",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": " ",
+          "point": false,
+          "size": 10,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 0
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": ".....这个空间",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": ".....的架构",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": ".....代表着",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       一个由技术和用户生态",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "button": "NextPage",
+          "autoNextPage": true,
+          "buttonPages": [
+            1,
+            2
+          ],
+          "text": "       系统组成的系统",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "  ",
+          "point": false,
+          "size": 0,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.5
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 1
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    },
+    {
+      "Number": 2,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": " ",
+          "point": false,
+          "size": 10,
+          "font": "Jost-Light",
+          "color": {
+            "r": 0.2,
+            "g": 0.45,
+            "b": 0.95,
+            "a": 0.9
+          },
+          "childContents": [],
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "text": ".....特别是：",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 0.85,
+            "g": 0.29,
+            "b": 0.67,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "text": " ",
+          "point": false,
+          "size": 10,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 0
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       一个新型数据",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       生态系统",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       一个分布式存储寄存器",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       的生态系统",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       一个用于生成界面和客户端",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       应用程序的生态系统",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       一个图形 3D 和 2D",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       引擎的生态系统",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       一个用于用户社区之间",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       团队合作",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       和互动的",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       工具生态系统",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       用于交互的 p2p",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       渠道生态系统",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       一个工作流路线图的",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       生态系统",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       一个联合数据区块链",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       的生态系统",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       一个信息和活动",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       代币化的生态系统",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       一个本地化的生态系统",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       并将互联网上",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       的所有数据",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "button": "NextPage",
+          "autoNextPage": true,
+          "buttonPages": [
+            1,
+            2,
+            3
+          ],
+          "text": "       翻译成社区的所有语言",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "  ",
+          "point": false,
+          "size": 0,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.5
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 1
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    },
+    {
+      "Number": 3,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": " ",
+          "point": false,
+          "size": 10,
+          "font": "Jost-Light",
+          "color": {
+            "r": 0.2,
+            "g": 0.45,
+            "b": 0.95,
+            "a": 0.9
+          },
+          "childContents": [],
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "text": ".....还有另外 7 个生态系统",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 0.85,
+            "g": 0.29,
+            "b": 0.67,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "button": "NextPageContents",
+          "autoNextPage": true,
+          "buttonPages": [
+            1,
+            2,
+            3,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "text": ".....未完待续..",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "  ",
+          "point": false,
+          "size": 0,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.5
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 1
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    }
+  ]
+}

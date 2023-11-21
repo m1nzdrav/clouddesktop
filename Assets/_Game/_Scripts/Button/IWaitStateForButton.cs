@@ -1,0 +1,4 @@
+interface IWaitStateForButton
+{
+    void ChangeWaitState();
+}

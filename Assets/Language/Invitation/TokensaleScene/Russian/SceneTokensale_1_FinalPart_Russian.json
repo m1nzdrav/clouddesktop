@@ -1,0 +1,811 @@
+{
+  "StartPages": [
+    1
+  ],
+  "Pages": [
+    {
+      "Number": 1,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": " ",
+          "point": false,
+          "size": 10,
+          "font": "Jost-Light",
+          "color": {
+            "r": 0.2,
+            "g": 0.45,
+            "b": 0.95,
+            "a": 0.9
+          },
+          "childContents": [],
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "text": "     хорошие времена",
+          "audio": "atmosfera-yarkii-blizkii-zvonki-ezotericheskii_12.7sec",
+          "point": true,
+          "sword": true,
+          "size": 30,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 0.85,
+            "g": 0.29,
+            "b": 0.67,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "text": "     ..создают слабых людей",
+          "point": true,
+          "size": 24,
+          "font": "Jost-Light",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2.3,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "     слабые люди",
+          "point": true,
+          "sword": true,
+          "size": 30,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 0.85,
+            "g": 0.29,
+            "b": 0.67,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "text": "     ..создают тяжелые времена",
+          "point": true,
+          "size": 24,
+          "font": "Jost-Light",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2.3,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "     тяжелые времена",
+          "audio": "atmosfera-yarkii-blizkii-zvonki-ezotericheskii_12.7sec",
+          "point": true,
+          "sword": true,
+          "size": 30,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 0.85,
+            "g": 0.29,
+            "b": 0.67,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "text": "     ..создают сильных людей",
+          "point": true,
+          "audio": "2. Menu Appearance",
+          "size": 24,
+          "font": "Jost-Light",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2.3,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "     сильные люди",
+          "point": true,
+          "sword": true,
+          "size": 30,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 0.85,
+            "g": 0.29,
+            "b": 0.67,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "text": "     ..создают хорошие времена",
+          "point": true,
+          "audio": "2. Menu Appearance",
+          "size": 24,
+          "font": "Jost-Light",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2.3,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "    ",
+          "size": 20,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "     можно уже присоединиться",
+          "point": true,
+          "size": 30,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 0.85,
+            "g": 0.29,
+            "b": 0.67,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "text": "     ..если вы заинтересовались",
+          "point": true,
+          "size": 24,
+          "font": "Jost-Light",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "     можно еще подумать",
+          "point": true,
+          "size": 30,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 0.85,
+            "g": 0.29,
+            "b": 0.67,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "text": "     ..если вам нужно время",
+          "point": true,
+          "size": 24,
+          "font": "Jost-Light",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "    ",
+          "size": 20,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "text": "     но, как говорили мудрецы:",
+          "point": true,
+          "size": 30,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 0.85,
+            "g": 0.29,
+            "b": 0.67,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "text": "    ",
+          "size": 5,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "text": "     ..у человека две жизни",
+          "point": true,
+          "audio": "2. Menu Appearance",
+          "size": 24,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2.3,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "     ..и вторая начинается тогда",
+          "point": true,
+          "size": 24,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2.3,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "     ..когда он наконец понимает",
+          "point": true,
+          "size": 24,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2.3,
+            "AnimationTextType": 0
+          }
+        },
+        {
+              "button": "NextPage",
+              "autoNextPage": true,
+              "buttonPages": [
+                1,
+                2
+              ],
+          "text": "     ..что жизнь всего одна",
+          "audio": "Our world is changing_4.6sec",
+          "point": true,
+          "size": 24,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2.3,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "  ",
+          "point": false,
+          "size": 0,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.5
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 1
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    },
+    {
+      "Number": 2,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": " ",
+          "point": false,
+          "size": 10,
+          "font": "Jost-Light",
+          "color": {
+            "r": 0.2,
+            "g": 0.45,
+            "b": 0.95,
+            "a": 0.9
+          },
+          "childContents": [],
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "text": "     наш мир уже бесповоротно меняется",
+          "contentInteractivity": {
+            "locker": "OurWorld"
+          },
+          "glowDot": true,
+          "point": true,
+          "sword": true,
+          "size": 30,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 0.85,
+            "g": 0.29,
+            "b": 0.67,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.5,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 2.3,
+            "AnimationTextType": 0
+          },
+          "childContents": [
+            {
+              "text": "     ..кто-то примет в этом участие",
+              "point": true,
+              "size": 24,
+              "font": "Jost-Light",
+              "color": {
+                "r": 0.58,
+                "g": 0.96,
+                "b": 0.96,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.5,
+                "AnimationOpenType": 1,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.2,
+                "time": 3,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "     ..раньше других",
+              "point": true,
+              "sword": false,
+              "size": 24,
+              "font": "Jost-Light",
+              "color": {
+                "r": 0.58,
+                "g": 0.96,
+                "b": 0.96,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.5,
+                "AnimationOpenType": 1,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.2,
+                "time": 3,
+                "AnimationTextType": 0
+              }
+            }
+          ]
+        },
+        {
+          "text": "     каким именно он будет?",
+          "contentInteractivity": {
+            "locker": "OurWorld",
+            "key": "OurWorld"
+          },
+          "glowDot": true,
+          "point": true,
+          "sword": true,
+          "size": 30,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 0.85,
+            "g": 0.29,
+            "b": 0.67,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.5,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 2.3,
+            "AnimationTextType": 0
+          },
+          "childContents": [
+            {
+              "text": "     ..теперь зависит",
+              "point": true,
+              "size": 24,
+              "font": "Jost-Light",
+              "color": {
+                "r": 0.58,
+                "g": 0.96,
+                "b": 0.96,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.5,
+                "AnimationOpenType": 1,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.2,
+                "time": 3,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "button": "NextPageContents",
+              "autoNextPage": true,
+              "buttonPages": [
+                1,
+                2,
+                3,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26
+              ],
+              "text": "     ..от каждого нас...",
+              "point": true,
+              "audio": "2. Menu Appearance",
+              "size": 24,
+              "font": "Jost-Light",
+              "color": {
+                "r": 0.58,
+                "g": 0.96,
+                "b": 0.96,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.5,
+                "AnimationOpenType": 1,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.2,
+                "time": 3,
+                "AnimationTextType": 0
+              }
+            }
+          ]
+        },
+        {
+          "text": "  ",
+          "point": false,
+          "size": 0,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.5
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 1
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    }
+  ]
+}

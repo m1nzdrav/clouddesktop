@@ -1,0 +1,258 @@
+{
+  "font": "Jost-Light",
+  "singleTexts": [
+    {
+      "question": "الوصول إلى المنصة محدود في هذه المرحلة",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "سيتم توفير رموز الوصول الأولى إلى",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "الشركاء والمشاركين الأوائل في المشروع",
+      "variantAnswer": [
+        "أريد المشاركة في المشروع",
+        "متابعة باسم"
+      ],
+      "childDialogModels": [
+        {
+          "key": "أريد المشاركة في المشروع",
+          "question": "توجد 6 مجالات مختلفة يمكنك التعاون معنا فيها في هذه المرحلة",
+          "onlyAnswer": true,
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "أريد المشاركة في المشروع",
+          "question": "ستتوفر باقي المجالات لاحقًا",
+          "onlyAnswer": true,
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "أريد المشاركة في المشروع",
+          "question": "اختر مجالاً واحدًا أو أكثر",
+          "allVariant": true,
+          "keyRef": "SendDirection",
+          "variantAnswer": [
+            "ممثل صناعة السينما",
+            "مدون، مؤثر",
+            "مستثمر في العملات المشفرة",
+            "ممثل تقني أو تكنولوجيا المعلومات",
+            "ممثل أعمال الدولة",
+            "مستخدم نشط جاهز لتطوير مجتمعك الخاص",
+            "لست في هذه الخيارات"
+          ],
+          "childDialogModels": [
+            {
+              "key": "default",
+              "question": "اختر بلدك",
+              "keyRef": "SendCountry",
+              "dropdownDialog": {
+                "nameDropdown": "CC_Egyptian Arabic",
+                "nameField": "name",
+                "nameFirstElement": "البلد"
+              },
+              "variantAnswer": [
+              ],
+              "childDialogModels": [
+                {
+                  "key": "default",
+                  "question": "يُرجى إعطائنا رابطًا لأحد صفحاتك على شبكات التواصل الاجتماعي",
+                  "onlyAnswer": true,
+                  "variantAnswer": [
+                  ],
+                  "childDialogModels": [],
+                  "answer": ""
+                },
+                {
+                  "key": "default",
+                  "question": "صفحة تتيح لنا معرفة المزيد عنك",
+                  "keyRef": "SendLink",
+                  "errorText": {
+                    "textError": "استخدم الأرقام والحروف اللاتينية",
+                    "accessTexts": [
+                      0,
+                      1,
+                      2
+                    ]
+                  },
+                  "variantAnswer": [
+                  ],
+                  "childDialogModels": [
+                    {
+                      "key": "default",
+                      "question": "أدخل عنوان بريدك الإلكتروني أو معرّفك الشخصي على Telegram",
+                      "variantAnswer": [
+                        "البريد الإلكتروني",
+                        "Telegram"
+                      ],
+                      "childDialogModels": [
+                        {
+                          "key": "البريد الإلكتروني",
+                          "question": "أدخل عنوان بريدك الإلكتروني",
+                          "keyRef": "SetEmail",
+                          "errorText": {
+                            "textError": "استخدم الأرقام والحروف اللاتينية",
+                            "accessTexts": [
+                              0,
+                              1,
+                              2
+                            ]
+                          },
+                          "variantAnswer": [
+                          ],
+                          "childDialogModels": [
+                            {
+                              "key": "default",
+                              "label": "email",
+                              "question": "شكرًا لك",
+                              "onlyAnswer": true,
+                              "variantAnswer": [
+                              ],
+                              "childDialogModels": [],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "لو كان هذا فعلاً حميدًا",
+                              "onlyAnswer": true,
+                              "refAfter": true,
+                              "keyRef": "SendEmail",
+                              "variantAnswer": [
+                              ],
+                              "childDialogModels": [],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "سيبدأ التعاون قريبًا",
+                              "onlyAnswer": true,
+                              "variantAnswer": [
+                              ],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "يُرجى الانتظار. سنتواصل معك.",
+                              "variantAnswer": [
+                                "متابعة"
+                              ],
+                              "childDialogModels": [
+                                {
+                                  "key": "متابعة",
+                                  "question": "متابعة",
+                                  "needUnlock": true,
+                                  "onlyAnswer": true,
+                                  "nextAction": true,
+                                  "variantAnswer": [
+                                  ],
+                                  "answer": ""
+                                }
+                              ]
+                            }
+                          ],
+                          "answer": ""
+                        },
+                        {
+                          "key": "Telegram",
+                          "question": "أدخل معرّّفك الشخصي على Telegram",
+                          "keyRef": "SetEmail",
+                          "errorText": {
+                            "textError": "استخدم الأرقام والحروف اللاتينية",
+                            "accessTexts": [
+                              0,
+                              1,
+                              2
+                            ]
+                          },
+                          "variantAnswer": [
+                          ],
+                          "childDialogModels": [
+                            {
+                              "key": "default",
+                              "label": "email",
+                              "question": "شكرًا لك",
+                              "onlyAnswer": true,
+                              "variantAnswer": [
+                              ],
+                              "childDialogModels": [],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "لو كان هذا فعلاً حميدًا",
+                              "onlyAnswer": true,
+                              "refAfter": true,
+                              "keyRef": "SendEmail",
+                              "variantAnswer": [
+                              ],
+                              "childDialogModels": [],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "سيبدأ التعاون قريبًا",
+                              "onlyAnswer": true,
+                              "variantAnswer": [
+                              ],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "يُرجى الانتظار. سنتواصل معك.",
+                              "variantAnswer": [
+                                "متابعة"
+                              ],
+                              "childDialogModels": [
+                                {
+                                  "key": "متابعة",
+                                  "question": "متابعة",
+                                  "needUnlock": true,
+                                  "onlyAnswer": true,
+                                  "nextAction": true,
+                                  "variantAnswer": [
+                                  ],
+                                  "answer": ""
+                                }
+                              ]
+                            }
+                          ],
+                          "answer": ""
+                        }
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "answer": ""
+                }
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "key": "متابعة باسم",
+          "question": "متابعة",
+          "needUnlock": true,
+          "onlyAnswer": true,
+          "nextAction": true,
+          "variantAnswer": [
+          ],
+          "answer": ""
+        }
+      ],
+      "answer": ""
+    }
+  ]
+}

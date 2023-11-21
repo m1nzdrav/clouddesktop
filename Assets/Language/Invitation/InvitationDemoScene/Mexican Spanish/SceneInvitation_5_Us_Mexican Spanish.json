@@ -1,0 +1,1375 @@
+{
+  "StartPages": [
+    1
+  ],
+  "Pages": [
+    {
+      "Number": 1,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": " ",
+          "point": false,
+          "size": 10,
+          "font": "Jost-Light",
+          "color": {
+            "r": 0.2,
+            "g": 0.45,
+            "b": 0.95,
+            "a": 0.9
+          },
+          "childContents": [],
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "text": "..... se ha desarrollado",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "text": "..... una plataforma 3D basada en la nube",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "..... fundamentada en esta arquitectura",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "..... para crear",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "..... Proyectos TI sin código",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       una interfaz",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       intuitiva con ",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       métodos de \"arrastra y suelta\"",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "button": "NextPage",
+          "autoNextPage": true,
+          "buttonPages": [
+            1,
+            2
+          ],
+          "text": "       para modelado visual",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "  ",
+          "point": false,
+          "size": 0,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.5
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 1
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    },
+    {
+      "Number": 2,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": " ",
+          "size": 10,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "..... la operación de la Plataforma está basada",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 0.85,
+            "g": 0.29,
+            "b": 0.67,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "text": "..... en el rol clave del usuario ",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 0.85,
+            "g": 0.29,
+            "b": 0.67,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": " ",
+          "size": 10,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "..... gestionando",
+          "audio": "wind_timing_min76pr_loud",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       moderando",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       y administrando la plataforma",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "..... creando Proyectos",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       donde la planeación",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       el financiamiento",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       e implementación",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+       {
+          "text": "..... son llevados a cabo por los usuarios",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       y sus comunidades",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+       {
+          "text": "..... con la ayuda de las redes neuronales",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       y su creciente capacidad",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": " ",
+          "size": 10,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 0
+          }
+        },
+       {
+          "text": "..... los usuarios se están convirtiendo,",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       en tiempo real,",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+       {
+          "text": "..... en propietarios,",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       inversionistas",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       y productores",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+       {
+          "text": "..... de un internet descentralizado ",
+          "audio": "wind_timing_min76pr_loud",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       distribuido",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       entre los dispositivos que pertenecen",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       a los mismos usuarios",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+       {
+          "text": "..... y a los cientos de Proyectos,",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       incluyendo aquellos basados en",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       redes de blockchain existentes ",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+       {
+          "text": "..... desde las equivalentes a las actuales, que son tan populares:",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       instagram, youtube, netflix, etc.",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+       {
+          "text": "..... hasta las completamente nuevas",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "       más de 250 proyectos en total",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": " ",
+          "point": false,
+          "size": 10,
+          "font": "Jost-Light",
+          "color": {
+            "r": 0.2,
+            "g": 0.45,
+            "b": 0.95,
+            "a": 0.9
+          },
+          "childContents": [],
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "text": "..... un ecosistema de Proyectos de  blockchain",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "text": "..... crea un ecosistema",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "..... de criptomonedas interno",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "..... al rededor de la principal",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "button": "NextPage",
+          "autoNextPage": true,
+          "buttonPages": [
+            1,
+            2,
+            3
+          ],
+          "text": "..... divisa de la Plataforma",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "  ",
+          "point": false,
+          "size": 0,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.5
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 1
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    },
+    {
+      "Number": 3,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": " ",
+          "point": false,
+          "size": 10,
+          "font": "Jost-Light",
+          "color": {
+            "r": 0.2,
+            "g": 0.45,
+            "b": 0.95,
+            "a": 0.9
+          },
+          "childContents": [],
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "text": "..... si entiendes",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 0.85,
+            "g": 0.29,
+            "b": 0.67,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.3,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "button": "NextPageContents",
+          "autoNextPage": true,
+          "buttonPages": [
+            1,
+            2,
+            3,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "text": "       de lo que hablamos..",
+          "audio": "Scene in_quietly_Rotation of planes",
+          "point": true,
+          "size": 20,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.58,
+            "g": 0.96,
+            "b": 0.96,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.4,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "text": "  ",
+          "point": false,
+          "size": 0,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.5
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 1
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    }
+  ]
+}

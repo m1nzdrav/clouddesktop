@@ -1,0 +1,297 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Makaretu.KBucket</name>
+    </assembly>
+    <members>
+        <member name="T:Makaretu.Collections.Bucket`1">
+            <summary>
+              A binary tree node in the <see cref="T:Makaretu.Collections.KBucket`1"/>.
+            </summary>
+        </member>
+        <member name="F:Makaretu.Collections.Bucket`1.Contacts">
+            <summary>
+              The contacts in the bucket.
+            </summary>
+        </member>
+        <member name="F:Makaretu.Collections.Bucket`1.DontSplit">
+            <summary>
+             Determines if the bucket can be split.
+            </summary>
+        </member>
+        <member name="F:Makaretu.Collections.Bucket`1.Left">
+            <summary>
+              The left hand node.
+            </summary>
+        </member>
+        <member name="F:Makaretu.Collections.Bucket`1.Right">
+            <summary>
+              The right hand node.
+            </summary>
+        </member>
+        <member name="M:Makaretu.Collections.Bucket`1.Contains(`0)">
+            <summary>
+              Determines if the <see cref="F:Makaretu.Collections.Bucket`1.Contacts"/> contains the item.
+            </summary>
+        </member>
+        <member name="M:Makaretu.Collections.Bucket`1.Get(System.Byte[])">
+            <summary>
+              Gets the first contact with the ID.
+            </summary>
+            <param name="id"></param>
+            <returns>
+              The matching contact or <b>null</b>.
+            </returns>
+        </member>
+        <member name="T:Makaretu.Collections.IContact">
+            <summary>
+              A peer/node in the distributed system.
+            </summary>
+        </member>
+        <member name="P:Makaretu.Collections.IContact.Id">
+            <summary>
+              Unique identifier of the contact.
+            </summary>
+            <value>
+              Typically a hash of a unique identifier. 
+            </value>
+        </member>
+        <member name="T:Makaretu.Collections.KBucket`1">
+            <summary>
+              Implementation of a Kademlia DHT k-bucket used for storing contact (peer node) information.
+            </summary>
+            <typeparam name="T">
+              A contact type that implements <see cref="T:Makaretu.Collections.IContact"/> .
+            </typeparam>
+            <remarks>
+              All public methods and properties are thead-safe.
+            </remarks>
+        </member>
+        <member name="P:Makaretu.Collections.KBucket`1.ContactsPerBucket">
+            <summary>
+              The number of contacts allowed in a bucket.
+            </summary>
+            <value>
+              This is the 'K' in KBucket.  Defaults to 20.
+            </value>
+        </member>
+        <member name="P:Makaretu.Collections.KBucket`1.ContactsToPing">
+            <summary>
+              The number of contacts to ping when a bucket that should not be split
+              becomes full.
+            </summary>
+            <value>
+              Defaults to 3.
+            </value>
+            <seealso cref="E:Makaretu.Collections.KBucket`1.Ping"/>
+        </member>
+        <member name="P:Makaretu.Collections.KBucket`1.LocalContactId">
+            <summary>
+              The ID of the local contact/peer.
+            </summary>
+            <value>
+              Defaults to 20 random bytes.
+            </value>
+        </member>
+        <member name="P:Makaretu.Collections.KBucket`1.Root">
+            <summary>
+              The root of the binary tree.
+            </summary>
+        </member>
+        <member name="E:Makaretu.Collections.KBucket`1.Ping">
+            <summary>
+              Raised when a bucket needs splitting but cannot be split.
+            </summary>
+        </member>
+        <member name="P:Makaretu.Collections.KBucket`1.Arbiter">
+            <summary>
+              Determines which contact is used when both have the same ID.
+            </summary>
+            <value>
+              Defaults to <see cref="M:Makaretu.Collections.KBucket`1.DefaultAbiter(`0,`0)"/>.
+            </value>
+            <remarks>
+              The arguments are the incumbent and the candidate.
+            </remarks>
+        </member>
+        <member name="M:Makaretu.Collections.KBucket`1.DefaultAbiter(`0,`0)">
+            <summary>
+              Used to determine which contact should be use when both
+              have the same ID.
+            </summary>
+            <param name="incumbent">
+              The existing contact.
+            </param>
+            <param name="candidate">
+              The new contact.
+            </param>
+            <returns>
+              Always returns the <paramref name="incumbent"/>.
+            </returns>
+        </member>
+        <member name="M:Makaretu.Collections.KBucket`1.Distance(`0,`0)">
+            <summary>
+              Finds the XOR distance between the two contacts.
+            </summary>
+        </member>
+        <member name="M:Makaretu.Collections.KBucket`1.Distance(System.Byte[],System.Byte[])">
+            <summary>
+              Finds the XOR distance between the two contact IDs.
+            </summary>
+        </member>
+        <member name="M:Makaretu.Collections.KBucket`1.Closest(`0)">
+            <summary>
+              Gets the closest contacts to the provided contact.
+            </summary>
+            <param name="contact"></param>
+            <returns>
+              An ordered sequence of contact, sorted by closeness. 
+            </returns>
+            <remarks>
+              "Closest" is the XOR metric of the contact.
+            </remarks>
+        </member>
+        <member name="M:Makaretu.Collections.KBucket`1.Closest(System.Byte[])">
+            <summary>
+              Gets the closest contacts to the provided contact.
+            </summary>
+            <param name="id">
+              The unique <see cref="P:Makaretu.Collections.IContact.Id"/> of a contact.
+            </param>
+            <returns>
+              An ordered sequence of contact, sorted by closeness. 
+            </returns>
+            <remarks>
+              "Closest" is the XOR metric of the contact.
+            </remarks>
+        </member>
+        <member name="P:Makaretu.Collections.KBucket`1.Count">
+            <inheritdoc />
+        </member>
+        <member name="P:Makaretu.Collections.KBucket`1.IsReadOnly">
+            <inheritdoc />
+        </member>
+        <member name="M:Makaretu.Collections.KBucket`1.Add(`0)">
+            <inheritdoc />
+        </member>
+        <member name="M:Makaretu.Collections.KBucket`1.Clear">
+            <inheritdoc />
+        </member>
+        <member name="M:Makaretu.Collections.KBucket`1.Contains(`0)">
+            <inheritdoc />
+        </member>
+        <member name="M:Makaretu.Collections.KBucket`1.TryGet(System.Byte[],`0@)">
+            <summary>
+              Gets the contact associated with the specified ID.
+            </summary>
+            <param name="id">
+              The ID of an <see cref="T:Makaretu.Collections.IContact"/>.
+            </param>
+            <param name="contact">
+              When this method returns, contains the <see cref="T:Makaretu.Collections.IContact"/> associated 
+              with the <paramref name="id"/>, if the key is found; otherwise, <b>null</b>.
+              This parameter is passed uninitialized.
+            </param>
+            <returns>
+             <b>true</b> if the <paramref name="id"/> is found; otherwise <b>false</b>.
+            </returns>
+        </member>
+        <member name="M:Makaretu.Collections.KBucket`1.CopyTo(`0[],System.Int32)">
+            <inheritdoc />
+        </member>
+        <member name="M:Makaretu.Collections.KBucket`1.GetEnumerator">
+            <inheritdoc />
+        </member>
+        <member name="M:Makaretu.Collections.KBucket`1.Remove(`0)">
+            <inheritdoc />
+        </member>
+        <member name="M:Makaretu.Collections.KBucket`1.System#Collections#IEnumerable#GetEnumerator">
+            <inheritdoc />
+        </member>
+        <member name="M:Makaretu.Collections.KBucket`1.Validate(`0)">
+            <summary>
+              Check that contact is correct.
+            </summary>
+            <param name="contact">
+              The <see cref="T:Makaretu.Collections.IContact"/> to validate.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+              When <paramref name="contact"/> is null or its <see cref="P:Makaretu.Collections.IContact.Id"/>
+              is null or empty.
+            </exception>
+        </member>
+        <member name="M:Makaretu.Collections.KBucket`1._Add(`0,Makaretu.Collections.PingEventArgs{`0}@)">
+            <summary>
+              Add the contact.
+            </summary>
+            <param name="contact"></param>
+            <param name="ping"></param>
+            <returns>
+              <b>true</b> if the <paramref name="contact"/> was added; otherwise, 
+              <b>false</b> and a <see cref="E:Makaretu.Collections.KBucket`1.Ping"/> event should be raised.
+            </returns>
+        </member>
+        <member name="M:Makaretu.Collections.KBucket`1._Split(Makaretu.Collections.Bucket{`0},System.Int32)">
+            <summary>
+              Splits the node, redistributes contacts to the new nodes, and marks the
+              node that was split as an inner node of the binary tree of nodes by
+              setting this.root.contacts = null
+            </summary>
+        </member>
+        <member name="M:Makaretu.Collections.KBucket`1._Update(Makaretu.Collections.Bucket{`0},System.Int32,`0)">
+             <summary>
+               Updates the contact selected by the arbiter.
+             </summary>
+             <remarks>
+               If the selection is our old contact and the candidate is some new contact
+               then the new contact is abandoned (not added).
+            
+               If the selection is our old contact and the candidate is our old contact
+               then we are refreshing the contact and it is marked as most recently
+               contacted(by being moved to the right/end of the bucket array).
+               
+               If the selection is our new contact, the old contact is removed and the new
+               contact is marked as most recently contacted.
+             </remarks>
+        </member>
+        <member name="M:Makaretu.Collections.KBucket`1._DetermineNode(Makaretu.Collections.Bucket{`0},System.Byte[],System.Int32)">
+            <summary>
+              Determines whether the id at the bitIndex is 0 or 1.
+            </summary>
+            <returns>
+              Left leaf if `id` at `bitIndex` is 0, right leaf otherwise
+            </returns>
+            <remarks>
+              This is an internal method.  It should not be directly called.
+              It is only public for unit testing.
+            </remarks>
+        </member>
+        <member name="M:Makaretu.Collections.KBucket`1._Get(System.Byte[])">
+            <summary>
+              Get a contact by its exact ID. 
+            </summary>
+            <param name="id">
+              The ID of a <see cref="T:Makaretu.Collections.IContact"/>.
+            </param>
+            <returns>
+              <b>null</b> or the found contact.
+            </returns>
+        </member>
+        <member name="T:Makaretu.Collections.PingEventArgs`1">
+            <summary>
+              The contacts that should be checked.
+            </summary>
+            <seealso cref="E:Makaretu.Collections.KBucket`1.Ping"/>
+        </member>
+        <member name="F:Makaretu.Collections.PingEventArgs`1.Oldest">
+            <summary>
+              The contacts that should be checked.
+            </summary>
+        </member>
+        <member name="F:Makaretu.Collections.PingEventArgs`1.Newest">
+            <summary>
+              A new contact that wants to be added.
+            </summary>
+        </member>
+    </members>
+</doc>

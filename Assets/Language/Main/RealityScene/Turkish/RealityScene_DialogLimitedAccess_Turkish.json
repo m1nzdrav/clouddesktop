@@ -1,0 +1,258 @@
+{
+  "font": "Jost-Light",
+  "singleTexts": [
+    {
+      "question": "Bu aşamada Platforma erişim sınırlıdır",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "İlk erişim kodları sağlanacaktır",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Ortaklar ve Projenin ilk katılımcıları",
+      "variantAnswer": [
+        "Projede yer almak istiyorum",
+        "Olduğu gibi devam et"
+      ],
+      "childDialogModels": [
+        {
+          "key": "Projede yer almak istiyorum",
+          "question": "Bu aşamada 6 işbirliği alanı açık",
+          "onlyAnswer": true,
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Projede yer almak istiyorum",
+          "question": "Diğerleri daha sonra açılacak",
+          "onlyAnswer": true,
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Projede yer almak istiyorum",
+          "question": "Bir veya daha fazla alan seçin",
+          "allVariant": true,
+          "keyRef": "SendDirection",
+          "variantAnswer": [
+            "Film endüstrisi temsilcisi",
+            "Blogger, influencer",
+            "Kripto yatırımcısı",
+            "Bir tekno veya BT park temsilcisi",
+            "Devlet kuruluşu temsilcisi",
+            "Topluluğunu geliştirmeye hazır aktif bir kullanıcı",
+            "Burada değilim"
+          ],
+          "childDialogModels": [
+            {
+              "key": "default",
+              "question": "Ülkenizi seçin",
+              "keyRef": "SendCountry",
+              "dropdownDialog": {
+                "nameDropdown": "CC_UAE Arabic",
+                "nameField": "name",
+                "nameFirstElement": "Ülke"
+              },
+              "variantAnswer": [
+              ],
+              "childDialogModels": [
+                {
+                  "key": "default",
+                  "question": "Lütfen sizi daha iyi tanıyacağımız ve anlayacağımız",
+                  "onlyAnswer": true,
+                  "variantAnswer": [
+                  ],
+                  "childDialogModels": [],
+                  "answer": ""
+                },
+                {
+                  "key": "default",
+                  "question": "sosyal ağlarınızdan birinin linkini verin",
+                  "keyRef": "SendLink",
+                  "errorText": {
+                    "textError": "Rakamları ve latin harflerini kullanınız",
+                    "accessTexts": [
+                      0,
+                      1,
+                      2
+                    ]
+                  },
+                  "variantAnswer": [
+                  ],
+                  "childDialogModels": [
+                    {
+                      "key": "default",
+                      "question": "E-postanızı veya telegramınızı girin",
+                      "variantAnswer": [
+                        "Email",
+                        "Telegram"
+                      ],
+                      "childDialogModels": [
+                        {
+                          "key": "Email",
+                          "question": "E-postanızı girin",
+                          "keyRef": "SetEmail",
+                          "errorText": {
+                            "textError": "Rakamları ve latin harflerini kullanınız",
+                            "accessTexts": [
+                              0,
+                              1,
+                              2
+                            ]
+                          },
+                          "variantAnswer": [
+                          ],
+                          "childDialogModels": [
+                            {
+                              "key": "default",
+                              "label": "email",
+                              "question": "Teşekkürler",
+                              "onlyAnswer": true,
+                              "variantAnswer": [
+                              ],
+                              "childDialogModels": [],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "Eğer Allah izin verirse",
+                              "onlyAnswer": true,
+                              "refAfter": true,
+                              "keyRef": "SendEmail",
+                              "variantAnswer": [
+                              ],
+                              "childDialogModels": [],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "İşbirliği yakında başlayacak",
+                              "onlyAnswer": true,
+                              "variantAnswer": [
+                              ],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "Bekleyin. Sizinle iletişime geçeceğiz.",
+                              "variantAnswer": [
+                                "Devam et"
+                              ],
+                              "childDialogModels": [
+                                {
+                                  "key": "Devam et",
+                                  "question": "Devam et",
+                                  "needUnlock": true,
+                                  "onlyAnswer": true,
+                                  "nextAction": true,
+                                  "variantAnswer": [
+                                  ],
+                                  "answer": ""
+                                }
+                              ]
+                            }
+                          ],
+                          "answer": ""
+                        },
+                        {
+                          "key": "Telegram",
+                          "question": "Telegramınızı girin",
+                          "keyRef": "SetEmail",
+                          "errorText": {
+                            "textError": "Rakamları ve latin harflerini kullanınız",
+                            "accessTexts": [
+                              0,
+                              1,
+                              2
+                            ]
+                          },
+                          "variantAnswer": [
+                          ],
+                          "childDialogModels": [
+                            {
+                              "key": "default",
+                              "label": "email",
+                              "question": "Teşekkürler",
+                              "onlyAnswer": true,
+                              "variantAnswer": [
+                              ],
+                              "childDialogModels": [],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "Eğer Allah izin verirse",
+                              "onlyAnswer": true,
+                              "refAfter": true,
+                              "keyRef": "SendEmail",
+                              "variantAnswer": [
+                              ],
+                              "childDialogModels": [],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "İşbirliği yakında başlayacak",
+                              "onlyAnswer": true,
+                              "variantAnswer": [
+                              ],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "Bekleyin. Sizinle iletişime geçeceğiz.",
+                              "variantAnswer": [
+                                "Devam et"
+                              ],
+                              "childDialogModels": [
+                                {
+                                  "key": "Devam et",
+                                  "question": "Devam et",
+                                  "needUnlock": true,
+                                  "onlyAnswer": true,
+                                  "nextAction": true,
+                                  "variantAnswer": [
+                                  ],
+                                  "answer": ""
+                                }
+                              ]
+                            }
+                          ],
+                          "answer": ""
+                        }
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "answer": ""
+                }
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Olduğu gibi devam et",
+          "question": "Devam et",
+          "needUnlock": true,
+          "onlyAnswer": true,
+          "nextAction": true,
+          "variantAnswer": [
+          ],
+          "answer": ""
+        }
+      ],
+      "answer": ""
+    }
+  ]
+}

@@ -1,0 +1,390 @@
+{
+  "font": "Jost-Light",
+  "singleTexts": [
+    {
+      "question": "لقد تلقيت إذناً لدخول الاختبار",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "إذًا ",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "أريد رؤيتك",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "من بين شركاء المشروع",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "إذًا ",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "إما أنك تملك معلومات اتصال رؤسائي",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "أو استطيع أن أؤمنها لك",
+      "variantAnswer": [
+        "شكرًا، نعم، أمتلك معلومات اتصالاتهم",
+        "ليست لدي معلومات الاتصال",
+        "لماذا أحتاج إلى معلومات اتصال مديريك؟"
+       
+      ],
+      "childDialogModels": [
+        
+        {
+          "key": "شكرًا، نعم، أمتلك معلومات اتصالاتهم",
+          "question": "حسنًا",
+          "onlyAnswer": true,
+          "childDialogModels": [
+          ],
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "شكرًا، نعم، أمتلك معلومات اتصالاتهم",
+          "question": "آمل لك كل خير",
+          "onlyAnswer": true,
+          "childDialogModels": [
+          ],
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "شكرًا، نعم، أمتلك معلومات اتصالاتهم",
+          "question": "أراك قريبًا",
+          "variantAnswer": [
+            "Telegram",
+            "Email"
+          ],
+          "childDialogModels": [
+            {
+              "key": "Telegram",
+              "question": "Telegram",
+              "refAfter": true,
+              "onlyAnswer": true,
+              "keyRef": "GoTelegram",
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Email",
+              "question": "Email",
+              "refAfter": true,
+              "onlyAnswer": true,
+              "keyRef": "GoMail",
+              "variantAnswer": [
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "key": "ليست لدي معلومات الاتصال",
+          "question": "تُصْلَح الآن",
+          "variantAnswer": [
+            "Telegram",
+            "Email"
+          ],
+          "childDialogModels": [
+            {
+              "key": "Telegram",
+              "question": "Telegram",
+              "refAfter": true,
+              "onlyAnswer": true,
+              "keyRef": "GoTelegram",
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Email",
+              "question": "Email",
+              "refAfter": true,
+              "onlyAnswer": true,
+              "keyRef": "GoMail",
+              "variantAnswer": [
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "key": "لماذا أحتاج إلى معلومات اتصال مديريك؟",
+          "question": "لابد أنك تمزح",
+          "variantAnswer": [
+            "أنا أمزح",
+            "أنا لا أمزح، لم أحتاج لمعلومات اتصال مديريك؟"
+          ],
+          "childDialogModels": [
+            {
+              "key": "أنا أمزح",
+              "question": "حسنًا",
+              "variantAnswer": [
+                "شكرًا، نعم، أمتلك معلومات اتصالاتهم",
+                "ليست لدي معلومات الاتصال"
+              ],
+              "childDialogModels": [
+                {
+                  "key": "شكرًا، نعم، أمتلك معلومات اتصالاتهم",
+                  "question": "آمل لك كل خير",
+                  "onlyAnswer": true,
+                  "childDialogModels": [
+                  ],
+                  "variantAnswer": [
+                  ],
+                  "answer": ""
+                },
+                {
+                  "key": "شكرًا، نعم، أمتلك معلومات اتصالاتهم",
+                  "question": "أراك قريبًا",
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "Telegram",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "Email",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                },
+                {
+                  "key": "ليست لدي معلومات الاتصال",
+                  "question": "تُصْلَح الآن",
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "Telegram",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "Email",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                }
+              ],
+              "answer": ""
+            },
+            {
+              "key": "أنا لا أمزح، لم أحتاج لمعلومات اتصال مديريك؟",
+              "question": "تخيل",
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "أنا لا أمزح، لم أحتاج لمعلومات اتصال مديريك؟",
+              "question": "لو أن الانترنت",
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "أنا لا أمزح، لم أحتاج لمعلومات اتصال مديريك؟",
+              "question": "يمتلك البتكوين خاصته",
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "أنا لا أمزح، لم أحتاج لمعلومات اتصال مديريك؟",
+              "question": "بينما كانت تُنْشَأ",
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "أنا لا أمزح، لم أحتاج لمعلومات اتصال مديريك؟",
+              "question": "الآن تخيّل",
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "أنا لا أمزح، لم أحتاج لمعلومات اتصال مديريك؟",
+              "question": "أنك تتخطى...",
+              "variantAnswer": [
+                "شكرًا، نعم، أمتلك معلومات اتصالاتهم",
+                "ليست لدي معلومات الاتصال"
+              ],
+              "childDialogModels": [
+                {
+                  "key": "شكرًا، نعم، أمتلك معلومات اتصالاتهم",
+                  "question": "آمل لك كل خير",
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "Telegram",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "Email",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                },
+                {
+                  "key": "شكرًا، نعم، أمتلك معلومات اتصالاتهم",
+                  "question": "أراك قريبًا",
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "Telegram",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "Email",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                },
+                {
+                  "key": "ليست لدي معلومات الاتصال",
+                  "question": "تُصْلَح الآن",
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "Telegram",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "Email",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                }
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        }
+      ],
+      "answer": ""
+    }
+  ]
+}

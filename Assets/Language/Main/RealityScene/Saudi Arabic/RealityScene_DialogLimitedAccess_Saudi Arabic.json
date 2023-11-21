@@ -1,0 +1,258 @@
+{
+  "font": "Jost-Light",
+  "singleTexts": [
+    {
+      "question": "في هذه المرحلة، الدخول إلى المنصة محدود",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "رموز الدخول الأولى ستعطى لـ",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "لشركاء وأول المشاركين في المشروع",
+      "variantAnswer": [
+        "أريد أن أشارك في المشروع",
+        "أكمل على نفس المنوال"
+      ],
+      "childDialogModels": [
+        {
+          "key": "أريد أن أشارك في المشروع",
+          "question": "هنالك ست مجالات مختلفة يمكنك المشاركة فيها معنا في هذه المرحلة",
+          "onlyAnswer": true,
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "أريد أن أشارك في المشروع",
+          "question": "أما الأخرى فستتوفر في وقتٍ لاحق",
+          "onlyAnswer": true,
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "أريد أن أشارك في المشروع",
+          "question": "اختر مجالاً أو أكثر",
+          "allVariant": true,
+          "keyRef": "SendDirection",
+          "variantAnswer": [
+            "ممثل مجال صناعة الأفلام",
+            "مدوّن، مُؤثر",
+            "مستثمر عملات رقمية",
+            "ممثل تقنية أو مركز تقنية المعلومات",
+            "مُمثلو الولاية",
+            "عضو فعّال، مستعد لتطوير مجتمعك",
+            "أنا لست هنا"
+          ],
+          "childDialogModels": [
+            {
+              "key": "default",
+              "question": "اختر دولتك",
+              "keyRef": "SendCountry",
+              "dropdownDialog": {
+                "nameDropdown": "CC_Saudi Arabic",
+                "nameField": "name",
+                "nameFirstElement": "البلد"
+              },
+              "variantAnswer": [
+              ],
+              "childDialogModels": [
+                {
+                  "key": "default",
+                  "question": "من فضلك أدخل رابطاً لإحدى صفحاتك على منصات التواصل الاجتماعي",
+                  "onlyAnswer": true,
+                  "variantAnswer": [
+                  ],
+                  "childDialogModels": [],
+                  "answer": ""
+                },
+                {
+                  "key": "default",
+                  "question": "واحدة تسمح لنا بالتعرف عليك أكثر",
+                  "keyRef": "SendLink",
+                  "errorText": {
+                    "textError": "استخدم الأرقام والحروف اللاتينية",
+                    "accessTexts": [
+                      0,
+                      1,
+                      2
+                    ]
+                  },
+                  "variantAnswer": [
+                  ],
+                  "childDialogModels": [
+                    {
+                      "key": "default",
+                      "question": "أدخل بريدك الإلكتروني أو معرّف التيليغرام خاصتك",
+                      "variantAnswer": [
+                        "بريد إلكتروني",
+                        "تيليغرام"
+                      ],
+                      "childDialogModels": [
+                        {
+                          "key": "بريد إلكتروني",
+                          "question": "أدخل البريد الإلكتروني",
+                          "keyRef": "SetEmail",
+                          "errorText": {
+                            "textError": "استخدم الأرقام والحروف اللاتينية",
+                            "accessTexts": [
+                              0,
+                              1,
+                              2
+                            ]
+                          },
+                          "variantAnswer": [
+                          ],
+                          "childDialogModels": [
+                            {
+                              "key": "default",
+                              "label": "email",
+                              "question": "شكرًا",
+                              "onlyAnswer": true,
+                              "variantAnswer": [
+                              ],
+                              "childDialogModels": [],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "إذا كان يرضي الرب",
+                              "onlyAnswer": true,
+                              "refAfter": true,
+                              "keyRef": "SendEmail",
+                              "variantAnswer": [
+                              ],
+                              "childDialogModels": [],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "سيبدأ التعاون بعد قليل",
+                              "onlyAnswer": true,
+                              "variantAnswer": [
+                              ],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "انتظر من فضلك. سنبقى على اتصال.",
+                              "variantAnswer": [
+                                "أكمل"
+                              ],
+                              "childDialogModels": [
+                                {
+                                  "key": "أكمل",
+                                  "question": "أكمل",
+                                  "needUnlock": true,
+                                  "onlyAnswer": true,
+                                  "nextAction": true,
+                                  "variantAnswer": [
+                                  ],
+                                  "answer": ""
+                                }
+                              ]
+                            }
+                          ],
+                          "answer": ""
+                        },
+                        {
+                          "key": "تيليغرام",
+                          "question": "أدخل معرّف التيليغرام خاصتك",
+                          "keyRef": "SetEmail",
+                          "errorText": {
+                            "textError": "استخدم الأرقام والحروف اللاتينية",
+                            "accessTexts": [
+                              0,
+                              1,
+                              2
+                            ]
+                          },
+                          "variantAnswer": [
+                          ],
+                          "childDialogModels": [
+                            {
+                              "key": "default",
+                              "label": "email",
+                              "question": "شكرًا",
+                              "onlyAnswer": true,
+                              "variantAnswer": [
+                              ],
+                              "childDialogModels": [],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "إذا كان يرضي الرب",
+                              "onlyAnswer": true,
+                              "refAfter": true,
+                              "keyRef": "SendEmail",
+                              "variantAnswer": [
+                              ],
+                              "childDialogModels": [],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "سيبدأ التعاون بعد قليل",
+                              "onlyAnswer": true,
+                              "variantAnswer": [
+                              ],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "انتظر من فضلك. سنبقى على اتصال.",
+                              "variantAnswer": [
+                                "أكمل"
+                              ],
+                              "childDialogModels": [
+                                {
+                                  "key": "أكمل",
+                                  "question": "أكمل",
+                                  "needUnlock": true,
+                                  "onlyAnswer": true,
+                                  "nextAction": true,
+                                  "variantAnswer": [
+                                  ],
+                                  "answer": ""
+                                }
+                              ]
+                            }
+                          ],
+                          "answer": ""
+                        }
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "answer": ""
+                }
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "key": "أكمل على نفس المنوال",
+          "question": "أكمل",
+          "needUnlock": true,
+          "onlyAnswer": true,
+          "nextAction": true,
+          "variantAnswer": [
+          ],
+          "answer": ""
+        }
+      ],
+      "answer": ""
+    }
+  ]
+}

@@ -1,0 +1,457 @@
+{
+  "font": "Jost-Light",
+  "singleTexts": [
+    {
+      "question": "Acabas de recibir un acceso de prueba",
+      "timingVideo": {
+        "start": 0,
+        "end": 19
+      },
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Así que ",
+      "delay": 2,
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Me gustaría verte entre los socios del Proyecto",
+      "delay": 1.3,
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Así que ",
+      "delay": 2.5,
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Puede que tengas la información de contacto de mis superiores",
+      "delay": 1.2,
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "O te la puedo brindar",
+      "delay": 2.7,
+      "variantAnswer": [
+        "Gracias. Sí, ya tengo la información de contacto",
+        "No tengo la información de contacto",
+        "¿Para qué necesito la información de contacto de tus superiores?"
+        
+      ],
+      "childDialogModels": [
+        
+        {
+          "key": "Gracias. Sí, ya tengo la información de contacto",
+          "question": "Está bien",
+          "timingVideo": {
+            "start": 40,
+            "end": 48
+          },
+          "onlyAnswer": true,
+          "childDialogModels": [
+          ],
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Gracias. Sí, ya tengo la información de contacto",
+          "question": "Buen día",
+          "delay": 1.5,
+          "onlyAnswer": true,
+          "childDialogModels": [
+          ],
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Gracias. Sí, ya tengo la información de contacto",
+          "question": "Te veo pronto",
+          "delay": 1,
+          "variantAnswer": [
+            "Telegram",
+            "Email"
+          ],
+          "childDialogModels": [
+            {
+              "key": "Telegram",
+              "question": "Buena suerte, estaré esperando aquí.",
+              "timingVideo": {
+                "start": 66.8,
+                "end": 71
+              },
+              "refAfter": true,
+              "onlyAnswer": true,
+              "keyRef": "GoTelegram",
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Email",
+              "question": "Buena suerte, estaré esperando aquí.",
+              "timingVideo": {
+                "start": 66.8,
+                "end": 71
+              },
+              "refAfter": true,
+              "onlyAnswer": true,
+              "keyRef": "GoMail",
+              "variantAnswer": [
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "key": "No tengo la información de contacto",
+          "question": "Lo estoy solucionando en este momento",
+          "timingVideo": {
+            "start": 48.5,
+            "end": 54
+          },
+          "variantAnswer": [
+            "Telegram",
+            "Email"
+          ],
+          "childDialogModels": [
+            {
+              "key": "Telegram",
+              "question": "Buena suerte, estaré esperando aquí.",
+              "timingVideo": {
+                "start": 66.8,
+                "end": 71
+              },
+              "refAfter": true,
+              "onlyAnswer": true,
+              "keyRef": "GoTelegram",
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Email",
+              "question": "Buena suerte, estaré esperando aquí.",
+              "timingVideo": {
+                "start": 66.8,
+                "end": 71
+              },
+              "refAfter": true,
+              "onlyAnswer": true,
+              "keyRef": "GoMail",
+              "variantAnswer": [
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "key": "¿Para qué necesito la información de contacto de tus superiores?",
+          "question": "Debes estar bromeando",
+          "timingVideo": {
+            "start": 19,
+            "end": 25
+          },
+          "variantAnswer": [
+            "Estoy bromeando",
+            "No estoy bromeando, ¿para qué necesito la información de contacto de tus superiores?"
+          ],
+          "childDialogModels": [
+            {
+              "key": "Estoy bromeando",
+              "question": "Está bien",
+              "delay": 1.5,
+              "timingVideo": {
+                "start": 54.9,
+                "end": 60
+              },
+              "variantAnswer": [
+                "Gracias. Sí, ya tengo la información de contacto",
+                "No tengo la información de contacto"
+              ],
+              "childDialogModels": [
+                {
+                  "key": "Gracias. Sí, ya tengo la información de contacto",
+                  "question": "Buen día",
+                  "delay": 1.5,
+                  "timingVideo": {
+                    "start": 60,
+                    "end": 66
+                  },
+                  "onlyAnswer": true,
+                  "childDialogModels": [
+                  ],
+                  "variantAnswer": [
+                  ],
+                  "answer": ""
+                },
+                {
+                  "key": "Gracias. Sí, ya tengo la información de contacto",
+                  "question": "Te veo pronto",
+                  "delay": 1.5,
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "Buena suerte, estaré esperando aquí.",
+                      "timingVideo": {
+                        "start": 66.8,
+                        "end": 71
+                      },
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "Buena suerte, estaré esperando aquí.",
+                      "timingVideo": {
+                        "start": 66.8,
+                        "end": 71
+                      },
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                },
+                {
+                  "key": "No tengo la información de contacto",
+                  "question": "Lo estoy solucionando en este momento",
+                  "timingVideo": {
+                    "start": 48.5,
+                    "end": 54
+                  },
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "Buena suerte, estaré esperando aquí.",
+                      "timingVideo": {
+                        "start": 66.8,
+                        "end": 71
+                      },
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "Buena suerte, estaré esperando aquí.",
+                      "timingVideo": {
+                        "start": 66.8,
+                        "end": 71
+                      },
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                }
+              ],
+              "answer": ""
+            },
+            {
+              "key": "No estoy bromeando, ¿para qué necesito la información de contacto de tus superiores?",
+              "question": "imagina",
+              "delay": 1.5,
+              "timingVideo": {
+                "start": 25,
+                "end": 39
+              },
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "No estoy bromeando, ¿para qué necesito la información de contacto de tus superiores?",
+              "question": "si el internet",
+              "delay": 1.5,
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "No estoy bromeando, ¿para qué necesito la información de contacto de tus superiores?",
+              "question": "tuviera su propio Bitcoin mientras se creaba.",
+              "delay": 1.5,
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "No estoy bromeando, ¿para qué necesito la información de contacto de tus superiores?",
+              "question": "ahora imagina",
+              "delay": 2.2,
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "No estoy bromeando, ¿para qué necesito la información de contacto de tus superiores?",
+              "question": "que vas más allá...",
+              "delay": 1.5,
+              "variantAnswer": [
+                "Gracias. Sí, ya tengo la información de contacto",
+                "No tengo la información de contacto"
+              ],
+              "childDialogModels": [
+                {
+                  "key": "Gracias. Sí, ya tengo la información de contacto",
+                  "question": "Buen día",
+                  "timingVideo": {
+                    "start": 60,
+                    "end": 66
+                  },
+                  "onlyAnswer": true,
+                  "childDialogModels": [
+                  ],
+                  "variantAnswer": [
+                   
+                  ],
+                  "answer": ""
+                },
+                {
+                  "key": "Gracias. Sí, ya tengo la información de contacto",
+                  "question": "Te veo pronto",
+                  "delay": 1.5,
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "Buena suerte, estaré esperando aquí.",
+                      "timingVideo": {
+                        "start": 66.8,
+                        "end": 71
+                      },
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "Buena suerte, estaré esperando aquí.",
+                      "timingVideo": {
+                        "start": 66.8,
+                        "end": 71
+                      },
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                },
+                {
+                  "key": "No tengo la información de contacto",
+                  "question": "Lo estoy solucionando en este momento",
+                  "timingVideo": {
+                    "start": 48.5,
+                    "end": 54
+                  },
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "Buena suerte, estaré esperando aquí.",
+                      "timingVideo": {
+                        "start": 66.8,
+                        "end": 71
+                      },
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "Buena suerte, estaré esperando aquí.",
+                      "timingVideo": {
+                        "start": 66.8,
+                        "end": 71
+                      },
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                }
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        }
+      ],
+      "answer": ""
+    }
+  ]
+}

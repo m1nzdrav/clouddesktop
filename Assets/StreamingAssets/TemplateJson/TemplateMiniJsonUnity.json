@@ -1,0 +1,149 @@
+{
+  "MYTJson": [
+    {
+      "MYTId": "Main86",
+      "MYTName": "Main",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "JsonMYTFolderNewDesign16022021716027412",
+          "MYTName": "JsonMYTFolderNewDesign160220217160274",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "MYTDefaultName11",
+          "MYTName": "MYTDefaultName",
+          "MYTHashIpfs": "",
+          "MYTValue": [
+          ],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Who41",
+      "MYTName": "Who",
+      "MYTHashIpfs": "",
+      "MYTValue": [],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "What31",
+      "MYTName": "What",
+      "MYTHashIpfs": "",
+      "MYTValue": [],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Where0",
+      "MYTName": "Where",
+      "MYTHashIpfs": "",
+      "MYTValue": [],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "When38",
+      "MYTName": "When",
+      "MYTHashIpfs": "",
+      "MYTValue": [],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Events86",
+      "MYTName": "Events",
+      "MYTHashIpfs": "",
+      "MYTValue": [],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Data72",
+      "MYTName": "Data",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "MYTPrefab47",
+          "MYTName": "MYTPrefab",
+          "MYTHashIpfs": "",
+          "MYTValue": [
+          ],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "MYTColor13",
+          "MYTName": "MYTColor",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "MYTDefaultName11",
+          "MYTName": "JsonParentChild",
+          "MYTHashIpfs": "",
+          "MYTValue": [
+            {
+              "MYTId": "JsonMYTFolderNewDesign16022021716027412",
+              "MYTName": "JsonMYTFolderNewDesign160220217160274",
+              "MYTHashIpfs": "",
+              "MYTValue": [],
+              "OpenStatus": false,
+              "MYTAccess": [
+                "01111"
+              ]
+            }
+          ],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Actions37",
+      "MYTName": "Actions",
+      "MYTHashIpfs": "",
+      "MYTValue": [],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    }
+  ]
+}

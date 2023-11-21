@@ -1,0 +1,389 @@
+{
+  "font": "Jost-Light",
+  "singleTexts": [
+    {
+      "question": "Test erişiminiz var",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Yani; ",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Sizi Projenin ortakları arasında",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "görmek isterim",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Yani; ",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Veya zaten yöneticilerimiz ile irtibatlarınız var mı",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Yoksa size bunları sağlayabilirim",
+      "variantAnswer": [
+        "Teşekkürler, evet bende iletişim bilgileri var",
+        "İletişim bilgileri yok",
+        "Neden yöneticilerinizin iletişim bilgilerine ihtiyacım var?"
+      ],
+      "childDialogModels": [
+        
+        {
+          "key": "Teşekkürler, evet bende iletişim bilgileri var",
+          "question": "Tamam",
+          "onlyAnswer": true,
+          "childDialogModels": [
+          ],
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Teşekkürler, evet bende iletişim bilgileri var",
+          "question": "Her şey dilediğiniz gibi olsun",
+          "onlyAnswer": true,
+          "childDialogModels": [
+          ],
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Teşekkürler, evet bende iletişim bilgileri var",
+          "question": "Görüşürüz",
+          "variantAnswer": [
+            "Telegram",
+            "Email"
+          ],
+          "childDialogModels": [
+            {
+              "key": "Telegram",
+              "question": "Telegram",
+              "refAfter": true,
+              "onlyAnswer": true,
+              "keyRef": "GoTelegram",
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Email",
+              "question": "Email",
+              "refAfter": true,
+              "onlyAnswer": true,
+              "keyRef": "GoMail",
+              "variantAnswer": [
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "key": "İletişim bilgileri yok",
+          "question": "Düzeltiyorum",
+          "variantAnswer": [
+            "Telegram",
+            "Email"
+          ],
+          "childDialogModels": [
+            {
+              "key": "Telegram",
+              "question": "Telegram",
+              "refAfter": true,
+              "onlyAnswer": true,
+              "keyRef": "GoTelegram",
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Email",
+              "question": "Email",
+              "refAfter": true,
+              "onlyAnswer": true,
+              "keyRef": "GoMail",
+              "variantAnswer": [
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Neden yöneticilerinizin iletişim bilgilerine ihtiyacım var?",
+          "question": "Görünüşe göre şaka yapıyorsunuz",
+          "variantAnswer": [
+            "Şaka",
+            "Şaka yapmıyorum, neden yöneticilerinizin iletişim bilgilerine ihtiyacım var?"
+          ],
+          "childDialogModels": [
+            {
+              "key": "Şaka",
+              "question": "Tamam",
+              "variantAnswer": [
+                "Teşekkürler, evet bende iletişim bilgileri var",
+                "İletişim bilgileri yok"
+              ],
+              "childDialogModels": [
+                {
+                  "key": "Teşekkürler, evet bende iletişim bilgileri var",
+                  "question": "Her şey dilediğiniz gibi olsun",
+                  "onlyAnswer": true,
+                  "childDialogModels": [
+                  ],
+                  "variantAnswer": [
+                  ],
+                  "answer": ""
+                },
+                {
+                  "key": "Teşekkürler, evet bende iletişim bilgileri var",
+                  "question": "Görüşürüz",
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "Telegram",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "Email",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                },
+                {
+                  "key": "İletişim bilgileri yok",
+                  "question": "Düzeltiyorum",
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "Telegram",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "Email",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                }
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Şaka yapmıyorum, neden yöneticilerinizin iletişim bilgilerine ihtiyacım var?",
+              "question": "İnternetin",
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Şaka yapmıyorum, neden yöneticilerinizin iletişim bilgilerine ihtiyacım var?",
+              "question": "kuruluş döneminde ",
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Şaka yapmıyorum, neden yöneticilerinizin iletişim bilgilerine ihtiyacım var?",
+              "question": "kendi Bitcoin'ine",
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Şaka yapmıyorum, neden yöneticilerinizin iletişim bilgilerine ihtiyacım var?",
+              "question": "sahip olduğunu hayal edin..",
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Şaka yapmıyorum, neden yöneticilerinizin iletişim bilgilerine ihtiyacım var?",
+              "question": "Şimdi yanından geçtiğinizi",
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Şaka yapmıyorum, neden yöneticilerinizin iletişim bilgilerine ihtiyacım var?",
+              "question": "hayal edin...",
+              "variantAnswer": [
+                "Teşekkürler, evet bende iletişim bilgileri var",
+                "İletişim bilgileri yok"
+              ],
+              "childDialogModels": [
+                {
+                  "key": "Teşekkürler, evet bende iletişim bilgileri var",
+                  "question": "Her şey dilediğiniz gibi olsun",
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "Telegram",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "Email",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                },
+                {
+                  "key": "Teşekkürler, evet bende iletişim bilgileri var",
+                  "question": "Görüşürüz",
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "Telegram",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "Email",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                },
+                {
+                  "key": "İletişim bilgileri yok",
+                  "question": "Düzeltiyorum",
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "Telegram",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "Email",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                }
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        }
+      ],
+      "answer": ""
+    }
+  ]
+}

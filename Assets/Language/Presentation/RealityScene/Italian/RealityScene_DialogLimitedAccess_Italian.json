@@ -1,0 +1,258 @@
+{
+  "font": "Jost-Light",
+  "singleTexts": [
+    {
+      "question": "L'accesso alla Piattaforma è limitato in questa fase",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Verranno forniti i primi codici di accesso",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Ai partner e ai primi partecipanti al progetto",
+      "variantAnswer": [
+        "Voglio partecipare al progetto",
+        "Prosegui così"
+      ],
+      "childDialogModels": [
+        {
+          "key": "Voglio partecipare al progetto",
+          "question": "In questa fase sono disponibili 6 ruoli per la cooperazione",
+          "onlyAnswer": true,
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Voglio partecipare al progetto",
+          "question": "Altri ruoli verranno resi disponibili in seguito",
+          "onlyAnswer": true,
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Voglio partecipare al progetto",
+          "question": "Scegli uno o più ruoli di cooperazione",
+          "allVariant": true,
+          "keyRef": "SendDirection",
+          "variantAnswer": [
+            "Rappresentante dell'industria cinematografica",
+            "Blogger, influencer",
+            "Investitore di criptovalute",
+            "Rappresentante di un parco informatico o tecnologico",
+            "Rappresentante di un'agenzia governativa",
+            "Utente attivo, pronto a sviluppare la propria Comunità",
+            "Non c'è il mio ruolo"
+          ],
+          "childDialogModels": [
+            {
+              "key": "default",
+              "question": "Seleziona il tuo paese",
+              "keyRef": "SendCountry",
+              "dropdownDialog": {
+                "nameDropdown": "CC_Italian",
+                "nameField": "name",
+                "nameFirstElement": "Paese"
+              },
+              "variantAnswer": [
+              ],
+              "childDialogModels": [
+                {
+                  "key": "default",
+                  "question": "Inserisci il link a un tuo account social media",
+                  "onlyAnswer": true,
+                  "variantAnswer": [
+                  ],
+                  "childDialogModels": [],
+                  "answer": ""
+                },
+                {
+                  "key": "default",
+                  "question": "Tramite il quale possiamo conoscerti meglio",
+                  "keyRef": "SendLink",
+                  "errorText": {
+                    "textError": "Utilizza cifre e lettere dell'alfabeto latino",
+                    "accessTexts": [
+                      0,
+                      1,
+                      2
+                    ]
+                  },
+                  "variantAnswer": [
+                  ],
+                  "childDialogModels": [
+                    {
+                      "key": "default",
+                      "question": "Inserisci il tuo indirizzo e-mail o telegram",
+                      "variantAnswer": [
+                        "Email",
+                        "Telegram"
+                      ],
+                      "childDialogModels": [
+                        {
+                          "key": "Email",
+                          "question": "Inserisci il tuo indirizzo e-mail",
+                          "keyRef": "SetEmail",
+                          "errorText": {
+                            "textError": "Utilizza cifre e lettere dell'alfabeto latino",
+                            "accessTexts": [
+                              0,
+                              1,
+                              2
+                            ]
+                          },
+                          "variantAnswer": [
+                          ],
+                          "childDialogModels": [
+                            {
+                              "key": "default",
+                              "label": "email",
+                              "question": "Grazie",
+                              "onlyAnswer": true,
+                              "variantAnswer": [
+                              ],
+                              "childDialogModels": [],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "Se il cielo vuole",
+                              "onlyAnswer": true,
+                              "refAfter": true,
+                              "keyRef": "SendEmail",
+                              "variantAnswer": [
+                              ],
+                              "childDialogModels": [],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "La collaborazione inizierà presto",
+                              "onlyAnswer": true,
+                              "variantAnswer": [
+                              ],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "Attendi. Ti contatteremo.",
+                              "variantAnswer": [
+                                "Proseguire"
+                              ],
+                              "childDialogModels": [
+                                {
+                                  "key": "Proseguire",
+                                  "question": "Prosegui",
+                                  "needUnlock": true,
+                                  "onlyAnswer": true,
+                                  "nextAction": true,
+                                  "variantAnswer": [
+                                  ],
+                                  "answer": ""
+                                }
+                              ]
+                            }
+                          ],
+                          "answer": ""
+                        },
+                        {
+                          "key": "Telegram",
+                          "question": "Inserisci il tuo Telegram",
+                          "keyRef": "SetEmail",
+                          "errorText": {
+                            "textError": "Utilizza cifre e lettere dell'alfabeto latino",
+                            "accessTexts": [
+                              0,
+                              1,
+                              2
+                            ]
+                          },
+                          "variantAnswer": [
+                          ],
+                          "childDialogModels": [
+                            {
+                              "key": "default",
+                              "label": "email",
+                              "question": "Grazie",
+                              "onlyAnswer": true,
+                              "variantAnswer": [
+                              ],
+                              "childDialogModels": [],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "Se Nebesa è interessata",
+                              "onlyAnswer": true,
+                              "refAfter": true,
+                              "keyRef": "SendEmail",
+                              "variantAnswer": [
+                              ],
+                              "childDialogModels": [],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "La collaborazione inizierà presto",
+                              "onlyAnswer": true,
+                              "variantAnswer": [
+                              ],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "Attendi. Ti contatteremo.",
+                              "variantAnswer": [
+                                "Proseguire"
+                              ],
+                              "childDialogModels": [
+                                {
+                                  "key": "Proseguire",
+                                  "question": "Prosegui",
+                                  "needUnlock": true,
+                                  "onlyAnswer": true,
+                                  "nextAction": true,
+                                  "variantAnswer": [
+                                  ],
+                                  "answer": ""
+                                }
+                              ]
+                            }
+                          ],
+                          "answer": ""
+                        }
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "answer": ""
+                }
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Prosegui così",
+          "question": "Prosegui",
+          "needUnlock": true,
+          "onlyAnswer": true,
+          "nextAction": true,
+          "variantAnswer": [
+          ],
+          "answer": ""
+        }
+      ],
+      "answer": ""
+    }
+  ]
+}

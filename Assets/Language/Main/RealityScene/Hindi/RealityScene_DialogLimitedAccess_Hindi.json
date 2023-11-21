@@ -1,0 +1,258 @@
+{
+  "font": "Khand-Light",
+  "singleTexts": [
+    {
+      "question": "इस स्तर पर, प्लेटफ़ॉर्म की एक्सेस सीमित है",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "पहला एक्सेस कोड",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "भागीदारों और प्रोजेक्ट के पहले प्रतिभागियों को दिया जाएगा",
+      "variantAnswer": [
+        "मैं इस प्रोजेक्ट में भाग लेना चाहता हूँ",
+        "इस प्रकार जारी रखें"
+      ],
+      "childDialogModels": [
+        {
+          "key": "मैं इस प्रोजेक्ट में भाग लेना चाहता हूँ",
+          "question": "इस स्तर पर आप हमारे साथ 6 अलग-अलग क्षेत्रों में सहयोग कर सकते हैं",
+          "onlyAnswer": true,
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "मैं इस प्रोजेक्ट में भाग लेना चाहता हूँ",
+          "question": "अन्य थोड़े समय बाद उपलब्ध होंगे",
+          "onlyAnswer": true,
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "मैं इस प्रोजेक्ट में भाग लेना चाहता हूँ",
+          "question": "एक या कई क्षेत्र चुनें",
+          "allVariant": true,
+          "keyRef": "SendDirection",
+          "variantAnswer": [
+            "फिल्म उद्योग प्रतिनिधि",
+            "ब्लॉगर, प्रभावशाली व्यक्ति",
+            "क्रिप्टो निवेशक",
+            "टेक या IT पार्क प्रतिनिधि",
+            "राज्य संरचना प्रतिनिधि",
+            "सक्रिय उपयोगकर्ता, अपना खुद का समुदाय विकसित करने के लिए तैयार",
+            "मैं यहाँ नहीं हूँ"
+          ],
+          "childDialogModels": [
+            {
+              "key": "default",
+              "question": "अपना देश चुनें",
+              "keyRef": "SendCountry",
+              "dropdownDialog": {
+                "nameDropdown": "CC_Hindi",
+                "nameField": "name",
+                "nameFirstElement": "देश"
+              },
+              "variantAnswer": [
+              ],
+              "childDialogModels": [
+                {
+                  "key": "default",
+                  "question": "कृपया हमें अपने किसी सोशल मीडिया पेज का लिंक दें",
+                  "onlyAnswer": true,
+                  "variantAnswer": [
+                  ],
+                  "childDialogModels": [],
+                  "answer": ""
+                },
+                {
+                  "key": "default",
+                  "question": "वह जो आपके बारे में हमें थोड़ी बहुत जानकारी देता है",
+                  "keyRef": "SendLink",
+                  "errorText": {
+                    "textError": "संख्याओं और लैटिन वर्णों का इस्तेमाल करें",
+                    "accessTexts": [
+                      0,
+                      1,
+                      2
+                    ]
+                  },
+                  "variantAnswer": [
+                  ],
+                  "childDialogModels": [
+                    {
+                      "key": "default",
+                      "question": "अपना ईमेल पता या टेलीग्राम ID डालें",
+                      "variantAnswer": [
+                        "ईमेल",
+                        "टेलीग्राम"
+                      ],
+                      "childDialogModels": [
+                        {
+                          "key": "ईमेल",
+                          "question": "अपना ईमेल पता डालें",
+                          "keyRef": "SetEmail",
+                          "errorText": {
+                            "textError": "संख्याओं और लैटिन वर्णों का इस्तेमाल करें",
+                            "accessTexts": [
+                              0,
+                              1,
+                              2
+                            ]
+                          },
+                          "variantAnswer": [
+                          ],
+                          "childDialogModels": [
+                            {
+                              "key": "default",
+                              "label": "email",
+                              "question": "धन्यवाद",
+                              "onlyAnswer": true,
+                              "variantAnswer": [
+                              ],
+                              "childDialogModels": [],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "यदि भगवान ने चाहा",
+                              "onlyAnswer": true,
+                              "refAfter": true,
+                              "keyRef": "SendEmail",
+                              "variantAnswer": [
+                              ],
+                              "childDialogModels": [],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "तो जल्द ही सहकारिता शुरू होगी",
+                              "onlyAnswer": true,
+                              "variantAnswer": [
+                              ],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "कृपया इंतज़ार करें। हम संपर्क में रहेंगे।",
+                              "variantAnswer": [
+                                "जारी रखें"
+                              ],
+                              "childDialogModels": [
+                                {
+                                  "key": "जारी रखें",
+                                  "question": "जारी रखें",
+                                  "needUnlock": true,
+                                  "onlyAnswer": true,
+                                  "nextAction": true,
+                                  "variantAnswer": [
+                                  ],
+                                  "answer": ""
+                                }
+                              ]
+                            }
+                          ],
+                          "answer": ""
+                        },
+                        {
+                          "key": "टेलीग्राम",
+                          "question": "अपना टेलीग्राम ID डालें",
+                          "keyRef": "SetEmail",
+                          "errorText": {
+                            "textError": "संख्याओं और लैटिन वर्णों का इस्तेमाल करें",
+                            "accessTexts": [
+                              0,
+                              1,
+                              2
+                            ]
+                          },
+                          "variantAnswer": [
+                          ],
+                          "childDialogModels": [
+                            {
+                              "key": "default",
+                              "label": "email",
+                              "question": "धन्यवाद",
+                              "onlyAnswer": true,
+                              "variantAnswer": [
+                              ],
+                              "childDialogModels": [],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "यदि भगवान ने चाहा",
+                              "onlyAnswer": true,
+                              "refAfter": true,
+                              "keyRef": "SendEmail",
+                              "variantAnswer": [
+                              ],
+                              "childDialogModels": [],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "तो जल्द ही सहकारिता शुरू होगी",
+                              "onlyAnswer": true,
+                              "variantAnswer": [
+                              ],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "कृपया इंतज़ार करें। हम संपर्क में रहेंगे।",
+                              "variantAnswer": [
+                                "जारी रखें"
+                              ],
+                              "childDialogModels": [
+                                {
+                                  "key": "जारी रखें",
+                                  "question": "जारी रखें",
+                                  "needUnlock": true,
+                                  "onlyAnswer": true,
+                                  "nextAction": true,
+                                  "variantAnswer": [
+                                  ],
+                                  "answer": ""
+                                }
+                              ]
+                            }
+                          ],
+                          "answer": ""
+                        }
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "answer": ""
+                }
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "key": "इस प्रकार जारी रखें",
+          "question": "जारी रखें",
+          "needUnlock": true,
+          "onlyAnswer": true,
+          "nextAction": true,
+          "variantAnswer": [
+          ],
+          "answer": ""
+        }
+      ],
+      "answer": ""
+    }
+  ]
+}

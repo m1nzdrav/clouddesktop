@@ -1,0 +1,318 @@
+{
+  "font": "Jost-Light",
+  "singleTexts": [
+    {
+      "question": "На данном этапе, доступ на Платформу ограничен",
+      "delay": 2.1,
+      "timingVideo": {
+        "start": 0,
+        "end": 25.5
+      },
+      "onlyAnswer": true,
+      "answer": ""
+    },
+    {
+      "question": "Первые коды доступа будут предоставлены",
+      "delay": 3.2,
+      "onlyAnswer": true,
+      "answer": ""
+    },
+    {
+      "question": "Партнерам и первым участникам Проекта",
+      "delay": 2.8,
+      "onlyAnswer": true,
+      "answer": ""
+    },
+    {
+      "question": "Затем",
+      "delay": 2.5,
+      "onlyAnswer": true,
+      "answer": ""
+    },
+    {
+      "question": "будет произведена первичная продажа токенов ранним инвесторам",
+      "delay": 1.6,
+      "onlyAnswer": true,
+      "answer": ""
+    },
+    {
+      "question": "в которой сможет принять участие ограниченное количество пользователей.",
+      "delay": 2.9,
+      "onlyAnswer": true,
+      "answer": ""
+    },
+    {
+      "question": "Надеемся на Ваше понимание.",
+      "delay": 4,
+      "variantAnswer": [
+        "Хорошо, продолжай"
+      ],
+      "childDialogModels": [
+        {
+          "key": "Хорошо, продолжай",
+          "delay": 2.1,
+          "question": "Затем",
+          "timingVideo": {
+            "start": 25.5,
+            "end": 52.5
+          },
+          "delay": 1.9,
+          "onlyAnswer": true,
+          "answer": ""
+        },
+        {
+          "key": "Хорошо, продолжай",
+          "question": "вместе с Партнерами из киноиндустрии",
+          "delay": 1.8,
+          "onlyAnswer": true,
+          "answer": ""
+        },
+        {
+          "key": "Хорошо, продолжай",
+          "question": "вместе с Партнерами из числа лидеров мнения",
+          "delay": 2.1,
+          "onlyAnswer": true,
+          "answer": ""
+        },
+        {
+          "key": "Хорошо, продолжай",
+          "question": "и сообществами активных пользователей",
+          "delay": 2.5,
+          "onlyAnswer": true,
+          "answer": ""
+        },
+        {
+          "key": "Хорошо, продолжай",
+          "question": "мы начнем создавать децентрализованные 3D Проекты и Порталы",
+          "delay": 1.7,
+          "onlyAnswer": true,
+          "answer": ""
+        },
+        {
+          "key": "Хорошо, продолжай",
+          "question": "формируя новый, децентрализованный Интернет.",
+          "delay": 3.3,
+          "onlyAnswer": true,
+          "answer": ""
+        },
+        {
+          "key": "Хорошо, продолжай",
+          "question": "Весь процесс создания мы будем демонстрировать",
+          "delay": 3.4,
+          "onlyAnswer": true,
+          "answer": ""
+        }, 
+        {
+          "key": "Хорошо, продолжай",
+          "question": "в масштабном сериале.",
+          "delay": 3,
+          "variantAnswer": [
+            "Ясно, что дальше?"
+          ],
+          "childDialogModels": [
+            {
+              "key": "Ясно, что дальше?",
+              "delay": 2.1,
+              "question": "Создание Проектов и подбор соответствующих команд",
+              "timingVideo": {
+                "start": 52.5,
+                "end": 88.9
+              },
+              "onlyAnswer": true,
+              "answer": ""
+            },
+            {
+              "key": "Ясно, что дальше?",
+              "delay": 4.5,
+              "question": "будет осуществляться посредством блокчейн.",
+              "onlyAnswer": true,
+              "answer": ""
+            },
+            {
+              "key": "Ясно, что дальше?",
+              "delay": 2.7,
+              "question": "Каждый из Проектов будет сопровождаться",
+              "onlyAnswer": true,
+              "answer": ""
+            },
+            {
+              "key": "Ясно, что дальше?",
+              "delay": 2.5,
+              "question": "собственной первичной продажей токенов.",
+              "onlyAnswer": true,
+              "answer": ""
+            },
+            {
+              "key": "Ясно, что дальше?",
+              "delay": 2.5,
+              "question": "Вот на этом этапе",
+              "onlyAnswer": true,
+              "answer": ""
+            },
+            {
+              "key": "Ясно, что дальше?",
+              "delay": 1.5,
+              "question": "уже каждый пользователь сможет принять активное участие",
+              "onlyAnswer": true,
+              "answer": ""
+            },
+            {
+              "key": "Ясно, что дальше?",
+              "delay": 3.1,
+              "question": "в любом из понравившихся Проектов.",
+              "onlyAnswer": true,
+              "answer": ""
+            },
+            {
+              "key": "Ясно, что дальше?",
+              "delay": 2.4,
+              "question": "И сможет оставить свой след",
+              "onlyAnswer": true,
+              "answer": ""
+            },
+            {
+              "key": "Ясно, что дальше?",
+              "delay": 2.2,
+              "question": "в грандиознейшем событии нашего времени.",
+              "onlyAnswer": true,
+              "answer": ""
+            },
+            {
+              "key": "Ясно, что дальше?",
+              "delay": 2.7,
+              "question": "В роли участника, инвестора, промоутера и многих других.",
+              "variantAnswer": [
+                "Как мне оставаться в курсе событий?"
+              ],
+              "childDialogModels": [
+                {
+                  "key": "Как мне оставаться в курсе событий?",
+                  "delay": 2.1,
+                  "question": "Обо всех новостях",
+                  "timingVideo": {
+                    "start": 88.9,
+                    "end": 105.2
+                  },
+                  "onlyAnswer": true,
+                  "answer": ""
+                },
+                {
+                  "key": "Как мне оставаться в курсе событий?",
+                  "delay": 2.5,
+                  "question": "условиях и датах проведения токенсейлов",
+                  "onlyAnswer": true,
+                  "answer": ""
+                },
+                {
+                  "key": "Как мне оставаться в курсе событий?",
+                  "delay": 2.7,
+                  "question": "стартах создания новых Проектов",
+                  "onlyAnswer": true,
+                  "answer": ""
+                },
+                {
+                  "key": "Как мне оставаться в курсе событий?",
+                  "delay": 1.7,
+                  "question": "и датах выхода новых серий Сериала",
+                  "onlyAnswer": true,
+                  "answer": ""
+                },
+                {
+                  "key": "Как мне оставаться в курсе событий?",
+                  "delay": 1.7,
+                  "question": "мы будем сообщать в нашем телеграмм канале.",
+                  "variantAnswer": [
+                    "Что я могу сделать уже сейчас?"
+                  ],
+                  "childDialogModels": [
+                    {
+                      "key": "Что я могу сделать уже сейчас?",
+                      "delay": 2,
+                      "question": "Продолжив",
+                      "timingVideo": {
+                        "start": 105.2,
+                        "end": 132.8
+                      },
+                      "onlyAnswer": true,
+                      "answer": ""
+                    },
+                    {
+                      "key": "Что я могу сделать уже сейчас?",
+                      "delay": 1.8,
+                      "question": "Вы сможете зарегистрироваться",
+                      "onlyAnswer": true,
+                      "answer": ""
+                    },
+                    {
+                      "key": "Что я могу сделать уже сейчас?",
+                      "delay": 1.9,
+                      "question": "и получить возможность приглашать новых пользователей",
+                      "onlyAnswer": true,
+                      "answer": ""
+                    },
+                    {
+                      "key": "Что я могу сделать уже сейчас?",
+                      "delay": 2.3,
+                      "question": "в свою реферальную программу.",
+                      "onlyAnswer": true,
+                      "answer": ""
+                    },
+                    {
+                      "key": "Что я могу сделать уже сейчас?",
+                      "delay": 2.3,
+                      "question": "За их действия и покупки, Вам будут начисляться",
+                      "onlyAnswer": true,
+                      "answer": ""
+                    },
+                    {
+                      "key": "Что я могу сделать уже сейчас?",
+                      "delay": 3.1,
+                      "question": "бесплатные токены Проектов.",
+                      "onlyAnswer": true,
+                      "answer": ""
+                    },
+                    {
+                      "key": "Что я могу сделать уже сейчас?",
+                      "delay": 2.1,
+                      "question": "Также, их действия повышают Ваш Пользовательский Рейтинг",
+                      "onlyAnswer": true,
+                      "answer": ""
+                    },
+                    {
+                      "key": "Что я могу сделать уже сейчас?",
+                      "delay": 2.7,
+                      "question": "который лежит в основе модерации и управления всей Платформой.",
+                      "variantAnswer": [
+                        "Продолжить"
+                      ],
+                      "childDialogModels": [
+                        {
+                          "key": "Продолжить",
+                          "delay": 2.4,
+                          "question": "Продолжайте",
+                          "timingVideo": {
+                            "start": 132.8,
+                            "end": 135
+                          },
+                          "onlyAnswer": true,
+                          "needUnlock": true,
+                          "nextAction": true,
+                          "answer": ""
+                        }
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "answer": ""
+                }
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        }
+      ],
+      "answer": ""
+    }
+  ]
+}

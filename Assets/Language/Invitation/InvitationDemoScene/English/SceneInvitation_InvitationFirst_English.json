@@ -1,0 +1,2104 @@
+{
+  "StartPages": [
+    1
+  ],
+  "Pages": [
+    {
+      "Number": 1,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "button": "NextPage",
+          "autoNextPage": true,
+          "buttonPages": [
+            1,
+            2
+          ],
+          "text": " imagine",
+          "Circles": {
+            "Circle": [
+              {
+                "radius": 20,
+                "color": {
+                  "r": 0.7490196228027344,
+                  "g": 0.09803922474384308,
+                  "b": 0.8313726186752319,
+                  "a": 0.27450981736183167
+                }
+              },
+              {
+                "radius": 15,
+                "color": {
+                  "r": 0.13725490868091583,
+                  "g": 0.3764706254005432,
+                  "b": 0.8392157554626465,
+                  "a": 0.27450981736183167
+                }
+              }
+            ]
+          },
+          "contentInteractivity": {
+            "locker": "test",
+            "key": "test"
+          },
+          "needInStartPromoActivity": false,
+          "nextPromoActivity": false,
+          "sizeIsHeight": false,
+          "lightLamp": false,
+          "audio": "",
+          "height": 25,
+          "currentPage": 0,
+          "animation": 0,
+          "section": "",
+          "glowDot": false,
+          "sword": false,
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.5,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.3,
+            "time": 3,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    },
+    {
+      "Number": 2,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "button": "NextPage",
+          "autoNextPage": true,
+          "buttonPages": [
+            1,
+            2,
+            3
+          ],
+          "text": " someone suggested",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.5,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.3,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        }
+      ]
+    },
+    {
+      "Number": 3,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "Circles": {
+            "Circle": [
+              {
+                "radius": 20,
+                "color": {
+                  "r": 0.7490196228027344,
+                  "g": 0.09803922474384308,
+                  "b": 0.8313726186752319,
+                  "a": 0.27450981736183167
+                }
+              },
+              {
+                "radius": 15,
+                "color": {
+                  "r": 0.13725490868091583,
+                  "g": 0.3764706254005432,
+                  "b": 0.8392157554626465,
+                  "a": 0.27450981736183167
+                }
+              }
+            ]
+          },
+          "button": "NextPage",
+          "autoNextPage": true,
+          "buttonPages": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "text": " recreating the Internet",
+          "Circles": {
+            "Circle": [
+              {
+                "radius": 20,
+                "color": {
+                  "r": 0.7490196228027344,
+                  "g": 0.09803922474384308,
+                  "b": 0.8313726186752319,
+                  "a": 0.27450981736183167
+                }
+              },
+              {
+                "radius": 15,
+                "color": {
+                  "r": 0.13725490868091583,
+                  "g": 0.3764706254005432,
+                  "b": 0.8392157554626465,
+                  "a": 0.27450981736183167
+                }
+              }
+            ]
+          },
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.5,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.3,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        }
+      ]
+    },
+    {
+      "Number": 4,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "button": "NextPage",
+          "autoNextPage": true,
+          "buttonPages": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "text": " now imagine",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.5,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.3,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        }
+      ]
+    },
+    {
+      "Number": 5,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "button": "NextPage",
+          "autoNextPage": true,
+          "buttonPages": [
+            1,
+            2,
+            3,
+            6
+          ],
+          "text": " that you could just walk by",
+          "Circles": {
+            "Circle": [
+              {
+                "radius": 20,
+                "color": {
+                  "r": 0.7490196228027344,
+                  "g": 0.09803922474384308,
+                  "b": 0.8313726186752319,
+                  "a": 0.27450981736183167
+                }
+              },
+              {
+                "radius": 15,
+                "color": {
+                  "r": 0.13725490868091583,
+                  "g": 0.3764706254005432,
+                  "b": 0.8392157554626465,
+                  "a": 0.27450981736183167
+                }
+              }
+            ]
+          },
+          "audio": "2. Menu Appearance",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.5,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.3,
+            "time": 3,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    },
+    {
+      "Number": 6,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": "",
+          "point": false,
+          "size": 15,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.6
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "nextPromoActivity": true,
+          "needInStartPromoActivity": true,
+          "text": "      10. THE BASIC ESSENCE",
+          "contentInteractivity": {
+            "locker": "10_Introduction"
+          },
+          "commentContents": [
+            {
+              "text": "",
+              "size": 2,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 0.58,
+                "g": 0.96,
+                "b": 0.96,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.5,
+                "AnimationOpenType": 2,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.5,
+                "time": 2,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "       of the project",
+              "contentInteractivity": {
+                "locker": "10_Introduction"
+              },
+              "audio": "Next",
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.3,
+                "AnimationOpenType": 2,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.5,
+                "time": 1.5,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "       that you're invited to",
+              "contentInteractivity": {
+                "locker": "10_Introduction"
+              },
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.3,
+                "AnimationOpenType": 1,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.2,
+                "time": 1.5,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "       participate in",
+              "contentInteractivity": {
+                "locker": "10_Introduction",
+                "key": "10_Introduction"
+              },
+              "audio": "2. Menu Appearance",
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.3,
+                "AnimationOpenType": 1,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.2,
+                "time": 1.5,
+                "AnimationTextType": 0
+              }
+            }
+          ],
+          "button": "OpenContents",
+          "nextContents": "SceneInvitation_10_BasicEssence_",
+          "glowDot": true,
+          "point": true,
+          "sword": true,
+          "size": 30,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.5,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.5,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    },
+    {
+      "Number": 7,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": "",
+          "point": false,
+          "size": 5,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.6
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 1
+          }
+        }
+      ]
+    },
+    {
+      "Number": 8,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": "      9. THE INTERNET TODAY",
+          "contentInteractivity": {
+            "locker": "9_InternetToday"
+          },
+          "commentContents": [
+            {
+              "text": "",
+              "size": 2,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 0.58,
+                "g": 0.96,
+                "b": 0.96,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.5,
+                "AnimationOpenType": 2,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.5,
+                "time": 2,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "       or what's wrong",
+              "contentInteractivity": {
+                "locker": "9_InternetToday"
+              },
+              "audio": "Next",
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.3,
+                "AnimationOpenType": 2,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.5,
+                "time": 1.5,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "       with it",
+              "contentInteractivity": {
+                "locker": "9_InternetToday",
+                "key": "9_InternetToday"
+              },
+              "audio": "2. Menu Appearance",
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.3,
+                "AnimationOpenType": 1,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.2,
+                "time": 1.5,
+                "AnimationTextType": 0
+              }
+            }
+          ],
+          "button": "OpenContents",
+          "nextContents": "SceneInvitation_9_InternetToday_",
+          "glowDot": true,
+          "point": true,
+          "sword": true,
+          "size": 30,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.5,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.5,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    },
+    {
+      "Number": 9,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": "",
+          "point": false,
+          "size": 5,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.6
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 1
+          }
+        }
+      ]
+    },
+    {
+      "Number": 10,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": "      8. THE NEW INTERNET",
+          "contentInteractivity": {
+            "locker": "8_NewInternet"
+          },
+          "commentContents": [
+            {
+              "text": "",
+              "size": 2,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 0.58,
+                "g": 0.96,
+                "b": 0.96,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.5,
+                "AnimationOpenType": 2,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.5,
+                "time": 2,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "       or why it's time",
+              "contentInteractivity": {
+                "locker": "8_NewInternet"
+              },
+              "audio": "Next",
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.3,
+                "AnimationOpenType": 2,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.5,
+                "time": 1.5,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "       to hit the Road",
+              "contentInteractivity": {
+                "locker": "8_NewInternet",
+                "key": "8_NewInternet"
+              },
+              "audio": "2. Menu Appearance",
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.3,
+                "AnimationOpenType": 1,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.2,
+                "time": 1.5,
+                "AnimationTextType": 0
+              }
+            }
+          ],
+          "button": "OpenContents",
+          "nextContents": "SceneInvitation_8_NewInternet_",
+          "glowDot": true,
+          "glowDot": true,
+          "point": true,
+          "sword": true,
+          "size": 30,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.5,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.5,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    },
+    {
+      "Number": 11,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": "",
+          "point": false,
+          "size": 5,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.6
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 1
+          }
+        }
+      ]
+    },
+    {
+      "Number": 12,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": "      7. KING'S LANDING",
+          "contentInteractivity": {
+            "locker": "7_RoyalHarbor"
+          },
+          "commentContents": [
+            {
+              "text": "",
+              "size": 2,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 0.58,
+                "g": 0.96,
+                "b": 0.96,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.5,
+                "AnimationOpenType": 2,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.5,
+                "time": 2,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "       or a fairy tale",
+              "contentInteractivity": {
+                "locker": "7_RoyalHarbor"
+              },
+              "audio": "Next",
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.3,
+                "AnimationOpenType": 2,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.5,
+                "time": 1.5,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "       about the Internet",
+              "contentInteractivity": {
+                "locker": "7_RoyalHarbor",
+                "key": "7_RoyalHarbor"
+              },
+              "audio": "2. Menu Appearance",
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.3,
+                "AnimationOpenType": 1,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.2,
+                "time": 1.5,
+                "AnimationTextType": 0
+              }
+            }
+          ],
+          "button": "OpenContents",
+          "nextContents": "SceneInvitation_7_KingsLanding_",
+          "glowDot": true,
+          "point": true,
+          "sword": true,
+          "size": 30,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.5,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.5,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    },
+    {
+      "Number": 13,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": "",
+          "point": false,
+          "size": 5,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.6
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 1
+          }
+        }
+      ]
+    },
+    {
+      "Number": 14,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": "      6. HOW WE DID IT",
+          "contentInteractivity": {
+            "locker": "6_How"
+          },
+          "commentContents": [
+            {
+              "text": "",
+              "size": 2,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 0.58,
+                "g": 0.96,
+                "b": 0.96,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.5,
+                "AnimationOpenType": 2,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.5,
+                "time": 2,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "       or the architecture of",
+              "contentInteractivity": {
+                "locker": "6_How"
+              },
+              "audio": "Next",
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.3,
+                "AnimationOpenType": 2,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.5,
+                "time": 1.5,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "       the new Internet",
+              "contentInteractivity": {
+                "locker": "6_How",
+                "key": "6_How"
+              },
+              "audio": "2. Menu Appearance",
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.3,
+                "AnimationOpenType": 1,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.2,
+                "time": 1.5,
+                "AnimationTextType": 0
+              }
+            }
+          ],
+          "button": "OpenContents",
+          "nextContents": "SceneInvitation_6_How_",
+          "glowDot": true,
+          "point": true,
+          "sword": true,
+          "size": 30,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.5,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.5,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    },
+    {
+      "Number": 15,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": "",
+          "point": false,
+          "size": 5,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.6
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.5,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.5,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    },
+    {
+      "Number": 16,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": "      5. THE INTERNET IS ACTUALLY US",
+          "contentInteractivity": {
+            "locker": "5_Us"
+          },
+          "commentContents": [
+            {
+              "text": "",
+              "size": 2,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 0.58,
+                "g": 0.96,
+                "b": 0.96,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.5,
+                "AnimationOpenType": 2,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.5,
+                "time": 2,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "       or how users",
+              "contentInteractivity": {
+                "locker": "5_Us"
+              },
+              "audio": "Next",
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.3,
+                "AnimationOpenType": 2,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.5,
+                "time": 1.5,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "       become owners of the Internet",
+              "contentInteractivity": {
+                "locker": "5_Us",
+                "key": "5_Us"
+              },
+              "audio": "2. Menu Appearance",
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.3,
+                "AnimationOpenType": 1,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.2,
+                "time": 1.5,
+                "AnimationTextType": 0
+              }
+            }
+          ],
+          "button": "OpenContents",
+          "nextContents": "SceneInvitation_5_Us_",
+          "glowDot": true,
+          "point": true,
+          "sword": true,
+          "size": 30,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.5,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.5,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    },
+    {
+      "Number": 17,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": "",
+          "point": false,
+          "size": 5,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.6
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 1
+          }
+        }
+      ]
+    },
+    {
+      "Number": 18,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": "      4. INTERACTIVE SERIES",
+          "contentInteractivity": {
+            "locker": "4_Series"
+          },
+          "commentContents": [
+            {
+              "text": "",
+              "size": 2,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 0.58,
+                "g": 0.96,
+                "b": 0.96,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.5,
+                "AnimationOpenType": 2,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.5,
+                "time": 2,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "       or it's better to see something once",
+              "contentInteractivity": {
+                "locker": "4_Series"
+              },
+              "audio": "Next",
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.3,
+                "AnimationOpenType": 2,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.5,
+                "time": 1.5,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "       than hear it several times",
+              "contentInteractivity": {
+                "locker": "4_Series",
+                "key": "4_Series"
+              },
+              "audio": "2. Menu Appearance",
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.3,
+                "AnimationOpenType": 1,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.2,
+                "time": 1.5,
+                "AnimationTextType": 0
+              }
+            }
+          ],
+          "button": "OpenContents",
+          "nextContents": "SceneInvitation_4_Series_",
+          "glowDot": true,
+          "point": true,
+          "sword": true,
+          "size": 30,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.5,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.5,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    },
+    {
+      "Number": 19,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": "",
+          "point": false,
+          "size": 5,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.6
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 1
+          }
+        }
+      ]
+    },
+    {
+      "Number": 20,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": "      3. DEMONSTRATING THE SERIES",
+          "contentInteractivity": {
+            "locker": "3_Steam"
+          },
+          "commentContents": [
+            {
+              "text": "",
+              "size": 2,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 0.58,
+                "g": 0.96,
+                "b": 0.96,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.5,
+                "AnimationOpenType": 2,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.5,
+                "time": 2,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "       or the viewer's",
+              "contentInteractivity": {
+                "locker": "3_Steam"
+              },
+              "audio": "Next",
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.3,
+                "AnimationOpenType": 2,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.5,
+                "time": 1.5,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "       dream",
+              "contentInteractivity": {
+                "locker": "3_Steam",
+                "key": "3_Steam"
+              },
+              "audio": "2. Menu Appearance",
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.3,
+                "AnimationOpenType": 1,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.2,
+                "time": 1.5,
+                "AnimationTextType": 0
+              }
+            }
+          ],
+          "button": "OpenContents",
+          "nextContents": "SceneInvitation_3_Stream_",
+          "glowDot": true,
+          "point": true,
+          "sword": true,
+          "size": 30,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.5,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.5,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    },
+    {
+      "Number": 21,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": "",
+          "point": false,
+          "size": 5,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.6
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 1
+          }
+        }
+      ]
+    },
+    {
+      "Number": 22,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": "      2. FUNDING AND VIEWERS",
+          "contentInteractivity": {
+            "locker": "2_Funding"
+          },
+          "commentContents": [
+            {
+              "text": "",
+              "size": 2,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 0.58,
+                "g": 0.96,
+                "b": 0.96,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.5,
+                "AnimationOpenType": 2,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.5,
+                "time": 2,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "       or investments",
+              "contentInteractivity": {
+                "locker": "2_Funding"
+              },
+              "audio": "Next",
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.3,
+                "AnimationOpenType": 2,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.5,
+                "time": 1.5,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "       without corporations",
+              "contentInteractivity": {
+                "locker": "2_Funding",
+                "key": "2_Funding"
+              },
+              "audio": "2. Menu Appearance",
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.3,
+                "AnimationOpenType": 1,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.2,
+                "time": 1.5,
+                "AnimationTextType": 0
+              }
+            }
+          ],
+          "button": "OpenContents",
+          "nextContents": "SceneInvitation_2_Funding_",
+          "glowDot": true,
+          "point": true,
+          "sword": true,
+          "size": 30,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.5,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.5,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    },
+    {
+      "Number": 23,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": "",
+          "point": false,
+          "size": 5,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.6
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 1
+          }
+        }
+      ]
+    },
+    {
+      "Number": 24,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": "      1. FINAL PART",
+          "contentInteractivity": {
+            "locker": "1_FinalPart"
+          },
+          "commentContents": [
+            {
+              "text": "",
+              "size": 2,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 0.58,
+                "g": 0.96,
+                "b": 0.96,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.5,
+                "AnimationOpenType": 2,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.5,
+                "time": 2,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "       or why it's already time",
+              "contentInteractivity": {
+                "locker": "1_FinalPart"
+              },
+              "audio": "Next",
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.3,
+                "AnimationOpenType": 2,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.5,
+                "time": 1.5,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "       to hit the Road",
+              "contentInteractivity": {
+                "locker": "1_FinalPart",
+                "key": "1_FinalPart"
+              },
+              "audio": "2. Menu Appearance",
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.3,
+                "AnimationOpenType": 1,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.2,
+                "time": 1.5,
+                "AnimationTextType": 0
+              }
+            }
+          ],
+          "button": "OpenContents",
+          "nextContents": "SceneInvitation_1_FinalPart_",
+          "glowDot": true,
+          "point": true,
+          "sword": true,
+          "size": 30,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.5,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.5,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    },
+    {
+      "Number": 25,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": "",
+          "point": false,
+          "size": 15,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.6
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 1
+          }
+        }
+      ]
+    },
+    {
+      "Number": 26,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": "  FOLLOW",
+          "contentInteractivity": {
+            "locker": "Follow"
+          },
+          "commentContents": [
+            {
+              "text": "",
+              "size": 2,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 0.58,
+                "g": 0.96,
+                "b": 0.96,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.5,
+                "AnimationOpenType": 2,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.5,
+                "time": 2,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "       the White Rabbit",
+              "contentInteractivity": {
+                "locker": "Follow",
+                "key": "Follow"
+              },
+              "audio": "2. Menu Appearance",
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.3,
+                "AnimationOpenType": 1,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.2,
+                "time": 3,
+                "AnimationTextType": 0
+              }
+            }
+          ],
+          "button": "NextActivityPromo",
+          "audio": "Next",
+          "glowDot": true,
+          "point": true,
+          "sword": true,
+          "size": 30,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.5,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.8,
+            "time": 3.3,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    },
+    {
+      "Number": 27,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": "",
+          "point": false,
+          "size": 0,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.2,
+            "g": 0.7,
+            "b": 0.95,
+            "a": 0.5
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,457 @@
+{
+  "font": "Alibaba-PuHuiTi-Regular",
+  "singleTexts": [
+    {
+      "question": "您已经获得测试访问权限",
+      "timingVideo": {
+        "start": 0,
+        "end": 24.5
+      },
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "这意味着",
+      "delay": 2.5,
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "我希望看到你们成为项目的合作伙伴",
+      "delay": 1.5,
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "这意味着",
+      "delay": 4,
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "或者您已经有了我上级的联系方式",
+      "delay": 1.5,
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "或者我可以向您提供联系方式",
+      "delay": 3.4,
+      "variantAnswer": [
+        "谢谢，是的，我有联系方式",
+        "没有联系方式",
+        "为什么我需要你上级的联系方式"
+        
+      ],
+      "childDialogModels": [
+        
+        {
+          "key": "谢谢，是的，我有联系方式",
+          "question": "好的",
+          "timingVideo": {
+            "start": 46,
+            "end": 54
+          },
+          "onlyAnswer": true,
+          "childDialogModels": [
+          ],
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "谢谢，是的，我有联系方式",
+          "question": "祝一切顺利",
+          "delay": 1.5,
+          "onlyAnswer": true,
+          "childDialogModels": [
+          ],
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "谢谢，是的，我有联系方式",
+          "question": "再会",
+          "delay": 1.5,
+          "variantAnswer": [
+            "Telegram",
+            "Email"
+          ],
+          "childDialogModels": [
+            {
+              "key": "Telegram",
+              "question": "祝你好运，我将在这里等待",
+              "timingVideo": {
+                "start": 70.5,
+                "end": 76
+              },
+              "refAfter": true,
+              "onlyAnswer": true,
+              "keyRef": "GoTelegram",
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Email",
+              "question": "祝你好运，我将在这里等待",
+              "timingVideo": {
+                "start": 70.5,
+                "end": 76
+              },
+              "refAfter": true,
+              "onlyAnswer": true,
+              "keyRef": "GoMail",
+              "variantAnswer": [
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "key": "没有联系方式",
+          "question": "纠正",
+          "timingVideo": {
+            "start": 54.5,
+            "end": 59
+          },
+          "variantAnswer": [
+            "Telegram",
+            "Email"
+          ],
+          "childDialogModels": [
+            {
+              "key": "Telegram",
+              "question": "祝你好运，我将在这里等待",
+              "timingVideo": {
+                "start": 70.5,
+                "end": 76
+              },
+              "refAfter": true,
+              "onlyAnswer": true,
+              "keyRef": "GoTelegram",
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Email",
+              "question": "祝你好运，我将在这里等待",
+              "timingVideo": {
+                "start": 70.5,
+                "end": 76
+              },
+              "refAfter": true,
+              "onlyAnswer": true,
+              "keyRef": "GoMail",
+              "variantAnswer": [
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "key": "为什么我需要你上级的联系方式",
+          "question": "您是在开玩笑吧",
+          "timingVideo": {
+            "start": 24.5,
+            "end": 30
+          },
+          "variantAnswer": [
+            "我在开玩笑",
+            "我没有开玩笑，为什么我需要您上级的联系方式"
+          ],
+          "childDialogModels": [
+            {
+              "key": "我在开玩笑",
+              "question": "好的",
+              "delay": 1.5,
+              "timingVideo": {
+                "start": 59,
+                "end": 64
+              },
+              "variantAnswer": [
+                "谢谢，是的，我有联系方式",
+                "没有联系方式"
+              ],
+              "childDialogModels": [
+                {
+                  "key": "谢谢，是的，我有联系方式",
+                  "question": "祝一切顺利",
+                  "delay": 1.5,
+                  "timingVideo": {
+                    "start": 64,
+                    "end": 70.5
+                  },
+                  "onlyAnswer": true,
+                  "childDialogModels": [
+                  ],
+                  "variantAnswer": [
+                  ],
+                  "answer": ""
+                },
+                {
+                  "key": "谢谢，是的，我有联系方式",
+                  "question": "再会",
+                  "delay": 1.5,
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "祝你好运，我将在这里等待",
+                      "timingVideo": {
+                        "start": 70.5,
+                        "end": 76
+                      },
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "祝你好运，我将在这里等待",
+                      "timingVideo": {
+                        "start": 70.5,
+                        "end": 76
+                      },
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                },
+                {
+                  "key": "没有联系方式",
+                  "question": "纠正",
+                  "timingVideo": {
+                    "start": 54.5,
+                    "end": 59
+                  },
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "祝你好运，我将在这里等待",
+                      "timingVideo": {
+                        "start": 70.5,
+                        "end": 76
+                      },
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "祝你好运，我将在这里等待",
+                      "timingVideo": {
+                        "start": 70.5,
+                        "end": 76
+                      },
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                }
+              ],
+              "answer": ""
+            },
+            {
+              "key": "我没有开玩笑，为什么我需要您上级的联系方式",
+              "question": "想像",
+              "timingVideo": {
+                "start": 30,
+                "end": 46
+              },
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "我没有开玩笑，为什么我需要您上级的联系方式",
+              "question": "互聯網",
+              "delay": 1.8,
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "我没有开玩笑，为什么我需要您上级的联系方式",
+              "question": "在創建時會有他的比特幣",
+              "delay": 1.6,
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "我没有开玩笑，为什么我需要您上级的联系方式",
+              "question": "现在试想一下",
+              "delay": 2.7,
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "我没有开玩笑，为什么我需要您上级的联系方式",
+              "question": "您错过了…",
+              "delay": 1.8,
+              "variantAnswer": [
+                "谢谢，是的，我有联系方式",
+                "没有联系方式"
+              ],
+              "childDialogModels": [
+                {
+                  "key": "谢谢，是的，我有联系方式",
+                  "question": "祝一切顺利",
+                  "timingVideo": {
+                    "start": 64,
+                    "end": 70.5
+                  },
+                  "onlyAnswer": true,
+                  "childDialogModels": [
+                  ],
+                  "variantAnswer": [
+                   
+                  ],
+                  "answer": ""
+                },
+                {
+                  "key": "谢谢，是的，我有联系方式",
+                  "question": "再会",
+                  "delay": 1.5,
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "祝你好运，我将在这里等待",
+                      "timingVideo": {
+                        "start": 70.5,
+                        "end": 76
+                      },
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "祝你好运，我将在这里等待",
+                      "timingVideo": {
+                        "start": 70.5,
+                        "end": 76
+                      },
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                },
+                {
+                  "key": "没有联系方式",
+                  "question": "纠正",
+                  "delay": 1.5,
+                  "timingVideo": {
+                    "start": 54.5,
+                    "end": 59
+                  },
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "祝你好运，我将在这里等待",
+                      "timingVideo": {
+                        "start": 70.5,
+                        "end": 76
+                      },
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "祝你好运，我将在这里等待",
+                      "timingVideo": {
+                        "start": 70.5,
+                        "end": 76
+                      },
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                }
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        }
+      ],
+      "answer": ""
+    }
+  ]
+}

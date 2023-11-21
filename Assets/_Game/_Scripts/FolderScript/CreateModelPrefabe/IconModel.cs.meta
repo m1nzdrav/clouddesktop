@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 19b5221d02bca2c4d815b4c376f5bd6a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - myParent: {instanceID: 0}
+  - grid: {fileID: 6318494190406666143, guid: 46eb9eb666176b6419cd6667a87819b5, type: 3}
+  - folder: {instanceID: 0}
+  - text: {instanceID: 0}
+  - _eventName: {instanceID: 0}
+  - _prefab: {instanceID: 0}
+  - _prefabSlot: {fileID: 116994, guid: 86bd66a1aad581444a3c8b4999ca67b1, type: 3}
+  - border: {instanceID: 0}
+  - _statsChildBorder: {instanceID: 0}
+  - iconImage: {instanceID: 0}
+  - iconGlowController: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

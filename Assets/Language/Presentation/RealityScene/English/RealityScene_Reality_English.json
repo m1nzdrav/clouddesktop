@@ -1,0 +1,676 @@
+{
+  "StartPages": [
+    1
+  ],
+  "Pages": [
+    {
+      "Number": 0,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "Circles": {
+            "Circle": [
+              {
+                "radius": 30.0,
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 1,
+                  "a": 0.7
+                }
+              },
+              {
+                "radius": 25.0,
+                "color": {
+                  "r": 0.92,
+                  "g": 0,
+                  "b": 1,
+                  "a": 0.7
+                }
+              }
+            ]
+          },
+          "button": "NextActivityPromo",
+          "currentPage": 0,
+          "audio": "Реальность",
+          "section": "1.1",
+          "text": " REALITY",
+          "point": true,
+          "size": 57,
+          "font": "Jost-Light",
+          "color": {
+            "r": 0.2,
+            "g": 0.45,
+            "b": 0.95,
+            "a": 0.6
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.8,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "animation": 0,
+          "section": "",
+          "text": " ",
+          "point": false,
+          "size": 5,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "childContents": [],
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 0
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "Circles": {
+            "Circle": [
+              {
+                "radius": 30.0,
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 1,
+                  "a": 0.7
+                }
+              },
+              {
+                "radius": 25.0,
+                "color": {
+                  "r": 0.92,
+                  "g": 0,
+                  "b": 1,
+                  "a": 0.7
+                }
+              }
+            ]
+          },
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "audio": "Бесконечно",
+          "section": "",
+          "text": " ENDLESS",
+          "point": true,
+          "size": 57,
+          "font": "Jost-Light",
+          "color": {
+            "r": 0.2,
+            "g": 0.45,
+            "b": 0.95,
+            "a": 0.6
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.8,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "animation": 0,
+          "section": "",
+          "text": " ",
+          "point": false,
+          "size": 5,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "childContents": [],
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 0
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "Circles": {
+            "Circle": [
+              {
+                "radius": 20.0,
+                "color": {
+                  "r": 0.7490196228027344,
+                  "g": 0.09803922474384308,
+                  "b": 0.8313726186752319,
+                  "a": 0.27450981736183169
+                }
+              },
+              {
+                "radius": 15.0,
+                "color": {
+                  "r": 0.1,
+                  "g": 0.5,
+                  "b": 0.3,
+                  "a": 0.27450981736183169
+                }
+              }
+            ]
+          },
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "audio": "Другая",
+          "section": 0,
+          "text": " OTHER",
+          "point": true,
+          "size": 57,
+          "font": "Jost-Light",
+          "color": {
+            "r": 0.2,
+            "g": 0.45,
+            "b": 0.95,
+            "a": 0.6
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.8,
+            "time": 2.9,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "animation": 0,
+          "section": "",
+          "text": " ",
+          "point": false,
+          "size": 45,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 0
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "needInStartPromoActivity": true,
+          "nextPromoActivity": true,
+          "animation": 0,
+          "section": "",
+          "audio": "Language_choosing",
+          "text": "  FILMING OF A SCI-FI SERIES",
+          "point": true,
+          "size": 45,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.85,
+            "g": 0.29,
+            "b": 0.67,
+            "a": 0.6
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 0,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "animation": 0,
+          "section": "",
+          "audio": "",
+          "text": "  CREATING A DECENTRALIZED",
+          "point": true,
+          "size": 45,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.85,
+            "g": 0.29,
+            "b": 0.67,
+            "a": 0.6
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.8,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "animation": 0,
+          "section": "",
+          "audio": "",
+          "text": "  3D INTERNET",
+          "point": true,
+          "size": 45,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.85,
+            "g": 0.29,
+            "b": 0.67,
+            "a": 0.6
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.8,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "animation": 0,
+          "section": "",
+          "audio": "",
+          "text": "  IN REAL TIME",
+          "point": true,
+          "size": 45,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.85,
+            "g": 0.29,
+            "b": 0.67,
+            "a": 0.6
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.8,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "Circles": {
+            "Circle": [
+              {
+                "radius": 20.0,
+                "color": {
+                  "r": 0.7490196228027344,
+                  "g": 0.09803922474384308,
+                  "b": 0.8313726186752319,
+                  "a": 0.27450981736183169
+                }
+              },
+              {
+                "radius": 50.0,
+                "color": {
+                  "r": 0.1,
+                  "g": 0.5,
+                  "b": 0.3,
+                  "a": 0.27450981736183169
+                }
+              }
+            ]
+          },
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "animation": 0,
+          "section": "",
+          "audio": "Opening",
+          "text": "  WITH VIEWERS PARTICIPATING",
+          "point": true,
+          "size": 45,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.85,
+            "g": 0.29,
+            "b": 0.67,
+            "a": 0.6
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.8,
+            "time": 3.5,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "animation": 0,
+          "section": "",
+          "text": " ",
+          "point": false,
+          "size": 22,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 0
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "needInStartPromoActivity": false,
+          "nextPromoActivity": true,
+          "animation": 0,
+          "section": "",
+          "audio": "",
+          "text": "   several countries",
+          "point": true,
+          "size": 34,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.85,
+            "g": 0.29,
+            "b": 0.67,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 0,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.2,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "animation": 0,
+          "section": "",
+          "audio": "",
+          "text": "   end-to-end scenario",
+          "point": true,
+          "size": 34,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.85,
+            "g": 0.29,
+            "b": 0.67,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.8,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+
+        {
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "animation": 0,
+          "section": "",
+          "audio": "",
+          "text": "   several film crews",
+          "point": true,
+          "size": 34,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.85,
+            "g": 0.29,
+            "b": 0.67,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.8,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "animation": 0,
+          "section": "",
+          "audio": "Opening",
+          "text": "   simultaneously",
+          "point": true,
+          "size": 35,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.85,
+            "g": 0.29,
+            "b": 0.67,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.8,
+            "time": 3.5,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "animation": 0,
+          "section": "",
+          "text": " ",
+          "point": false,
+          "size": 45,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 0
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "animation": 0,
+          "section": "",
+          "text": "  WELCOME",
+          "point": true,
+          "size": 45,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.5
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 0,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.7,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "animation": 0,
+          "section": "",
+          "needInStartPromoActivity": true,
+          "nextPromoActivity": true,
+          "audio": "Language_choosing",
+          "text": "   to a world of other possibilities",
+          "point": true,
+          "size": 35,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.5
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 1
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 3.8,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    }
+  ]
+}

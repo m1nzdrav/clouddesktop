@@ -1,0 +1,676 @@
+{
+  "StartPages": [
+    1
+  ],
+  "Pages": [
+    {
+      "Number": 0,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "Circles": {
+            "Circle": [
+              {
+                "radius": 30.0,
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 1,
+                  "a": 0.7
+                }
+              },
+              {
+                "radius": 25.0,
+                "color": {
+                  "r": 0.92,
+                  "g": 0,
+                  "b": 1,
+                  "a": 0.7
+                }
+              }
+            ]
+          },
+          "button": "NextActivityPromo",
+          "currentPage": 0,
+          "audio": "现实_reality",
+          "section": "1.1",
+          "text": " 现实",
+          "point": true,
+          "size": 57,
+          "font": "Alibaba-PuHuiTi-Regular",
+          "color": {
+            "r": 0.2,
+            "g": 0.45,
+            "b": 0.95,
+            "a": 0.6
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.8,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "animation": 0,
+          "section": "",
+          "text": " ",
+          "point": false,
+          "size": 5,
+          "font": "Alibaba-PuHuiTi-Regular",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "childContents": [],
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 0
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "Circles": {
+            "Circle": [
+              {
+                "radius": 30.0,
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 1,
+                  "a": 0.7
+                }
+              },
+              {
+                "radius": 25.0,
+                "color": {
+                  "r": 0.92,
+                  "g": 0,
+                  "b": 1,
+                  "a": 0.7
+                }
+              }
+            ]
+          },
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "audio": "是无限_is infinitely",
+          "section": "",
+          "text": " 是无限",
+          "point": true,
+          "size": 57,
+          "font": "Alibaba-PuHuiTi-Regular",
+          "color": {
+            "r": 0.2,
+            "g": 0.45,
+            "b": 0.95,
+            "a": 0.6
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.8,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "animation": 0,
+          "section": "",
+          "text": " ",
+          "point": false,
+          "size": 5,
+          "font": "Alibaba-PuHuiTi-Regular",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "childContents": [],
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 0
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "Circles": {
+            "Circle": [
+              {
+                "radius": 20.0,
+                "color": {
+                  "r": 0.7490196228027344,
+                  "g": 0.09803922474384308,
+                  "b": 0.8313726186752319,
+                  "a": 0.27450981736183169
+                }
+              },
+              {
+                "radius": 15.0,
+                "color": {
+                  "r": 0.1,
+                  "g": 0.5,
+                  "b": 0.3,
+                  "a": 0.27450981736183169
+                }
+              }
+            ]
+          },
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "audio": "不同的_different",
+          "section": 0,
+          "text": " 不同的",
+          "point": true,
+          "size": 57,
+          "font": "Alibaba-PuHuiTi-Regular",
+          "color": {
+            "r": 0.2,
+            "g": 0.45,
+            "b": 0.95,
+            "a": 0.6
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.8,
+            "time": 2.9,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "animation": 0,
+          "section": "",
+          "text": " ",
+          "point": false,
+          "size": 45,
+          "font": "Alibaba-PuHuiTi-Regular",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 0
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "needInStartPromoActivity": true,
+          "nextPromoActivity": true,
+          "animation": 0,
+          "section": "",
+          "audio": "Language_choosing",
+          "text": " 科幻连续剧摄影",
+          "point": true,
+          "size": 45,
+          "font": "Alibaba-PuHuiTi-Regular",
+          "color": {
+            "r": 0.85,
+            "g": 0.29,
+            "b": 0.67,
+            "a": 0.6
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 1.5,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "animation": 0,
+          "section": "",
+          "audio": "",
+          "text": " 创建一个去中心化的",
+          "point": true,
+          "size": 45,
+          "font": "Alibaba-PuHuiTi-Regular",
+          "color": {
+            "r": 0.85,
+            "g": 0.29,
+            "b": 0.67,
+            "a": 0.6
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.8,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "animation": 0,
+          "section": "",
+          "audio": "",
+          "text": " 3D网络",
+          "point": true,
+          "size": 45,
+          "font": "Alibaba-PuHuiTi-Regular",
+          "color": {
+            "r": 0.85,
+            "g": 0.29,
+            "b": 0.67,
+            "a": 0.6
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.8,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "animation": 0,
+          "section": "",
+          "audio": "",
+          "text": " 实时",
+          "point": true,
+          "size": 45,
+          "font": "Alibaba-PuHuiTi-Regular",
+          "color": {
+            "r": 0.85,
+            "g": 0.29,
+            "b": 0.67,
+            "a": 0.6
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.8,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "Circles": {
+            "Circle": [
+              {
+                "radius": 20.0,
+                "color": {
+                  "r": 0.7490196228027344,
+                  "g": 0.09803922474384308,
+                  "b": 0.8313726186752319,
+                  "a": 0.27450981736183169
+                }
+              },
+              {
+                "radius": 50.0,
+                "color": {
+                  "r": 0.1,
+                  "g": 0.5,
+                  "b": 0.3,
+                  "a": 0.27450981736183169
+                }
+              }
+            ]
+          },
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "animation": 0,
+          "section": "",
+          "audio": "Opening",
+          "text": " 有观众参与",
+          "point": true,
+          "size": 45,
+          "font": "Alibaba-PuHuiTi-Regular",
+          "color": {
+            "r": 0.85,
+            "g": 0.29,
+            "b": 0.67,
+            "a": 0.6
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.8,
+            "time": 3.5,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "animation": 0,
+          "section": "",
+          "text": " ",
+          "point": false,
+          "size": 22,
+          "font": "Alibaba-PuHuiTi-Regular",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 0
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "needInStartPromoActivity": false,
+          "nextPromoActivity": true,
+          "animation": 0,
+          "section": "",
+          "audio": "",
+          "text": " 几个国家",
+          "point": true,
+          "size": 34,
+          "font": "Alibaba-PuHuiTi-Regular",
+          "color": {
+            "r": 0.85,
+            "g": 0.29,
+            "b": 0.67,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 1.5,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "animation": 0,
+          "section": "",
+          "audio": "",
+          "text": " 详细方案",
+          "point": true,
+          "size": 34,
+          "font": "Alibaba-PuHuiTi-Regular",
+          "color": {
+            "r": 0.85,
+            "g": 0.29,
+            "b": 0.67,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.8,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+
+        {
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "animation": 0,
+          "section": "",
+          "audio": "",
+          "text": " 几个摄制组",
+          "point": true,
+          "size": 34,
+          "font": "Alibaba-PuHuiTi-Regular",
+          "color": {
+            "r": 0.85,
+            "g": 0.29,
+            "b": 0.67,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.8,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "animation": 0,
+          "section": "",
+          "audio": "Opening",
+          "text": " 同时",
+          "point": true,
+          "size": 35,
+          "font": "Alibaba-PuHuiTi-Regular",
+          "color": {
+            "r": 0.85,
+            "g": 0.29,
+            "b": 0.67,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.8,
+            "time": 3.5,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "animation": 0,
+          "section": "",
+          "text": " ",
+          "point": false,
+          "size": 45,
+          "font": "Alibaba-PuHuiTi-Regular",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 0
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "animation": 0,
+          "section": "",
+          "text": " 欢迎",
+          "point": true,
+          "size": 45,
+          "font": "Alibaba-PuHuiTi-Regular",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.5
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 1.5,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "animation": 0,
+          "section": "",
+          "needInStartPromoActivity": true,
+          "nextPromoActivity": true,
+          "audio": "Language_choosing",
+          "text": " 进入一个充满其他可能性的世界",
+          "point": true,
+          "size": 35,
+          "font": "Alibaba-PuHuiTi-Regular",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.5
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 1
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 3.8,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    }
+  ]
+}

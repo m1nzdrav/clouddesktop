@@ -1,0 +1,2104 @@
+{
+  "StartPages": [
+    1
+  ],
+  "Pages": [
+    {
+      "Number": 1,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "button": "NextPage",
+          "autoNextPage": true,
+          "buttonPages": [
+            1,
+            2
+          ],
+          "text": " 想象一下",
+          "Circles": {
+            "Circle": [
+              {
+                "radius": 20,
+                "color": {
+                  "r": 0.7490196228027344,
+                  "g": 0.09803922474384308,
+                  "b": 0.8313726186752319,
+                  "a": 0.27450981736183167
+                }
+              },
+              {
+                "radius": 15,
+                "color": {
+                  "r": 0.13725490868091583,
+                  "g": 0.3764706254005432,
+                  "b": 0.8392157554626465,
+                  "a": 0.27450981736183167
+                }
+              }
+            ]
+          },
+          "contentInteractivity": {
+            "locker": "test",
+            "key": "test"
+          },
+          "needInStartPromoActivity": false,
+          "nextPromoActivity": false,
+          "sizeIsHeight": false,
+          "lightLamp": false,
+          "audio": "",
+          "height": 25,
+          "currentPage": 0,
+          "animation": 0,
+          "section": "",
+          "glowDot": false,
+          "sword": false,
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.5,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.3,
+            "time": 3,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    },
+    {
+      "Number": 2,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "button": "NextPage",
+          "autoNextPage": true,
+          "buttonPages": [
+            1,
+            2,
+            3
+          ],
+          "text": " 有人建议",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.5,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.3,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        }
+      ]
+    },
+    {
+      "Number": 3,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "Circles": {
+            "Circle": [
+              {
+                "radius": 20,
+                "color": {
+                  "r": 0.7490196228027344,
+                  "g": 0.09803922474384308,
+                  "b": 0.8313726186752319,
+                  "a": 0.27450981736183167
+                }
+              },
+              {
+                "radius": 15,
+                "color": {
+                  "r": 0.13725490868091583,
+                  "g": 0.3764706254005432,
+                  "b": 0.8392157554626465,
+                  "a": 0.27450981736183167
+                }
+              }
+            ]
+          },
+          "button": "NextPage",
+          "autoNextPage": true,
+          "buttonPages": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "text": " 重建互联网",
+          "Circles": {
+            "Circle": [
+              {
+                "radius": 20,
+                "color": {
+                  "r": 0.7490196228027344,
+                  "g": 0.09803922474384308,
+                  "b": 0.8313726186752319,
+                  "a": 0.27450981736183167
+                }
+              },
+              {
+                "radius": 15,
+                "color": {
+                  "r": 0.13725490868091583,
+                  "g": 0.3764706254005432,
+                  "b": 0.8392157554626465,
+                  "a": 0.27450981736183167
+                }
+              }
+            ]
+          },
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.5,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.3,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        }
+      ]
+    },
+    {
+      "Number": 4,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "button": "NextPage",
+          "autoNextPage": true,
+          "buttonPages": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "text": " 现在想象一下",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.5,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.3,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        }
+      ]
+    },
+    {
+      "Number": 5,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "button": "NextPage",
+          "autoNextPage": true,
+          "buttonPages": [
+            1,
+            2,
+            3,
+            6
+          ],
+          "text": " 你可以就此越过",
+          "Circles": {
+            "Circle": [
+              {
+                "radius": 20,
+                "color": {
+                  "r": 0.7490196228027344,
+                  "g": 0.09803922474384308,
+                  "b": 0.8313726186752319,
+                  "a": 0.27450981736183167
+                }
+              },
+              {
+                "radius": 15,
+                "color": {
+                  "r": 0.13725490868091583,
+                  "g": 0.3764706254005432,
+                  "b": 0.8392157554626465,
+                  "a": 0.27450981736183167
+                }
+              }
+            ]
+          },
+          "audio": "2. Menu Appearance",
+          "point": true,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.5,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.3,
+            "time": 3,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    },
+    {
+      "Number": 6,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": "",
+          "point": false,
+          "size": 15,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.6
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "nextPromoActivity": true,
+          "needInStartPromoActivity": true,
+          "text": "      10. 你受邀",
+          "contentInteractivity": {
+            "locker": "10_Introduction"
+          },
+          "commentContents": [
+            {
+              "text": "",
+              "size": 2,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 0.58,
+                "g": 0.96,
+                "b": 0.96,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.5,
+                "AnimationOpenType": 2,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.5,
+                "time": 2,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "       参与的",
+              "contentInteractivity": {
+                "locker": "10_Introduction"
+              },
+              "audio": "Next",
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.3,
+                "AnimationOpenType": 2,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.5,
+                "time": 1.5,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "       项目的",
+              "contentInteractivity": {
+                "locker": "10_Introduction"
+              },
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.3,
+                "AnimationOpenType": 1,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.2,
+                "time": 1.5,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "       基本要素",
+              "contentInteractivity": {
+                "locker": "10_Introduction",
+                "key": "10_Introduction"
+              },
+              "audio": "2. Menu Appearance",
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.3,
+                "AnimationOpenType": 1,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.2,
+                "time": 1.5,
+                "AnimationTextType": 0
+              }
+            }
+          ],
+          "button": "OpenContents",
+          "nextContents": "SceneInvitation_10_BasicEssence_",
+          "glowDot": true,
+          "point": true,
+          "sword": true,
+          "size": 30,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.5,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.5,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    },
+    {
+      "Number": 7,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": "",
+          "point": false,
+          "size": 5,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.6
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 1
+          }
+        }
+      ]
+    },
+    {
+      "Number": 8,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": "      9. 当今的互联网",
+          "contentInteractivity": {
+            "locker": "9_InternetToday"
+          },
+          "commentContents": [
+            {
+              "text": "",
+              "size": 2,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 0.58,
+                "g": 0.96,
+                "b": 0.96,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.5,
+                "AnimationOpenType": 2,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.5,
+                "time": 2,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "       或它存在什么",
+              "contentInteractivity": {
+                "locker": "9_InternetToday"
+              },
+              "audio": "Next",
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.3,
+                "AnimationOpenType": 2,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.5,
+                "time": 1.5,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "       问题",
+              "contentInteractivity": {
+                "locker": "9_InternetToday",
+                "key": "9_InternetToday"
+              },
+              "audio": "2. Menu Appearance",
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.3,
+                "AnimationOpenType": 1,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.2,
+                "time": 1.5,
+                "AnimationTextType": 0
+              }
+            }
+          ],
+          "button": "OpenContents",
+          "nextContents": "SceneInvitation_9_InternetToday_",
+          "glowDot": true,
+          "point": true,
+          "sword": true,
+          "size": 30,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.5,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.5,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    },
+    {
+      "Number": 9,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": "",
+          "point": false,
+          "size": 5,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.6
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 1
+          }
+        }
+      ]
+    },
+    {
+      "Number": 10,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": "      8. 新互联网",
+          "contentInteractivity": {
+            "locker": "8_NewInternet"
+          },
+          "commentContents": [
+            {
+              "text": "",
+              "size": 2,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 0.58,
+                "g": 0.96,
+                "b": 0.96,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.5,
+                "AnimationOpenType": 2,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.5,
+                "time": 2,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "       或者为什么",
+              "contentInteractivity": {
+                "locker": "8_NewInternet"
+              },
+              "audio": "Next",
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.3,
+                "AnimationOpenType": 2,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.5,
+                "time": 1.5,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "       是时候开始了",
+              "contentInteractivity": {
+                "locker": "8_NewInternet",
+                "key": "8_NewInternet"
+              },
+              "audio": "2. Menu Appearance",
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.3,
+                "AnimationOpenType": 1,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.2,
+                "time": 1.5,
+                "AnimationTextType": 0
+              }
+            }
+          ],
+          "button": "OpenContents",
+          "nextContents": "SceneInvitation_8_NewInternet_",
+          "glowDot": true,
+          "glowDot": true,
+          "point": true,
+          "sword": true,
+          "size": 30,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.5,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.5,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    },
+    {
+      "Number": 11,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": "",
+          "point": false,
+          "size": 5,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.6
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 1
+          }
+        }
+      ]
+    },
+    {
+      "Number": 12,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": "      7. 君临城",
+          "contentInteractivity": {
+            "locker": "7_RoyalHarbor"
+          },
+          "commentContents": [
+            {
+              "text": "",
+              "size": 2,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 0.58,
+                "g": 0.96,
+                "b": 0.96,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.5,
+                "AnimationOpenType": 2,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.5,
+                "time": 2,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "       或关于互联网",
+              "contentInteractivity": {
+                "locker": "7_RoyalHarbor"
+              },
+              "audio": "Next",
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.3,
+                "AnimationOpenType": 2,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.5,
+                "time": 1.5,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "       的童话",
+              "contentInteractivity": {
+                "locker": "7_RoyalHarbor",
+                "key": "7_RoyalHarbor"
+              },
+              "audio": "2. Menu Appearance",
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.3,
+                "AnimationOpenType": 1,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.2,
+                "time": 1.5,
+                "AnimationTextType": 0
+              }
+            }
+          ],
+          "button": "OpenContents",
+          "nextContents": "SceneInvitation_7_KingsLanding_",
+          "glowDot": true,
+          "point": true,
+          "sword": true,
+          "size": 30,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.5,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.5,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    },
+    {
+      "Number": 13,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": "",
+          "point": false,
+          "size": 5,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.6
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 1
+          }
+        }
+      ]
+    },
+    {
+      "Number": 14,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": "      6. 我们如何做到",
+          "contentInteractivity": {
+            "locker": "6_How"
+          },
+          "commentContents": [
+            {
+              "text": "",
+              "size": 2,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 0.58,
+                "g": 0.96,
+                "b": 0.96,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.5,
+                "AnimationOpenType": 2,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.5,
+                "time": 2,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "       或新互联网",
+              "contentInteractivity": {
+                "locker": "6_How"
+              },
+              "audio": "Next",
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.3,
+                "AnimationOpenType": 2,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.5,
+                "time": 1.5,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "       的架构",
+              "contentInteractivity": {
+                "locker": "6_How",
+                "key": "6_How"
+              },
+              "audio": "2. Menu Appearance",
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.3,
+                "AnimationOpenType": 1,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.2,
+                "time": 1.5,
+                "AnimationTextType": 0
+              }
+            }
+          ],
+          "button": "OpenContents",
+          "nextContents": "SceneInvitation_6_How_",
+          "glowDot": true,
+          "point": true,
+          "sword": true,
+          "size": 30,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.5,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.5,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    },
+    {
+      "Number": 15,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": "",
+          "point": false,
+          "size": 5,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.6
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.5,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.5,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    },
+    {
+      "Number": 16,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": "      5. 互联网是由我们主导的",
+          "contentInteractivity": {
+            "locker": "5_Us"
+          },
+          "commentContents": [
+            {
+              "text": "",
+              "size": 2,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 0.58,
+                "g": 0.96,
+                "b": 0.96,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.5,
+                "AnimationOpenType": 2,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.5,
+                "time": 2,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "       或用户如何",
+              "contentInteractivity": {
+                "locker": "5_Us"
+              },
+              "audio": "Next",
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.3,
+                "AnimationOpenType": 2,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.5,
+                "time": 1.5,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "       成为互联网的主人",
+              "contentInteractivity": {
+                "locker": "5_Us",
+                "key": "5_Us"
+              },
+              "audio": "2. Menu Appearance",
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.3,
+                "AnimationOpenType": 1,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.2,
+                "time": 1.5,
+                "AnimationTextType": 0
+              }
+            }
+          ],
+          "button": "OpenContents",
+          "nextContents": "SceneInvitation_5_Us_",
+          "glowDot": true,
+          "point": true,
+          "sword": true,
+          "size": 30,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.5,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.5,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    },
+    {
+      "Number": 17,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": "",
+          "point": false,
+          "size": 5,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.6
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 1
+          }
+        }
+      ]
+    },
+    {
+      "Number": 18,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": "      4. 互动系列",
+          "contentInteractivity": {
+            "locker": "4_Series"
+          },
+          "commentContents": [
+            {
+              "text": "",
+              "size": 2,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 0.58,
+                "g": 0.96,
+                "b": 0.96,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.5,
+                "AnimationOpenType": 2,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.5,
+                "time": 2,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "       或百闻",
+              "contentInteractivity": {
+                "locker": "4_Series"
+              },
+              "audio": "Next",
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.3,
+                "AnimationOpenType": 2,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.5,
+                "time": 1.5,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "       不如一见",
+              "contentInteractivity": {
+                "locker": "4_Series",
+                "key": "4_Series"
+              },
+              "audio": "2. Menu Appearance",
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.3,
+                "AnimationOpenType": 1,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.2,
+                "time": 1.5,
+                "AnimationTextType": 0
+              }
+            }
+          ],
+          "button": "OpenContents",
+          "nextContents": "SceneInvitation_4_Series_",
+          "glowDot": true,
+          "point": true,
+          "sword": true,
+          "size": 30,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.5,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.5,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    },
+    {
+      "Number": 19,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": "",
+          "point": false,
+          "size": 5,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.6
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 1
+          }
+        }
+      ]
+    },
+    {
+      "Number": 20,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": "      3. 演示该系列",
+          "contentInteractivity": {
+            "locker": "3_Steam"
+          },
+          "commentContents": [
+            {
+              "text": "",
+              "size": 2,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 0.58,
+                "g": 0.96,
+                "b": 0.96,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.5,
+                "AnimationOpenType": 2,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.5,
+                "time": 2,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "       或观众的",
+              "contentInteractivity": {
+                "locker": "3_Steam"
+              },
+              "audio": "Next",
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.3,
+                "AnimationOpenType": 2,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.5,
+                "time": 1.5,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "       梦想",
+              "contentInteractivity": {
+                "locker": "3_Steam",
+                "key": "3_Steam"
+              },
+              "audio": "2. Menu Appearance",
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.3,
+                "AnimationOpenType": 1,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.2,
+                "time": 1.5,
+                "AnimationTextType": 0
+              }
+            }
+          ],
+          "button": "OpenContents",
+          "nextContents": "SceneInvitation_3_Stream_",
+          "glowDot": true,
+          "point": true,
+          "sword": true,
+          "size": 30,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.5,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.5,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    },
+    {
+      "Number": 21,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": "",
+          "point": false,
+          "size": 5,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.6
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 1
+          }
+        }
+      ]
+    },
+    {
+      "Number": 22,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": "      2. 资金和观众",
+          "contentInteractivity": {
+            "locker": "2_Funding"
+          },
+          "commentContents": [
+            {
+              "text": "",
+              "size": 2,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 0.58,
+                "g": 0.96,
+                "b": 0.96,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.5,
+                "AnimationOpenType": 2,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.5,
+                "time": 2,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "       或投注",
+              "contentInteractivity": {
+                "locker": "2_Funding"
+              },
+              "audio": "Next",
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.3,
+                "AnimationOpenType": 2,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.5,
+                "time": 1.5,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "       或没有公司的投资",
+              "contentInteractivity": {
+                "locker": "2_Funding",
+                "key": "2_Funding"
+              },
+              "audio": "2. Menu Appearance",
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.3,
+                "AnimationOpenType": 1,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.2,
+                "time": 1.5,
+                "AnimationTextType": 0
+              }
+            }
+          ],
+          "button": "OpenContents",
+          "nextContents": "SceneInvitation_2_Funding_",
+          "glowDot": true,
+          "point": true,
+          "sword": true,
+          "size": 30,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.5,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.5,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    },
+    {
+      "Number": 23,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": "",
+          "point": false,
+          "size": 5,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.6
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 1
+          }
+        }
+      ]
+    },
+    {
+      "Number": 24,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": "      1. 最后一部分",
+          "contentInteractivity": {
+            "locker": "1_FinalPart"
+          },
+          "commentContents": [
+            {
+              "text": "",
+              "size": 2,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 0.58,
+                "g": 0.96,
+                "b": 0.96,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.5,
+                "AnimationOpenType": 2,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.5,
+                "time": 2,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "       或者为什么",
+              "contentInteractivity": {
+                "locker": "1_FinalPart"
+              },
+              "audio": "Next",
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.3,
+                "AnimationOpenType": 2,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.5,
+                "time": 1.5,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "       是时候开始了",
+              "contentInteractivity": {
+                "locker": "1_FinalPart",
+                "key": "1_FinalPart"
+              },
+              "audio": "2. Menu Appearance",
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.3,
+                "AnimationOpenType": 1,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.2,
+                "time": 1.5,
+                "AnimationTextType": 0
+              }
+            }
+          ],
+          "button": "OpenContents",
+          "nextContents": "SceneInvitation_1_FinalPart_",
+          "glowDot": true,
+          "point": true,
+          "sword": true,
+          "size": 30,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.5,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.5,
+            "time": 2,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    },
+    {
+      "Number": 25,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": "",
+          "point": false,
+          "size": 15,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.6
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 1
+          }
+        }
+      ]
+    },
+    {
+      "Number": 26,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": "  СЛЕДУЙ",
+          "contentInteractivity": {
+            "locker": "Follow"
+          },
+          "commentContents": [
+            {
+              "text": "",
+              "size": 2,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 0.58,
+                "g": 0.96,
+                "b": 0.96,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.5,
+                "AnimationOpenType": 2,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.5,
+                "time": 2,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "text": "       那只白兔",
+              "contentInteractivity": {
+                "locker": "Follow",
+                "key": "Follow"
+              },
+              "audio": "2. Menu Appearance",
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.9
+              },
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0.3,
+                "AnimationOpenType": 1,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.2,
+                "time": 3,
+                "AnimationTextType": 0
+              }
+            }
+          ],
+          "button": "NextActivityPromo",
+          "audio": "Next",
+          "glowDot": true,
+          "point": true,
+          "sword": true,
+          "size": 30,
+          "font": "Jura-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0.5,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.8,
+            "time": 3.3,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    },
+    {
+      "Number": 27,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "text": "",
+          "point": false,
+          "size": 0,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 0.2,
+            "g": 0.7,
+            "b": 0.95,
+            "a": 0.5
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    }
+  ]
+}

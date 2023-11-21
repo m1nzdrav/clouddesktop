@@ -1,0 +1,445 @@
+{
+  "Key": [
+    {
+      "MYTId": "Enter password35",
+      "MYTName": "Enter password",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "6",
+          "MYTName": "Введите Второй Гостевой Пароль",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Enter password35",
+      "MYTName": "PlatformAds",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "6",
+          "MYTName": "PLATFORM \nРекламный токен",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Home96",
+      "MYTName": "Home",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "Home65",
+          "MYTName": "Дом",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Home96",
+      "MYTName": "Music",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "Home65",
+          "MYTName": "Музыка:",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Home96",
+      "MYTName": "Right",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "Home65",
+          "MYTName": "Право",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Home96",
+      "MYTName": "Balance",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "Home65",
+          "MYTName": "Баланс",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Home96",
+      "MYTName": "error",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "Home65",
+          "MYTName": "Лево",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Home96",
+      "MYTName": "Left",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "Home65",
+          "MYTName": "Лево",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Home96",
+      "MYTName": "More",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "Home65",
+          "MYTName": "Подробнее",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Menu0",
+      "MYTName": "Menu",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "Menu48",
+          "MYTName": "Меню",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "What12",
+      "MYTName": "What",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "What35",
+          "MYTName": "Что",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "When46",
+      "MYTName": "When",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "When52",
+          "MYTName": "Когда",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Who16",
+      "MYTName": "Who",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "Who16",
+          "MYTName": "Кто",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Where57",
+      "MYTName": "Where",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "Where23",
+          "MYTName": "Где",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Next39",
+      "MYTName": "Next",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "Button67",
+          "MYTName": "Далее",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Next39",
+      "MYTName": "Balance",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "Button67",
+          "MYTName": "Баланс",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Language23",
+      "MYTName": "Language",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "LANGUAGE35",
+          "MYTName": "LANGUAGE",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Language23",
+      "MYTName": "Video",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "LANGUAGE35",
+          "MYTName": "Видео",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Language23",
+      "MYTName": "Continue",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "LANGUAGE35",
+          "MYTName": "Продолжение следует",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Home96",
+      "MYTName": "Follow",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "Home65",
+          "MYTName": "Следуй",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Home96",
+      "MYTName": "Soon",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "Home65",
+          "MYTName": "Скоро",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    }
+  ]
+}

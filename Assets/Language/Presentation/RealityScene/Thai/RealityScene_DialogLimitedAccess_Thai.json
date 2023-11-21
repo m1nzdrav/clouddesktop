@@ -1,0 +1,258 @@
+{
+  "font": "TH Sarabun New Regular",
+  "singleTexts": [
+    {
+      "question": "ในขั้นตอนนี้ การเข้าถึงแพลตฟอร์มถูกจำกัด",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "รหัสการเข้าถึงชุดแรกจะมอบให้กับ",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "พันธมิตรและผู้เข้าร่วมโครงการแรก",
+      "variantAnswer": [
+        "ฉันต้องการมีส่วนร่วมในโครงการ",
+        "ดำเนินการต่อไปตามเดิม"
+      ],
+      "childDialogModels": [
+        {
+          "key": "ฉันต้องการมีส่วนร่วมในโครงการ",
+          "question": "มี 6 ด้านที่แตกต่างกันที่คุณสามารถร่วมมือกับเราได้ในขั้นตอนนี้",
+          "onlyAnswer": true,
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "ฉันต้องการมีส่วนร่วมในโครงการ",
+          "question": "ส่วนรายการอื่น ๆ จะพร้อมให้บริการในภายหลัง",
+          "onlyAnswer": true,
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "ฉันต้องการมีส่วนร่วมในโครงการ",
+          "question": "เลือกหนึ่งหรือหลาย ๆ ด้าน",
+          "allVariant": true,
+          "keyRef": "SendDirection",
+          "variantAnswer": [
+            "ตัวแทนอุตสาหกรรมภาพยนตร์",
+            "บล็อกเกอร์ อินฟลูเอนเซอร์",
+            "นักลงทุนเหรียญคริปโต",
+            "ตัวแทน Tech หรือ IT Park",
+            "ตัวแทนโครงสร้างของรัฐ",
+            "ผู้ใช้ที่ใช้งานพร้อมที่จะพัฒนาชุมชนของคุณเอง",
+            "ฉันไม่ได้อยู่ที่นี่"
+          ],
+          "childDialogModels": [
+            {
+              "key": "default",
+              "question": "เลือกประเทศของคุณ",
+              "keyRef": "SendCountry",
+              "dropdownDialog": {
+                "nameDropdown": "CC_Thai",
+                "nameField": "name",
+                "nameFirstElement": "ประเทศ"
+              },
+              "variantAnswer": [
+              ],
+              "childDialogModels": [
+                {
+                  "key": "default",
+                  "question": "โปรดให้ลิงก์ไปยังหน้าโซเชียลมีเดียของคุณกับเรา",
+                  "onlyAnswer": true,
+                  "variantAnswer": [
+                  ],
+                  "childDialogModels": [],
+                  "answer": ""
+                },
+                {
+                  "key": "default",
+                  "question": "หนึ่งในนั้นคือช่วยให้เราเรียนรู้เกี่ยวกับตัวคุณมากขึ้น",
+                  "keyRef": "SendLink",
+                  "errorText": {
+                    "textError": "ใช้ตัวเลขและตัวอักษรละติน",
+                    "accessTexts": [
+                      0,
+                      1,
+                      2
+                    ]
+                  },
+                  "variantAnswer": [
+                  ],
+                  "childDialogModels": [
+                    {
+                      "key": "default",
+                      "question": "ป้อนที่อยู่อีเมลของคุณหรือ Telegram ID",
+                      "variantAnswer": [
+                        "อีเมล",
+                        "Telegram"
+                      ],
+                      "childDialogModels": [
+                        {
+                          "key": "อีเมล",
+                          "question": "ป้อนที่อยู่อีเมลของคุณ",
+                          "keyRef": "SetEmail",
+                          "errorText": {
+                            "textError": "ใช้ตัวเลขและตัวอักษรละติน",
+                            "accessTexts": [
+                              0,
+                              1,
+                              2
+                            ]
+                          },
+                          "variantAnswer": [
+                          ],
+                          "childDialogModels": [
+                            {
+                              "key": "default",
+                              "label": "email",
+                              "question": "ขอบคุณ",
+                              "onlyAnswer": true,
+                              "variantAnswer": [
+                              ],
+                              "childDialogModels": [],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "ถ้าสวรรค์มาโปรด",
+                              "onlyAnswer": true,
+                              "refAfter": true,
+                              "keyRef": "SendEmail",
+                              "variantAnswer": [
+                              ],
+                              "childDialogModels": [],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "ความร่วมมือก็จะเริ่มในไม่ช้า",
+                              "onlyAnswer": true,
+                              "variantAnswer": [
+                              ],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "โปรดรอ เราจะติดต่อกลับไป",
+                              "variantAnswer": [
+                                "ดำเนินการต่อ"
+                              ],
+                              "childDialogModels": [
+                                {
+                                  "key": "ดำเนินการต่อ",
+                                  "question": "ดำเนินการต่อ",
+                                  "needUnlock": true,
+                                  "onlyAnswer": true,
+                                  "nextAction": true,
+                                  "variantAnswer": [
+                                  ],
+                                  "answer": ""
+                                }
+                              ]
+                            }
+                          ],
+                          "answer": ""
+                        },
+                        {
+                          "key": "Telegram",
+                          "question": "ป้อน Telegram ID ของคุณ",
+                          "keyRef": "SetEmail",
+                          "errorText": {
+                            "textError": "ใช้ตัวเลขและตัวอักษรละติน",
+                            "accessTexts": [
+                              0,
+                              1,
+                              2
+                            ]
+                          },
+                          "variantAnswer": [
+                          ],
+                          "childDialogModels": [
+                            {
+                              "key": "default",
+                              "label": "email",
+                              "question": "ขอบคุณ",
+                              "onlyAnswer": true,
+                              "variantAnswer": [
+                              ],
+                              "childDialogModels": [],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "ถ้าสวรรค์มาโปรด",
+                              "onlyAnswer": true,
+                              "refAfter": true,
+                              "keyRef": "SendEmail",
+                              "variantAnswer": [
+                              ],
+                              "childDialogModels": [],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "ความร่วมมือก็จะเริ่มในไม่ช้า",
+                              "onlyAnswer": true,
+                              "variantAnswer": [
+                              ],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "โปรดรอ เราจะติดต่อกลับไป",
+                              "variantAnswer": [
+                                "ดำเนินการต่อ"
+                              ],
+                              "childDialogModels": [
+                                {
+                                  "key": "ดำเนินการต่อ",
+                                  "question": "ดำเนินการต่อ",
+                                  "needUnlock": true,
+                                  "onlyAnswer": true,
+                                  "nextAction": true,
+                                  "variantAnswer": [
+                                  ],
+                                  "answer": ""
+                                }
+                              ]
+                            }
+                          ],
+                          "answer": ""
+                        }
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "answer": ""
+                }
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "key": "ดำเนินการต่อไปตามเดิม",
+          "question": "ดำเนินการต่อ",
+          "needUnlock": true,
+          "onlyAnswer": true,
+          "nextAction": true,
+          "variantAnswer": [
+          ],
+          "answer": ""
+        }
+      ],
+      "answer": ""
+    }
+  ]
+}

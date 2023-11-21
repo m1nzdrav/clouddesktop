@@ -1,0 +1,652 @@
+{
+  "StartPages": [
+    1
+  ],
+  "Pages": [
+    {
+      "Number": 1,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "Circles": {
+            "Circle": [
+              {
+                "radius": 20,
+                "color": {
+                  "r": 0.7490196228027344,
+                  "g": 0.09803922474384308,
+                  "b": 0.8313726186752319,
+                  "a": 0.27450981736183167
+                }
+              },
+              {
+                "radius": 15,
+                "color": {
+                  "r": 0.13725490868091583,
+                  "g": 0.3764706254005432,
+                  "b": 0.8392157554626465,
+                  "a": 0.27450981736183167
+                }
+              }
+            ]
+          },
+          "lightLamp": true,
+          "audio": "",
+          "section": "1.1",
+          "text": " معرفة كيفية التحرك",
+          "point": true,
+          "size": 34,
+          "font": "Jost-Light",
+          "color": {
+            "r": 0.85,
+            "g": 0.29,
+            "b": 0.67,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.8,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "animation": 0,
+          "text": " من دون توقف",
+          "point": true,
+          "size": 34,
+          "font": "Jost-Light",
+          "color": {
+            "r": 0.85,
+            "g": 0.29,
+            "b": 0.67,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.8,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "animation": 0,
+          "text": " دائمًا أفضل من التسرع",
+          "point": true,
+          "size": 34,
+          "font": "Jost-Light",
+          "color": {
+            "r": 0.85,
+            "g": 0.29,
+            "b": 0.67,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.8,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "animation": 0,
+          "section": "",
+          "text": " ",
+          "point": false,
+          "size": 40,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 0
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "Circles": {
+            "Circle": [
+              {
+                "radius": 20,
+                "color": {
+                  "r": 0.7490196228027344,
+                  "g": 0.09803922474384308,
+                  "b": 0.8313726186752319,
+                  "a": 0.27450981736183167
+                }
+              },
+              {
+                "radius": 15,
+                "color": {
+                  "r": 0.13725490868091583,
+                  "g": 0.3764706254005432,
+                  "b": 0.8392157554626465,
+                  "a": 0.27450981736183167
+                }
+              }
+            ]
+          },
+          "audio": "",
+          "section": "",
+          "text": " اتبع الأرنب الأبيض",
+          "needGong": true,
+          "glowDot": true,
+          "point": true,
+          "sword": true,
+          "size": 33,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.9
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.8,
+            "time": 4.5,
+            "AnimationTextType": 0
+          },
+          "childContents": [
+            {
+              "button": "",
+              "buttonPages": [],
+              "currentPage": 0,
+              "animation": 0,
+              "section": "",
+              "text": " ",
+              "point": false,
+              "size": 40,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              },
+              "childContents": [],
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0,
+                "AnimationOpenType": 1,
+                "numberText": [],
+                "countShake": 0
+              },
+              "animationTextJson": {
+                "delay": 0,
+                "time": 0,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "button": "",
+              "buttonPages": [],
+              "currentPage": 0,
+              "animation": 0,
+              "section": "",
+              "text": "    منصات",
+              "contentInteractivity": {
+                "locker": "Follow"
+              },
+              "commentContents": [
+                {
+                  "text": "",
+                  "currentPage": 0,
+                  "animation": 0,
+                  "section": " ",
+                  "size": 5,
+                  "font": "Jost-VariableFont_wght",
+                  "color": {
+                    "r": 0.58,
+                    "g": 0.96,
+                    "b": 0.96,
+                    "a": 0.9
+                  },
+                  "animationPointJson": {
+                    "delay": 0,
+                    "time": 0.5,
+                    "AnimationOpenType": 2,
+                    "numberText": [],
+                    "countShake": 2
+                  },
+                  "animationTextJson": {
+                    "delay": 0.8,
+                    "time": 2,
+                    "AnimationTextType": 0
+                  }
+                },
+                {
+                  "text": "     دخول موحّد من خلال جميع الأجهزة",
+                  "contentInteractivity": {
+                    "locker": "Follow"
+                  },
+                  "audio": "Next",
+                  "currentPage": 0,
+                  "animation": 0,
+                  "section": "",
+                  "size": 20,
+                  "font": "Jost-VariableFont_wght",
+                  "color": {
+                    "r": 0.58,
+                    "g": 0.96,
+                    "b": 0.96,
+                    "a": 0.9
+                  },
+                  "animationPointJson": {
+                    "delay": 0,
+                    "time": 0.5,
+                    "AnimationOpenType": 2,
+                    "numberText": [],
+                    "countShake": 2
+                  },
+                  "animationTextJson": {
+                    "delay": 0.8,
+                    "time": 2,
+                    "AnimationTextType": 0
+                  }
+                }
+              ],
+              "point": true,
+              "glowDot": true,
+              "sword": true,
+              "size": 28,
+              "font": "Jura-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.7
+              },
+              "childContents": [
+                {
+                  "button": "",
+                  "buttonPages": [],
+                  "currentPage": 0,
+                  "animation": 0,
+                  "section": "",
+                  "text": "   ",
+                  "point": false,
+                  "size": 9,
+                  "font": "Jost-VariableFont_wght",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
+                  }
+                },
+                {
+                  "button": "",
+                  "buttonPages": [],
+                  "currentPage": 0,
+                  "animation": 0,
+                  "section": "",
+                  "text": "  ",
+                  "typeContentIcon": "Platform",
+                  "point": false,
+                  "size": 280,
+                  "font": "Jost-VariableFont_wght",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
+                  },
+                  "childContents": [],
+                  "animationPointJson": {
+                    "delay": 0,
+                    "time": 1,
+                    "AnimationOpenType": 2,
+                    "numberText": [],
+                    "countShake": 2
+                  },
+                  "animationTextJson": {
+                    "delay": 0.8,
+                    "time": 0.1,
+                    "AnimationTextType": 1
+                  }
+                }
+              ],
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0,
+                "AnimationOpenType": 1,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.8,
+                "time": 0.1,
+                "AnimationTextType": 1
+              }
+            },
+            {
+              "button": "",
+              "buttonPages": [],
+              "currentPage": 0,
+              "animation": 0,
+              "section": "",
+              "text": " ",
+              "point": false,
+              "size": 20,
+              "font": "Jost-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              },
+              "childContents": [],
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0,
+                "AnimationOpenType": 1,
+                "numberText": [],
+                "countShake": 0
+              },
+              "animationTextJson": {
+                "delay": 0,
+                "time": 0,
+                "AnimationTextType": 0
+              }
+            },
+            {
+              "button": "NextPage",
+              "buttonPages": [
+                1,
+                2
+              ],
+              "currentPage": 0,
+              "animation": 0,
+              "section": "",
+              "text": "    رُسُل",
+              "contentInteractivity": {
+                "locker": "Follow"
+              },
+              "commentContents": [
+                {
+                  "text": "",
+                  "currentPage": 0,
+                  "animation": 0,
+                  "section": " ",
+                  "size": 5,
+                  "font": "Jost-VariableFont_wght",
+                  "color": {
+                    "r": 0.58,
+                    "g": 0.96,
+                    "b": 0.96,
+                    "a": 0.9
+                  },
+                  "animationPointJson": {
+                    "delay": 0,
+                    "time": 0.5,
+                    "AnimationOpenType": 2,
+                    "numberText": [],
+                    "countShake": 2
+                  },
+                  "animationTextJson": {
+                    "delay": 0.8,
+                    "time": 2,
+                    "AnimationTextType": 0
+                  }
+                },
+                {
+                  "text": "     أخبار/رموز دخول أولي",
+                  "contentInteractivity": {
+                    "locker": "Follow",
+                    "key": "Follow"
+                  },
+                  "audio": "2. Menu Appearance",
+                  "currentPage": 0,
+                  "animation": 0,
+                  "section": "",
+                  "size": 20,
+                  "font": "Jost-VariableFont_wght",
+                  "color": {
+                    "r": 0.58,
+                    "g": 0.96,
+                    "b": 0.96,
+                    "a": 0.9
+                  },
+                  "animationPointJson": {
+                    "delay": 0,
+                    "time": 0.5,
+                    "AnimationOpenType": 2,
+                    "numberText": [],
+                    "countShake": 2
+                  },
+                  "animationTextJson": {
+                    "delay": 0.8,
+                    "time": 2,
+                    "AnimationTextType": 0
+                  }
+                }
+              ],
+              "point": true,
+              "sword": true,
+              "glowDot": true,
+              "size": 28,
+              "font": "Jura-VariableFont_wght",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.7
+              },
+              "childContents": [
+                {
+                  "button": "",
+                  "buttonPages": [],
+                  "currentPage": 0,
+                  "animation": 0,
+                  "section": "",
+                  "text": "   ",
+                  "point": false,
+                  "size": 10,
+                  "font": "Jost-VariableFont_wght",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
+                  }
+                },
+                {
+                  "button": "",
+                  "buttonPages": [],
+                  "currentPage": 0,
+                  "animation": 0,
+                  "section": "",
+                  "text": "   ",
+                  "typeContentIcon": "Social",
+                  "point": false,
+                  "size": 170,
+                  "font": "Jost-VariableFont_wght",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
+                  }
+                }
+              ],
+              "animationPointJson": {
+                "delay": 0,
+                "time": 0,
+                "AnimationOpenType": 1,
+                "numberText": [],
+                "countShake": 2
+              },
+              "animationTextJson": {
+                "delay": 0.8,
+                "time": 0.1,
+                "AnimationTextType": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Number": 2,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "animation": 0,
+          "section": "",
+          "text": " ",
+          "point": false,
+          "size": 60,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 0
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "nextPromoActivity": true,
+          "animation": 0,
+          "section": "",
+          "text": " هذا كل شيء الآن",
+          "point": true,
+          "size": 34,
+          "font": "Jost-Light",
+          "color": {
+            "r": 0.85,
+            "g": 0.29,
+            "b": 0.67,
+            "a": 0.7
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.8,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "animation": 0,
+          "section": "",
+          "text": " ",
+          "point": false,
+          "size": 10,
+          "font": "Jost-VariableFont_wght",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 0
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "animation": 0,
+          "text": " أكمل",
+          "contentSceneLocker": {
+            "locker": "MainScene_DialogFollow_"
+          },
+          "glowDot": true,
+          "point": true,
+          "size": 33,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.9
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.8,
+            "time": 4,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    }
+  ]
+}

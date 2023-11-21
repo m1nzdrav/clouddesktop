@@ -1,0 +1,258 @@
+{
+  "font": "Jost-Light",
+  "singleTexts": [
+    {
+      "question": "Pada tahap ini, akses ke Platform terbatas",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Kode akses pertama akan diberikan kepada",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Para Mitra dan peserta awal dalam Proyek ini",
+      "variantAnswer": [
+        "Saya ingin ambil bagian dalam Proyek ini",
+        "Lanjutkan apa adanya"
+      ],
+      "childDialogModels": [
+        {
+          "key": "Saya ingin ambil bagian dalam Proyek ini",
+          "question": "Ada 6 bidang yang berbeda yang dapat Anda jalankan bersama kami pada tahap ini",
+          "onlyAnswer": true,
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Saya ingin ambil bagian dalam Proyek ini",
+          "question": "Bidang yang lain akan tersedia tidak lama lagi",
+          "onlyAnswer": true,
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Saya ingin ambil bagian dalam Proyek ini",
+          "question": "Pilih satu atau beberapa bidang",
+          "allVariant": true,
+          "keyRef": "SendDirection",
+          "variantAnswer": [
+            "Perwakilan industri film",
+            "Bloger, pemengaruh",
+            "Investor kripto",
+            "Perwakilan taman teknologi atau taman TI",
+            "Perwakilan struktur negara",
+            "Pengguna aktif, siap mengembangkan Komunitas Anda sendiri",
+            "Saya tidak di sini"
+          ],
+          "childDialogModels": [
+            {
+              "key": "default",
+              "question": "Pilih negara Anda",
+              "keyRef": "SendCountry",
+              "dropdownDialog": {
+                "nameDropdown": "CC_Indonesian",
+                "nameField": "name",
+                "nameFirstElement": "Negara"
+              },
+              "variantAnswer": [
+              ],
+              "childDialogModels": [
+                {
+                  "key": "default",
+                  "question": "Harap berikan tautan kepada kami ke salah satu dari halaman media sosial Anda",
+                  "onlyAnswer": true,
+                  "variantAnswer": [
+                  ],
+                  "childDialogModels": [],
+                  "answer": ""
+                },
+                {
+                  "key": "default",
+                  "question": "Yang memungkinkan kami untuk mempelajari lebih lanjut tentang Anda",
+                  "keyRef": "SendLink",
+                  "errorText": {
+                    "textError": "Gunakan angka dan huruf Latin",
+                    "accessTexts": [
+                      0,
+                      1,
+                      2
+                    ]
+                  },
+                  "variantAnswer": [
+                  ],
+                  "childDialogModels": [
+                    {
+                      "key": "default",
+                      "question": "Masukkan alamat email atau ID Telegram Anda",
+                      "variantAnswer": [
+                        "Email",
+                        "Telegram"
+                      ],
+                      "childDialogModels": [
+                        {
+                          "key": "Email",
+                          "question": "Masukkan alamat email Anda",
+                          "keyRef": "SetEmail",
+                          "errorText": {
+                            "textError": "Gunakan angka dan huruf Latin",
+                            "accessTexts": [
+                              0,
+                              1,
+                              2
+                            ]
+                          },
+                          "variantAnswer": [
+                          ],
+                          "childDialogModels": [
+                            {
+                              "key": "default",
+                              "label": "email",
+                              "question": "Terima kasih",
+                              "onlyAnswer": true,
+                              "variantAnswer": [
+                              ],
+                              "childDialogModels": [],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "Kalau tidak ada halangan",
+                              "onlyAnswer": true,
+                              "refAfter": true,
+                              "keyRef": "SendEmail",
+                              "variantAnswer": [
+                              ],
+                              "childDialogModels": [],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "Kerjasama akan segera dimulai",
+                              "onlyAnswer": true,
+                              "variantAnswer": [
+                              ],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "Mohon tunggu. Kami akan segera menghubungi.",
+                              "variantAnswer": [
+                                "Lanjutkan"
+                              ],
+                              "childDialogModels": [
+                                {
+                                  "key": "Lanjutkan",
+                                  "question": "Lanjutkan",
+                                  "needUnlock": true,
+                                  "onlyAnswer": true,
+                                  "nextAction": true,
+                                  "variantAnswer": [
+                                  ],
+                                  "answer": ""
+                                }
+                              ]
+                            }
+                          ],
+                          "answer": ""
+                        },
+                        {
+                          "key": "Telegram",
+                          "question": "Masukkan ID Telegram Anda",
+                          "keyRef": "SetEmail",
+                          "errorText": {
+                            "textError": "Gunakan angka dan huruf Latin",
+                            "accessTexts": [
+                              0,
+                              1,
+                              2
+                            ]
+                          },
+                          "variantAnswer": [
+                          ],
+                          "childDialogModels": [
+                            {
+                              "key": "default",
+                              "label": "email",
+                              "question": "Terima kasih",
+                              "onlyAnswer": true,
+                              "variantAnswer": [
+                              ],
+                              "childDialogModels": [],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "Kalau tidak ada halangan",
+                              "onlyAnswer": true,
+                              "refAfter": true,
+                              "keyRef": "SendEmail",
+                              "variantAnswer": [
+                              ],
+                              "childDialogModels": [],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "Kerjasama akan segera dimulai",
+                              "onlyAnswer": true,
+                              "variantAnswer": [
+                              ],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "Mohon tunggu. Kami akan segera menghubungi.",
+                              "variantAnswer": [
+                                "Lanjutkan"
+                              ],
+                              "childDialogModels": [
+                                {
+                                  "key": "Lanjutkan",
+                                  "question": "Lanjutkan",
+                                  "needUnlock": true,
+                                  "onlyAnswer": true,
+                                  "nextAction": true,
+                                  "variantAnswer": [
+                                  ],
+                                  "answer": ""
+                                }
+                              ]
+                            }
+                          ],
+                          "answer": ""
+                        }
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "answer": ""
+                }
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Lanjutkan apa adanya",
+          "question": "Lanjutkan",
+          "needUnlock": true,
+          "onlyAnswer": true,
+          "nextAction": true,
+          "variantAnswer": [
+          ],
+          "answer": ""
+        }
+      ],
+      "answer": ""
+    }
+  ]
+}

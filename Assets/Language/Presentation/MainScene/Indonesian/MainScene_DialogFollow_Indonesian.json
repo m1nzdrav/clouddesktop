@@ -1,0 +1,389 @@
+{
+  "font": "Jost-Light",
+  "singleTexts": [
+    {
+      "question": "Anda telah menerima akses uji coba",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Jadi ",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Saya ingin mengenal Anda",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "di antara para mitra Proyek ini",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Jadi ",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Apakah Anda sudah memiliki detail kontak atasan saya",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Atau saya dapat memberikan kontak itu kepada Anda",
+      "variantAnswer": [
+        "Terima kasih, ya, saya sudah mendapatkan detail kontak mereka",
+        "Saya tidak memiliki detail kontak mereka",
+        "Untuk apa saya memerlukan detail kontak atasan Anda?"
+      ],
+      "childDialogModels": [
+        
+        {
+          "key": "Terima kasih, ya, saya sudah mendapatkan detail kontak mereka",
+          "question": "Oke",
+          "onlyAnswer": true,
+          "childDialogModels": [
+          ],
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Terima kasih, ya, saya sudah mendapatkan detail kontak mereka",
+          "question": "Salam hormat",
+          "onlyAnswer": true,
+          "childDialogModels": [
+          ],
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Terima kasih, ya, saya sudah mendapatkan detail kontak mereka",
+          "question": "Sampai jumpa",
+          "variantAnswer": [
+            "Telegram",
+            "Email"
+          ],
+          "childDialogModels": [
+            {
+              "key": "Telegram",
+              "question": "Telegram",
+              "refAfter": true,
+              "onlyAnswer": true,
+              "keyRef": "GoTelegram",
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Email",
+              "question": "Email",
+              "refAfter": true,
+              "onlyAnswer": true,
+              "keyRef": "GoMail",
+              "variantAnswer": [
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Saya tidak memiliki detail kontak mereka",
+          "question": "Memperbaikinya sekarang",
+          "variantAnswer": [
+            "Telegram",
+            "Email"
+          ],
+          "childDialogModels": [
+            {
+              "key": "Telegram",
+              "question": "Telegram",
+              "refAfter": true,
+              "onlyAnswer": true,
+              "keyRef": "GoTelegram",
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Email",
+              "question": "Email",
+              "refAfter": true,
+              "onlyAnswer": true,
+              "keyRef": "GoMail",
+              "variantAnswer": [
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Untuk apa saya memerlukan detail kontak atasan Anda?",
+          "question": "Anda pasti bercanda",
+          "variantAnswer": [
+            "Saya bercanda",
+            "Saya tidak bercanda, untuk apa saya memerlukan detail kontak atasan Anda?"
+          ],
+          "childDialogModels": [
+            {
+              "key": "Saya bercanda",
+              "question": "Oke",
+              "variantAnswer": [
+                "Terima kasih, ya, saya sudah mendapatkan detail kontak mereka",
+                "Saya tidak memiliki detail kontak mereka"
+              ],
+              "childDialogModels": [
+                {
+                  "key": "Terima kasih, ya, saya sudah mendapatkan detail kontak mereka",
+                  "question": "Salam hormat",
+                  "onlyAnswer": true,
+                  "childDialogModels": [
+                  ],
+                  "variantAnswer": [
+                  ],
+                  "answer": ""
+                },
+                {
+                  "key": "Terima kasih, ya, saya sudah mendapatkan detail kontak mereka",
+                  "question": "Sampai jumpa",
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "Telegram",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "Email",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                },
+                {
+                  "key": "Saya tidak memiliki detail kontak mereka",
+                  "question": "Memperbaikinya sekarang",
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "Telegram",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "Email",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                }
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Saya tidak bercanda, untuk apa saya memerlukan detail kontak atasan Anda?",
+              "question": "bayangkan",
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Saya tidak bercanda, untuk apa saya memerlukan detail kontak atasan Anda?",
+              "question": "jika internet",
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Saya tidak bercanda, untuk apa saya memerlukan detail kontak atasan Anda?",
+              "question": "memiliki Bitcoin sendiri",
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Saya tidak bercanda, untuk apa saya memerlukan detail kontak atasan Anda?",
+              "question": "saat internet diciptakan",
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Saya tidak bercanda, untuk apa saya memerlukan detail kontak atasan Anda?",
+              "question": "sekarang bayangkan",
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Saya tidak bercanda, untuk apa saya memerlukan detail kontak atasan Anda?",
+              "question": "yang akan Anda lewatkan..",
+              "variantAnswer": [
+                "Terima kasih, ya, saya sudah mendapatkan detail kontak mereka",
+                "Saya tidak memiliki detail kontak mereka"
+              ],
+              "childDialogModels": [
+                {
+                  "key": "Terima kasih, ya, saya sudah mendapatkan detail kontak mereka",
+                  "question": "Salam hormat",
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "Telegram",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "Email",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                },
+                {
+                  "key": "Terima kasih, ya, saya sudah mendapatkan detail kontak mereka",
+                  "question": "Sampai jumpa",
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "Telegram",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "Email",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                },
+                {
+                  "key": "Saya tidak memiliki detail kontak mereka",
+                  "question": "Memperbaikinya sekarang",
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "Telegram",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "Email",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                }
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        }
+      ],
+      "answer": ""
+    }
+  ]
+}

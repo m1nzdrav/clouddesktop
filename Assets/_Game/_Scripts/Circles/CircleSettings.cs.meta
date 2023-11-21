@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 28b31fe6dfa2a554082837ae6900ffd5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _circleDesktopPrefab: {fileID: 8349861776418513354, guid: 6fe74eb0256c5ce4b8c4e9e25e7688e9,
+      type: 3}
+  - _startParent: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,258 @@
+{
+  "font": "Alibaba-PuHuiTi-Regular",
+  "singleTexts": [
+    {
+      "question": "当前阶段平台访问受限",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "将提供访问的首批代码",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "给项目合伙人和首批参与者",
+      "variantAnswer": [
+        "我想参与项目",
+        "继续下去"
+      ],
+      "childDialogModels": [
+        {
+          "key": "我想参与项目",
+          "question": "当前阶段开放6个合作方向",
+          "onlyAnswer": true,
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "我想参与项目",
+          "question": "其余的稍后开放",
+          "onlyAnswer": true,
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "我想参与项目",
+          "question": "请选择一个或多个方向",
+          "allVariant": true,
+          "keyRef": "SendDirection",
+          "variantAnswer": [
+            "电影业代表",
+            "博主，达人",
+            "加密投资者",
+            "科技园或IT园代表",
+            "国家机构代表",
+            "准备开发其社区的积极用户",
+            "我不在这里"
+          ],
+          "childDialogModels": [
+            {
+              "key": "default",
+              "question": "请选择您的国家",
+              "keyRef": "SendCountry",
+              "dropdownDialog": {
+                "nameDropdown": "CC_Chinese",
+                "nameField": "name",
+                "nameFirstElement": "国家"
+              },
+              "variantAnswer": [
+              ],
+              "childDialogModels": [
+                {
+                  "key": "default",
+                  "question": "请给我一个您的社交网络链接",
+                  "onlyAnswer": true,
+                  "variantAnswer": [
+                  ],
+                  "childDialogModels": [],
+                  "answer": ""
+                },
+                {
+                  "key": "default",
+                  "question": "通过该链接可以更好地了解您",
+                  "keyRef": "SendLink",
+                  "errorText": {
+                    "textError": "请使用数字和拉丁字母",
+                    "accessTexts": [
+                      0,
+                      1,
+                      2
+                    ]
+                  },
+                  "variantAnswer": [
+                  ],
+                  "childDialogModels": [
+                    {
+                      "key": "default",
+                      "question": "请输入您的电子邮箱或Telegram",
+                      "variantAnswer": [
+                        "Email",
+                        "Telegram"
+                      ],
+                      "childDialogModels": [
+                        {
+                          "key": "Email",
+                          "question": "请输入您的电子邮箱地址",
+                          "keyRef": "SetEmail",
+                          "errorText": {
+                            "textError": "请使用数字和拉丁字母",
+                            "accessTexts": [
+                              0,
+                              1,
+                              2
+                            ]
+                          },
+                          "variantAnswer": [
+                          ],
+                          "childDialogModels": [
+                            {
+                              "key": "default",
+                              "label": "email",
+                              "question": "谢谢",
+                              "onlyAnswer": true,
+                              "variantAnswer": [
+                              ],
+                              "childDialogModels": [],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "如果有机会",
+                              "onlyAnswer": true,
+                              "refAfter": true,
+                              "keyRef": "SendEmail",
+                              "variantAnswer": [
+                              ],
+                              "childDialogModels": [],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "很快会开始合作",
+                              "onlyAnswer": true,
+                              "variantAnswer": [
+                              ],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "请等待。我们会联系您。",
+                              "variantAnswer": [
+                                "继续"
+                              ],
+                              "childDialogModels": [
+                                {
+                                  "key": "继续",
+                                  "question": "请继续",
+                                  "needUnlock": true,
+                                  "onlyAnswer": true,
+                                  "nextAction": true,
+                                  "variantAnswer": [
+                                  ],
+                                  "answer": ""
+                                }
+                              ]
+                            }
+                          ],
+                          "answer": ""
+                        },
+                        {
+                          "key": "Telegram",
+                          "question": "请输入您的Telegram",
+                          "keyRef": "SetEmail",
+                          "errorText": {
+                            "textError": "请使用数字和拉丁字母",
+                            "accessTexts": [
+                              0,
+                              1,
+                              2
+                            ]
+                          },
+                          "variantAnswer": [
+                          ],
+                          "childDialogModels": [
+                            {
+                              "key": "default",
+                              "label": "email",
+                              "question": "谢谢",
+                              "onlyAnswer": true,
+                              "variantAnswer": [
+                              ],
+                              "childDialogModels": [],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "如果有机会",
+                              "onlyAnswer": true,
+                              "refAfter": true,
+                              "keyRef": "SendEmail",
+                              "variantAnswer": [
+                              ],
+                              "childDialogModels": [],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "很快会开始合作",
+                              "onlyAnswer": true,
+                              "variantAnswer": [
+                              ],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "请等待。我们会联系您。",
+                              "variantAnswer": [
+                                "继续"
+                              ],
+                              "childDialogModels": [
+                                {
+                                  "key": "继续",
+                                  "question": "请继续",
+                                  "needUnlock": true,
+                                  "onlyAnswer": true,
+                                  "nextAction": true,
+                                  "variantAnswer": [
+                                  ],
+                                  "answer": ""
+                                }
+                              ]
+                            }
+                          ],
+                          "answer": ""
+                        }
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "answer": ""
+                }
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "key": "继续下去",
+          "question": "请继续",
+          "needUnlock": true,
+          "onlyAnswer": true,
+          "nextAction": true,
+          "variantAnswer": [
+          ],
+          "answer": ""
+        }
+      ],
+      "answer": ""
+    }
+  ]
+}

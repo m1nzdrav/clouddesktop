@@ -1,0 +1,229 @@
+{
+  "font": "Jost-Light",
+  "singleTexts": [
+    {
+      "question": "Что будем делать дальше?",
+      "variantAnswer": [
+        "Продолжить читать",
+        "Хочу посмотреть Платформу",
+        "Не интересно"
+      ],
+      "childDialogModels": [
+        {
+          "key": "Продолжить читать",
+          "question": "Продолжайте",
+          "onlyAnswer": true,
+          "unlockWithoutSave": true,
+          "needUnlock": true,
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Хочу посмотреть Платформу",
+          "question": "У вас есть Гостевой Пароль?",
+          "variantAnswer": [
+            "Да",
+            "Нет. Хочу получить Гостевой Пароль"
+          ],
+          "childDialogModels": [
+            {
+              "key": "Да",
+              "question": "Продолжате",
+              "keyRef": "GoRabbit",
+              "variantAnswer": [
+                "Перейти на платформу"
+              ],
+              "childDialogModels": [
+                {
+                  "key": "Перейти на платформу",
+                  "question": "",
+                  "needSkip": true,
+                  "refAfter": true,
+                  "childDialogModels": [
+                    {
+                    }
+                  ],
+                  "answer": ""
+                }
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Нет. Хочу получить Гостевой Пароль",
+              "label": "EnterNumber",
+              "question": "Выберите код страны",
+              "keyRef": "SendCountryCode",
+              "saveAnswer": "CountryCode",
+              "dropdownDialog": {
+                "nameDropdown": "CC",
+                "nameField": "dialCode",
+                "nameFirstElement": "Country",
+                "withNumber": false
+              },
+              "variantAnswer": [
+              ],
+              "childDialogModels": [
+                {
+                  "key": "default",
+                  "question": "Введите ваш номер телефона",
+                  "dropdownDialog": {
+                    "nameDropdown": "CC",
+                    "nameField": "dialCode",
+                    "withNumber": true,
+                    "takeFirstElement": "CountryCode"
+                  },
+                  "keyRef": "CheckNumber",
+                  
+                  "variantAnswer": [
+                  ],
+                  "childDialogModels": [
+                    {
+                      "key": "1",
+                      "question": "На ваш номер отправлено SMS с кодом",
+                      "onlyAnswer": true,
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "1",
+                      "label": "EnterCode",
+                      "question": "Введите код из SMS",
+                      "errorText" : {
+                        "textError": "Используйте цифры",
+                        "accessTexts": [
+                          1
+                        ]
+                      },
+                      "numberInput": 4,
+                      "keyRef": "CheckCode",
+                      "childDialogModels": [
+                        {
+                          "key": "true",
+                          "question": "Странный пароль",
+                          "onlyAnswer": true,
+                          "childDialogModels": [
+                            {
+                            }
+                          ],
+                          "answer": ""
+                        },
+                        {
+                          "key": "true",
+                          "question": "Но, продолжайте",
+                          "onlyAnswer": true,
+                          "childDialogModels": [
+                            {
+                            }
+                          ],
+                          "answer": ""
+                        },
+                        {
+                          "key": "false",
+                          "linkToLabel": "EnterCode",
+                          "question": "Пароль не верный",
+                          "onlyAnswer": true,
+                          "childDialogModels": [
+                            {
+                            }
+                          ],
+                          "answer": ""
+                        }
+                      ],
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "default",
+                      "question": "Неверный номер, повторите ввод ",
+                      "linkToLabel": "EnterNumber",
+                      "variantAnswer": [
+                      ],
+                      "childDialogModels": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "answer": ""
+                }
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Не интересно",
+          "question": "Вы поторопились с выводом",
+          "onlyAnswer": true,
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Не интересно",
+          "question": "Шутка",
+          "onlyAnswer": true,
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Не интересно",
+          "question": "Если вам, пока, не интересно",
+          "onlyAnswer": true,
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Не интересно",
+          "question": "Зайдите в наш телеграм",
+          "onlyAnswer": true,
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Не интересно",
+          "question": "Скоро увидите",
+          "onlyAnswer": true,
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Не интересно",
+          "question": "Какие будут происходить события",
+          "onlyAnswer": true,
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Не интересно",
+          "question": "Отказаться вы всегда успеете",
+          "keyRef": "GoTelegram",
+          "variantAnswer": [
+            "Перейти в телеграмм"
+          ],
+          "childDialogModels": [
+            {
+              "key": "Перейти в телеграмм",
+              "question": "",
+              "refAfter": true,
+              "onlyAnswer": true,
+              "variantAnswer": [
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        }
+      ],
+      "answer": ""
+    }
+  ]
+}

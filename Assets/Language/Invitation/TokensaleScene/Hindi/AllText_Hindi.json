@@ -1,0 +1,775 @@
+{
+  "Key": [
+    {
+      "MYTId": "Enter password35",
+      "MYTName": "Enter password",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "6",
+          "MYTName": "अपना दूसरा गेस्ट पासवर्ड दर्ज करें",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Khand-Light",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Enter password35",
+      "MYTName": "PlatformAds",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "6",
+          "MYTName": "प्लेटफ़ॉर्म \nविज्ञापन टोकन",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Khand-Light",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Home96",
+      "MYTName": "Home",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "Home65",
+          "MYTName": "होम",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Khand-Light",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Home96",
+      "MYTName": "Music",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "Home65",
+          "MYTName": "संगीत:",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Khand-Light",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Home96",
+      "MYTName": "Right",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "Home65",
+          "MYTName": "प्लेटफ़ॉर्म",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Khand-Light",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Home96",
+      "MYTName": "error",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "Home65",
+          "MYTName": "बाएँ",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Khand-Light",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Home96",
+      "MYTName": "Left",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "Home65",
+          "MYTName": "प्लेटफ़ॉर्म का परिचय",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Khand-Light",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Home96",
+      "MYTName": "More",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "Home65",
+          "MYTName": "अधिक",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Khand-Light",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Menu0",
+      "MYTName": "Menu",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "Menu48",
+          "MYTName": "मेनू",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Khand-Light",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "What12",
+      "MYTName": "What",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "What35",
+          "MYTName": "क्या",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Khand-Light",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "When46",
+      "MYTName": "When",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "When52",
+          "MYTName": "कब",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Khand-Light",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Who16",
+      "MYTName": "Who",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "Who16",
+          "MYTName": "कौन",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Khand-Light",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Where57",
+      "MYTName": "Where",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "Where23",
+          "MYTName": "कहाँ",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Khand-Light",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Next39",
+      "MYTName": "Next",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "Button67",
+          "MYTName": "अगला",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Khand-Light",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Next39",
+      "MYTName": "Balance",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "Button67",
+          "MYTName": "बाकी",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Khand-Light",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Language23",
+      "MYTName": "Language",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "LANGUAGE35",
+          "MYTName": "भाषा",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Khand-Light",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Language23",
+      "MYTName": "Video",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "LANGUAGE35",
+          "MYTName": "वीडियो",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Khand-Light",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Language23",
+      "MYTName": "Continue",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "LANGUAGE35",
+          "MYTName": "जारी रहेगा",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Khand-Light",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Home96",
+      "MYTName": "Follow",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "Home65",
+          "MYTName": "फॉलो करें",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Khand-Light",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Home96",
+      "MYTName": "Soon",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "Home65",
+          "MYTName": "जल्द ही",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Khand-Light",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },{
+      "MYTId": "Home96",
+      "MYTName": "Search",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "Home65",
+          "MYTName": "खोजें",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Jura-Medium",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },{
+      "MYTId": "Home96",
+      "MYTName": "no access yet",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "Home65",
+          "MYTName": "अभी तक कोई एक्सेस नहीं",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Jura-Medium",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },  {
+      "MYTId": "Language23",
+      "MYTName": "BEGIN",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "LANGUAGE35",
+          "MYTName": "शुरू",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Jura-Medium",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    }, {
+      "MYTId": "Language23",
+      "MYTName": "White Paper",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "LANGUAGE35",
+          "MYTName": "White Paper",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Jura-Medium",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Language23",
+      "MYTName": "Tokensale",
+      "MYTHashIpfs": "",
+      "MYTValue": [
+        {
+          "MYTId": "LANGUAGE35",
+          "MYTName": "Tokensale",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        },
+        {
+          "MYTId": "6",
+          "MYTName": "Jura-Medium",
+          "MYTHashIpfs": "",
+          "MYTValue": [],
+          "OpenStatus": false,
+          "MYTAccess": [
+            "01111"
+          ]
+        }
+      ],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    }
+  ]
+}

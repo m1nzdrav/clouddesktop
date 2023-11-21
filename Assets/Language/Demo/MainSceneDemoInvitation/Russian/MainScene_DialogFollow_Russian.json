@@ -1,0 +1,458 @@
+{
+  "font": "Jost-Light",
+  "singleTexts": [
+    {
+      "question": "Вы получили тестовый доступ",
+      "timingVideo": {
+        "start": 0,
+        "end": 17.5
+      },
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Значит",
+      "delay": 1.5,
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Я хотела бы видеть вас среди партнеров Проекта",
+      "delay": 1,
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Значит ",
+      "delay": 2.4,
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Или у вас уже есть контакты моего начальства",
+      "delay": 1.5,
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Или я могу вам их предоставить",
+      "delay": 2,
+      "variantAnswer": [
+        "Спасибо, да, у меня есть контакты",
+        "Контактов нет",
+        "Зачем мне контакты твоего начальства"
+        
+      ],
+      "childDialogModels": [
+        
+        {
+          "key": "Спасибо, да, у меня есть контакты",
+          "question": "Хорошо",
+          "timingVideo": {
+            "start": 40,
+            "end": 48.5
+          },
+          "onlyAnswer": true,
+          "childDialogModels": [
+          ],
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Спасибо, да, у меня есть контакты",
+          "question": "Всего наилучшего",
+          "delay": 1.5,
+          "onlyAnswer": true,
+          "childDialogModels": [
+          ],
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Спасибо, да, у меня есть контакты",
+          "question": "До встречи",
+          "delay": 1.5,
+          "variantAnswer": [
+            "Telegram",
+            "Email"
+          ],
+          "childDialogModels": [
+            {
+              "key": "Telegram",
+              "question": "Удачи. Я буду ждать здесь.",
+              "timingVideo": {
+                "start": 65.5,
+                "end": 70
+              },
+              "refAfter": true,
+              "onlyAnswer": true,
+              "keyRef": "GoTelegram",
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Email",
+              "question": "Удачи. Я буду ждать здесь.",
+              "timingVideo": {
+                "start": 65.5,
+                "end": 70
+              },
+              "refAfter": true,
+              "onlyAnswer": true,
+              "keyRef": "GoMail",
+              "variantAnswer": [
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Контактов нет",
+          "question": "Исправляю",
+          "timingVideo": {
+            "start": 48.5,
+            "end": 53.5
+          },
+          "variantAnswer": [
+            "Telegram",
+            "Email"
+          ],
+          "childDialogModels": [
+            {
+              "key": "Telegram",
+              "question": "Удачи. Я буду ждать здесь.",
+              "timingVideo": {
+                "start": 65.5,
+                "end": 70
+              },
+              "refAfter": true,
+              "onlyAnswer": true,
+              "keyRef": "GoTelegram",
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Email",
+              "question": "Удачи. Я буду ждать здесь.",
+              "timingVideo": {
+                "start": 65.5,
+                "end": 70
+              },
+              "refAfter": true,
+              "onlyAnswer": true,
+              "keyRef": "GoMail",
+              "variantAnswer": [
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Зачем мне контакты твоего начальства",
+          "question": "Вы, видимо, шутите",
+          "timingVideo": {
+            "start": 17.5,
+            "end": 24
+          },
+          "variantAnswer": [
+            "Шучу",
+            "Не шучу, зачем мне контакты твоего начальства"
+          ],
+          "childDialogModels": [
+            {
+              "key": "Шучу",
+              "question": "Хорошо",
+              "delay": 1.5,
+              "timingVideo": {
+                "start": 53.3,
+                "end": 58.5
+              },
+              "variantAnswer": [
+                "Спасибо, да, у меня есть контакты",
+                "Контактов нет"
+              ],
+              "childDialogModels": [
+                {
+                  "key": "Спасибо, да, у меня есть контакты",
+                  "question": "Всего наилучшего",
+                  "delay": 1.5,
+                  "timingVideo": {
+                    "start": 58.5,
+                    "end": 64
+                  },
+                  "onlyAnswer": true,
+                  "childDialogModels": [
+                  ],
+                  "variantAnswer": [
+                  ],
+                  "answer": ""
+                },
+                {
+                  "key": "Спасибо, да, у меня есть контакты",
+                  "question": "До встречи",
+                  "delay": 1.5,
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "Удачи. Я буду ждать здесь.",
+                      "timingVideo": {
+                        "start": 65.5,
+                        "end": 70
+                      },
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "Удачи. Я буду ждать здесь.",
+                      "timingVideo": {
+                        "start": 65.5,
+                        "end": 70
+                      },
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                },
+                {
+                  "key": "Контактов нет",
+                  "question": "Исправляю",
+                  "timingVideo": {
+                    "start": 48.5,
+                    "end": 53.5
+                  },
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "Удачи. Я буду ждать здесь.",
+                      "timingVideo": {
+                        "start": 65.5,
+                        "end": 70
+                      },
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "Удачи. Я буду ждать здесь.",
+                      "timingVideo": {
+                        "start": 65.5,
+                        "end": 70
+                      },
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                }
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Не шучу, зачем мне контакты твоего начальства",
+              "question": "представьте",
+              "delay": 1.5,
+              "timingVideo": {
+                "start": 24,
+                "end": 40
+              },
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Не шучу, зачем мне контакты твоего начальства",
+              "question": "что Интернет",
+              "delay": 1.5,
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Не шучу, зачем мне контакты твоего начальства",
+              "question": "имел бы свой Биткоин в момент создания.",
+              "delay": 1.5,
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Не шучу, зачем мне контакты твоего начальства",
+              "question": "теперь представьте",
+              "delay": 2.3,
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Не шучу, зачем мне контакты твоего начальства",
+              "question": "что вы проходите мимо...",
+              "delay": 1.5,
+              "variantAnswer": [
+                "Спасибо, да, у меня есть контакты",
+                "Контактов нет"
+              ],
+              "childDialogModels": [
+                {
+                  "key": "Спасибо, да, у меня есть контакты",
+                  "question": "Всего наилучшего",
+                  "timingVideo": {
+                    "start": 58.5,
+                    "end": 65.5
+                  },
+                  "onlyAnswer": true,
+                  "childDialogModels": [
+                  ],
+                  "variantAnswer": [
+                   
+                  ],
+                  "answer": ""
+                },
+                {
+                  "key": "Спасибо, да, у меня есть контакты",
+                  "question": "До встречи",
+                  "delay": 1.5,
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "Удачи. Я буду ждать здесь.",
+                      "timingVideo": {
+                        "start": 65.5,
+                        "end": 70
+                      },
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "Удачи. Я буду ждать здесь.",
+                      "timingVideo": {
+                        "start": 65.5,
+                        "end": 70
+                      },
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                },
+                {
+                  "key": "Контактов нет",
+                  "question": "Исправляю",
+                  "delay": 1.5,
+                  "timingVideo": {
+                    "start": 48.5,
+                    "end": 53.5
+                  },
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "Удачи. Я буду ждать здесь.",
+                      "timingVideo": {
+                        "start": 65.5,
+                        "end": 70
+                      },
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "Удачи. Я буду ждать здесь.",
+                      "timingVideo": {
+                        "start": 65.5,
+                        "end": 70
+                      },
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                }
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        }
+      ],
+      "answer": ""
+    }
+  ]
+}

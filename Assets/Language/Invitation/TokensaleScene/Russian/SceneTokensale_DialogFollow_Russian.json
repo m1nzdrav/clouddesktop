@@ -1,0 +1,78 @@
+{
+  "font": "Jost-Light",
+  "singleTexts": [
+    {
+      "question": "Вы получили тестовый доступ",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Значит ",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Я хотела бы видеть вас",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "среди партнеров Проекта",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Значит ",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Или у вас уже есть контакты моего начальства",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Или я могу вам их предоставить",
+      "variantAnswer": [
+
+        "Перейти в телеграмм",
+        "Email"
+      ],
+      "childDialogModels": [
+        {
+          "key": "Перейти в телеграмм",
+          "question": "Telegram",
+          "refAfter": true,
+          "onlyAnswer": true,
+          "keyRef": "GoTelegram",
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Email",
+          "question": "Email",
+          "refAfter": true,
+          "onlyAnswer": true,
+          "keyRef": "GoMail",
+          "variantAnswer": [
+          ],
+          "answer": ""
+        }
+      ],
+      "answer": ""
+    }
+  ]
+}

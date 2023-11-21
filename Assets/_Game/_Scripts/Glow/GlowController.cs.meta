@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 58ccc053aa8c3c748bf75c0627d2ede0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _glowImage: {fileID: 719671293238242048, guid: 715952157fca66042ac4adfefd138e67,
+      type: 3}
+  - _glowRect: {fileID: 3276845397596618925, guid: 715952157fca66042ac4adfefd138e67,
+      type: 3}
+  - _obj: {instanceID: 0}
+  - _sprite: {instanceID: 0}
+  - _material: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

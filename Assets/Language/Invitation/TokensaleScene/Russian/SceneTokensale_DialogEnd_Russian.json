@@ -1,0 +1,99 @@
+{
+  "font": "Jost-Light",
+  "singleTexts": [
+    {
+      "question": "Вы ознакомились с презентацией Платформы",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },{
+      "question": "Что будем делать дальше?",
+      "variantAnswer": [
+
+        "Хочу посмотреть Платформу",
+        "Продолжить читать"
+      ],
+      "childDialogModels": [
+        {
+
+          "key": "Хочу посмотреть Платформу",
+          "question": "У вас есть Гостевой Пароль?",
+          "variantAnswer": [
+            "Да, у меня есть Гостевой Пароль",
+            "Нет, хочу получить Гостевой Пароль"
+          ],
+          "childDialogModels": [
+            {
+
+              "key": "Да, у меня есть Гостевой Пароль",
+              "question": "Хотите перейти на платформу?",
+              "keyRef": "GoRabbit",
+              "variantAnswer": [
+                "Перейти на Платформу"
+              ],
+              "childDialogModels": [
+                {
+                  "key": "Перейти на платформу",
+                  "question": "",
+                  "needSkip": true,
+                  "refAfter": true,
+                  "childDialogModels": [
+                    {
+                    }
+                  ],
+                  "answer": ""
+                }
+              ],
+              "answer": ""
+            },
+            {
+
+              "key": "Нет, хочу получить Гостевой Пароль",
+              "question": "Минуту",
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Нет, хочу получить Гостевой Пароль",
+              "delay": 2,
+              "question": "Ваш Пароль :",
+              "refAfter": true,
+              "keyRef": "GetPassword",
+              "onlyAnswer": true,
+              "childDialogModels": [
+                {
+                  "key": "default",
+                  "needSkip": true,
+                  "keyRef": "GoRabbit",
+                  "childDialogModels": [
+                  ],
+                  "variantAnswer": [
+                  ],
+                  "answer": ""
+                }
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Продолжить читать",
+          "question": "Продолжайте",
+          "needUnlock": true,
+          "unlockWithoutSave": true,
+          "onlyAnswer": true,
+          "variantAnswer": [
+          ],
+          "answer": ""
+        }
+      ],
+      "answer": ""
+    }
+  ]
+}

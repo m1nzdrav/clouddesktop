@@ -1,0 +1,103 @@
+{
+  "data": [
+    {
+      "MYTId": "Settings79",
+      "MYTName": "Settings",
+      "MYTUserName": "",
+      "MYTHashIpfs": "",
+      "MYTValue": [],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "ParentChild42",
+      "MYTName": "ParentChild",
+      "MYTUserName": "",
+      "MYTHashIpfs": "",
+      "MYTValue": [],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "What32",
+      "MYTName": "What",
+      "MYTUserName": "",
+      "MYTHashIpfs": "",
+      "MYTValue": [],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Who19",
+      "MYTName": "Who",
+      "MYTUserName": "",
+      "MYTHashIpfs": "",
+      "MYTValue": [],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Where98",
+      "MYTName": "Where",
+      "MYTUserName": "",
+      "MYTHashIpfs": "",
+      "MYTValue": [],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "When23",
+      "MYTName": "When",
+      "MYTUserName": "",
+      "MYTHashIpfs": "",
+      "MYTValue": [],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Attributes75",
+      "MYTName": "Attributes",
+      "MYTUserName": "",
+      "MYTHashIpfs": "",
+      "MYTValue": [],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Events21",
+      "MYTName": "Events",
+      "MYTUserName": "",
+      "MYTHashIpfs": "",
+      "MYTValue": [],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    },
+    {
+      "MYTId": "Actions78",
+      "MYTName": "Actions",
+      "MYTUserName": "",
+      "MYTHashIpfs": "",
+      "MYTValue": [],
+      "OpenStatus": false,
+      "MYTAccess": [
+        "01111"
+      ]
+    }
+  ]
+}

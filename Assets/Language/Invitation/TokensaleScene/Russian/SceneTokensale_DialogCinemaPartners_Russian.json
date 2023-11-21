@@ -1,0 +1,449 @@
+{
+  "font": "Jost-Light",
+  "singleTexts": [
+    {
+      "question": "Данный раздел доступен только",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Представителем мира киноиндустрии",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "С кем достигнуты",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Предварительные договоренности",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "О сотрудничестве",
+      "variantAnswer": [
+        "Ввести пароль",
+        "Получить пароль",
+        "Вернуться"
+      ],
+      "answer": "",
+      "childDialogModels": [
+       
+        {
+          "key": "Ввести пароль",
+          "label": "EnterCode",
+          "question": "Введите пароль для партнеров из Киноиндустрии",
+          "errorText": {
+            "textError": "Используйте цифры и латинские буквы",
+            "accessTexts": [
+              0,
+              1
+            ]
+          },
+          "numberInput": 8,
+          "keyRef": "CheckLocker",
+          "childDialogModels": [
+            {
+              "key": "true",
+              "question": "Хороший пароль",
+              "onlyAnswer": true,
+              "childDialogModels": [
+                {
+                }
+              ],
+              "answer": ""
+            },
+            {
+              "key": "true",
+              "question": "Продолжайте",
+              "onlyAnswer": true,
+              "needUnlock": true,
+              "childDialogModels": [
+                {
+                }
+              ],
+              "answer": ""
+            },
+            {
+              "key": "test",
+              "question": "Пароль не Верный",
+              "onlyAnswer": true,
+              "childDialogModels": [
+                {
+                }
+              ],
+              "answer": ""
+            },
+            {
+              "key": "test",
+              "question": "Сожалею, но это закрытая демонстрация.",
+              "onlyAnswer": true,
+              "answer": ""
+            },
+            {
+              "key": "test",
+              "question": "Дождитесь официального старта Платформа ",
+              "variantAnswer": [
+                "У меня есть пароль от третьей части",
+                "Выйти"
+              ],
+              "childDialogModels": [
+                {
+                  "key": "У меня есть пароль от третьей части",
+                  "needSkip": true,
+                  "linkToLabel": "EnterCode",
+                  "childDialogModels": [
+                  ],
+                  "variantAnswer": [
+                  ],
+                  "answer": ""
+                },
+                {
+                  "key": "Выйти",
+                  "question": "Будет у вас пароль - заходите опять",
+                  "needRestart": true,
+                  "onlyAnswer": true,
+                  "variantAnswer": [
+                  ],
+                  "answer": ""
+                }
+              ],
+              "answer": ""
+            },
+            {
+              "key": "default",
+              "question": "Пароль Странный",
+              "onlyAnswer": true,
+              "childDialogModels": [
+                {
+                }
+              ],
+              "answer": ""
+            },
+            {
+              "key": "default",
+              "question": "Пароль не Верный",
+              "onlyAnswer": true,
+              "childDialogModels": [
+                {
+                }
+              ],
+              "answer": ""
+            },
+            {
+              "key": "default",
+              "delay": 2,
+              "randomQuestion": [
+                {
+                  "Strings": [
+                    "Любое приключение должно с чего-либо начаться…",
+                    "Банально, но даже здесь это правда…"
+                  ]
+                },
+                {
+                  "Strings": [
+                    "Все, что сказано три раза",
+                    "Становится истиной"
+                  ]
+                },
+                {
+                  "Strings": [
+                    "Никогда не считай себя не таким",
+                    "Каким тебя не считают другие",
+                    "И тогда другие не сочтут тебя не таким",
+                    "Каким ты хотел бы им казаться"
+                  ]
+                },
+                {
+                  "Strings": [
+                    "...Как она ни пыталась",
+                    "Она не могла найти тут ни тени смысла",
+                    "Хотя все слова были ей совершенно понятны.."
+                  ]
+                },
+                {
+                  "Strings": [
+                    "Давай показания и не нервничай ",
+                    "А не то я велю казнить тебя на месте",
+                    "Шутка"
+                  ]
+                },
+                {
+                  "Strings": [
+                    "Отсюда мораль ...",
+                    "Что-то не соображу"
+                  ]
+                },
+                {
+                  "Strings": [
+                    "Какой сегодня день странный!",
+                    "А вчера всё шло, как обычно!"
+                  ]
+                }
+              ],
+              "variantAnswer": [
+                "Продолжить читать"
+              ],
+              "childDialogModels": [
+                {
+                  "key": "Продолжить читать",
+                  "question": "Продолжайте",
+                  "onlyAnswer": true,
+                  "needUnlock": true,
+                  "variantAnswer": [
+                  ],
+                  "answer": ""
+                }
+              ],
+              "answer": ""
+            }
+          ],
+          "variantAnswer": [
+          ],
+          "answer": ""
+        }, {
+          "key": "Получить пароль",
+          "question": "Хорошо, расскажите о себе",
+          "variantAnswer": [
+            "Я представитель киноиндустрии",
+            "Я не из киноидустрии, но тоже хочу получить пароль"
+          ],
+          "childDialogModels": [
+            {
+              "key": "Я представитель киноиндустрии",
+              "needSkip": true,
+              "linkToLabel": "ChooseCountry",
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            
+            {
+              "key": "Я не из киноидустрии, но тоже хочу получить пароль",
+              "label": "WaitStart",
+              "question": "На данном этапе открыто 6 направлений для сотрудничества",
+              "onlyAnswer": true,
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Я не из киноидустрии, но тоже хочу получить пароль",
+              "question": "Остальные будут открыты чуть позже",
+              "onlyAnswer": true,
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Я не из киноидустрии, но тоже хочу получить пароль",
+              "question": "Выберите одно или несколько направлений",
+              "allVariant": true,
+              "keyRef": "SendDirection",
+              "variantAnswer": [
+                "Представитель киноиндустрии",
+                "Блогер, инфлюенсер",
+                "Крипто-инвестор",
+                "Представитель техно или IT парка",
+                "Представитель государственной структуры",
+                "Активный пользователь, готовый развивать свое Сообщество",
+                "Меня тут нет"
+              ],
+              "childDialogModels": [
+                {
+                  "key": "default",
+                  "question": "Выберите вашу страну",
+                  "label": "ChooseCountry",
+                  "keyRef": "SendCountry",
+                  "dropdownDialog": {
+                    "nameDropdown": "CC",
+                    "nameField": "name",
+                    "nameFirstElement": "Country"
+                  },
+                  "variantAnswer": [
+                  ],
+                  "childDialogModels": [
+                    {
+                      "key": "default",
+
+                      "question": "Дайте, пожалуйста, ссылку на одну из ваших социальных сетей",
+                      "onlyAnswer": true,
+                      "variantAnswer": [
+                      ],
+                      "childDialogModels": [],
+                      "answer": ""
+                    },
+                    {
+                      "key": "default",
+                      "question": "По которой вас лучше всего можно понять",
+                      "keyRef": "SendLink",
+                      "variantAnswer": [
+                      ],
+                      "childDialogModels": [
+                        {
+                          "key": "default",
+                          "question": "Введите вашу электронную почту или телеграм",
+                          "variantAnswer": [
+                            "Email",
+                            "Telegram"
+                          ],
+                          "childDialogModels": [
+                            {
+                              "key": "Email",
+                              "question": "Введите вашу электронную почту",
+                              "keyRef": "SetEmail",
+                              "variantAnswer": [
+                              ],
+                              "childDialogModels": [
+                                {
+                                  "key": "default",
+                                  "label": "email",
+                                  "question": "Спасибо",
+                                  "onlyAnswer": true,
+                                  "variantAnswer": [
+                                  ],
+                                  "childDialogModels": [],
+                                  "answer": ""
+                                },
+                                {
+                                  "key": "default",
+                                  "question": "Если Небесам будем угодно",
+                                  "onlyAnswer": true,
+                                  "refAfter": true,
+                                  "keyRef": "SendEmail",
+                                  "variantAnswer": [
+                                  ],
+                                  "childDialogModels": [],
+                                  "answer": ""
+                                },
+                                {
+                                  "key": "default",
+                                  "question": "Скоро сотрудничество начнется",
+                                  "onlyAnswer": true,
+                                  "variantAnswer": [
+                                  ],
+                                  "answer": ""
+                                },
+                                {
+                                  "key": "default",
+                                  "question": "Ожидайте. Мы с вами свяжемся.",
+                                  "variantAnswer": [
+                                    "Продолжить"
+                                  ],
+                                  "childDialogModels": [
+                                    {
+                                      "key": "Продолжить",
+                                      "question": "Продолжайте",
+                                      "needUnlock": true,
+                                      "onlyAnswer": true,
+                                      "nextAction": true,
+                                      "variantAnswer": [
+                                      ],
+                                      "answer": ""
+                                    }
+                                  ]
+                                }
+                              ],
+                              "answer": ""
+                            },
+                            {
+                              "key": "Telegram",
+                              "question": "Введите ваш телеграм",
+                              "keyRef": "SetEmail",
+                              "variantAnswer": [
+                              ],
+                              "childDialogModels": [
+                                {
+                                  "key": "default",
+                                  "label": "email",
+                                  "question": "Спасибо",
+                                  "onlyAnswer": true,
+                                  "variantAnswer": [
+                                  ],
+                                  "childDialogModels": [],
+                                  "answer": ""
+                                },
+                                {
+                                  "key": "default",
+                                  "question": "Если Небесам будем угодно",
+                                  "onlyAnswer": true,
+                                  "refAfter": true,
+                                  "keyRef": "SendEmail",
+                                  "variantAnswer": [
+                                  ],
+                                  "childDialogModels": [],
+                                  "answer": ""
+                                },
+                                {
+                                  "key": "default",
+                                  "question": "Скоро сотрудничество начнется",
+                                  "onlyAnswer": true,
+                                  "variantAnswer": [
+                                  ],
+                                  "answer": ""
+                                },
+                                {
+                                  "key": "default",
+                                  "question": "Ожидайте. Мы с вами свяжемся.",
+                                  "variantAnswer": [
+                                    "Продолжить"
+                                  ],
+                                  "childDialogModels": [
+                                    {
+                                      "key": "Продолжить",
+                                      "question": "Продолжайте",
+                                      "needUnlock": true,
+                                      "onlyAnswer": true,
+                                      "nextAction": true,
+                                      "variantAnswer": [
+                                      ],
+                                      "answer": ""
+                                    }
+                                  ]
+                                }
+                              ],
+                              "answer": ""
+                            }
+                          ],
+                          "answer": ""
+                        }
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "answer": ""
+                }
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "key": "вернуться",
+          "question": "Продолжайте",
+          "onlyAnswer": true,
+          "needUnlock": true,
+          "variantAnswer": [
+          ],
+      
+          "answer": ""
+        }
+       
+      ]
+    }
+  
+  ]
+}

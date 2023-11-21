@@ -1,0 +1,559 @@
+{
+  "StartPages": [
+    1
+  ],
+  "Pages": [
+    {
+      "Number": 0,
+      "animationPointJson": {
+        "delay": 0,
+        "time": 0,
+        "AnimationOpenType": 0,
+        "numberText": [],
+        "countShake": 0
+      },
+      "Contents": [
+        {
+          "Circles": {
+            "Circle": [
+              {
+                "Radius": 15,
+                "Color": {
+                  "r": 0.7490196228027344,
+                  "g": 0.09803922474384308,
+                  "b": 0.8313726186752319,
+                  "a": 0.10450981736183169
+                }
+              }
+            ],
+            "randomPosition": false
+          },
+          "buttonPages": [],
+          "button": "NextActivityPromo",
+          "currentPage": 0,
+          "audio": "You are starting",
+          "section": "1.1",
+          "text": " لقد بدأت الاعتياد على المنصة",
+          "point": true,
+          "size": 45,
+          "font": "Jost-Light",
+          "color": {
+            "r": 0.2,
+            "g": 0.45,
+            "b": 0.95,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.8,
+            "time": 1.5,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "Circles": {
+            "Circle": [
+              {
+                "Radius": 15,
+                "Color": {
+                  "r": 0.7490196228027344,
+                  "g": 0.09803922474384308,
+                  "b": 0.8313726186752319,
+                  "a": 0.10450981736183169
+                }
+              }
+            ],
+            "randomPosition": false
+          },
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "audio": "",
+          "section": "1.1",
+          "text": " ",
+          "point": false,
+          "size": 10,
+          "font": "Jost-Light",
+          "color": {
+            "r": 0.2,
+            "g": 0.45,
+            "b": 0.95,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.7,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "audio": "",
+          "section": "",
+          "text": "   طالما تعرفت على المنصة",
+          "point": true,
+          "size": 33,
+          "font": "Jost-Light",
+          "color": {
+            "r": 0.2,
+            "g": 0.8,
+            "b": 1,
+            "a": 0.65
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.8,
+            "time": 0.5,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "audio": "",
+          "section": 0,
+          "text": "   ستُرسل إليك",
+          "point": true,
+          "size": 33,
+          "font": "Jost-Light",
+          "color": {
+            "r": 0.2,
+            "g": 0.8,
+            "b": 1,
+            "a": 0.65
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.5,
+            "time": 0.5,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "animation": 0,
+          "section": "",
+
+          "nextPromoActivity": true,
+          "text": "   رموز مميزة مجانية للمشروع",
+          "point": true,
+          "size": 33,
+          "font": "Jost-Light",
+          "color": {
+            "r": 0.2,
+            "g": 0.8,
+            "b": 1,
+            "a": 0.65
+          },
+          "childContents": [],
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.5,
+            "time": 0.5,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "animation": 0,
+          "section": "",
+          "text": " ",
+          "point": false,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "childContents": [],
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 0
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "Circles": {
+            "Circle": [
+              {
+                "Radius": 15,
+                "Color": {
+                  "r": 0.7490196228027344,
+                  "g": 0.09803922474384308,
+                  "b": 0.8313726186752319,
+                  "a": 0.10450981736183169
+                }
+              }
+            ],
+            "randomPosition": false
+          },
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "audio": "",
+          "section": "1.1",
+          "text": "  ",
+          "point": true,
+          "size": 45,
+          "font": "Jost-Light",
+          "color": {
+            "r": 0.2,
+            "g": 0.45,
+            "b": 0.95,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 5,
+            "time": 1,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 25,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "animation": 0,
+          "section": "",
+          "text": " ",
+          "point": false,
+          "size": 10,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "childContents": [],
+          "animationPointJson": {
+            "delay": 30,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 0
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "audio": "",
+          "section": "",
+          "text": "    ",
+          "point": true,
+          "size": 33,
+          "font": "Jost-Light",
+          "color": {
+            "r": 0.2,
+            "g": 0.8,
+            "b": 1,
+            "a": 0.65
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.8,
+            "time": 1.5,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "audio": "",
+          "section": "",
+          "text": "    ",
+          "point": true,
+          "size": 33,
+          "font": "Jost-Light",
+          "color": {
+            "r": 0.2,
+            "g": 0.8,
+            "b": 1,
+            "a": 0.65
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.8,
+            "time": 1.5,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "animation": 0,
+          "section": "",
+          "text": " ",
+          "point": false,
+          "size": 25,
+          "font": "Jost-Light",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "childContents": [],
+          "animationPointJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationOpenType": 1,
+            "numberText": [],
+            "countShake": 0
+          },
+          "animationTextJson": {
+            "delay": 0,
+            "time": 0,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "Circles": {
+            "Circle": [
+              {
+                "Radius": 15,
+                "Color": {
+                  "r": 0.7490196228027344,
+                  "g": 0.09803922474384308,
+                  "b": 0.8313726186752319,
+                  "a": 0.10450981736183169
+                }
+              }
+            ],
+            "randomPosition": false
+          },
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "audio": "",
+          "section": "1.1",
+          "text": "  ",
+          "point": true,
+          "size": 45,
+          "font": "Jost-Light",
+          "color": {
+            "r": 0.2,
+            "g": 0.45,
+            "b": 0.95,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 0,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.7,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "Circles": {
+            "Circle": [
+              {
+                "Radius": 15,
+                "Color": {
+                  "r": 0.7490196228027344,
+                  "g": 0.09803922474384308,
+                  "b": 0.8313726186752319,
+                  "a": 0.10450981736183169
+                }
+              }
+            ],
+            "randomPosition": false
+          },
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "audio": "",
+          "section": "1.1",
+          "text": " ",
+          "point": false,
+          "size": 10,
+          "font": "Jost-Light",
+          "color": {
+            "r": 0.2,
+            "g": 0.45,
+            "b": 0.95,
+            "a": 0.8
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.7,
+            "time": 0.1,
+            "AnimationTextType": 1
+          }
+        },
+        {
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "audio": "",
+          "section": "",
+          "text": "    ",
+          "point": true,
+          "size": 33,
+          "font": "Jost-Light",
+          "color": {
+            "r": 0.2,
+            "g": 0.8,
+            "b": 1,
+            "a": 0.65
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.8,
+            "time": 1.5,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "audio": "",
+          "section": "",
+          "text": "    ",
+          "point": true,
+          "size": 33,
+          "font": "Jost-Light",
+          "color": {
+            "r": 0.2,
+            "g": 0.8,
+            "b": 1,
+            "a": 0.65
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.8,
+            "time": 1.5,
+            "AnimationTextType": 0
+          }
+        },
+        {
+          "button": "",
+          "buttonPages": [],
+          "currentPage": 0,
+          "audio": "",
+          "section": "",
+          "text": "    ",
+          "point": true,
+          "size": 33,
+          "font": "Jost-Light",
+          "color": {
+            "r": 0.2,
+            "g": 0.8,
+            "b": 1,
+            "a": 0.65
+          },
+          "animationPointJson": {
+            "delay": 0,
+            "time": 1,
+            "AnimationOpenType": 2,
+            "numberText": [],
+            "countShake": 2
+          },
+          "animationTextJson": {
+            "delay": 0.8,
+            "time": 1.5,
+            "AnimationTextType": 0
+          }
+        }
+      ]
+    }
+  ]
+}

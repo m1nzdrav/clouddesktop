@@ -1,0 +1,258 @@
+{
+  "font": "Jost-Light",
+  "singleTexts": [
+    {
+      "question": "Derzeit ist der Zugang zur Plattform eingeschränkt",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Die ersten Zugangscodes werden",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "den Partnern und ersten Teilnehmern des Projekts zur Verfügung gestellt",
+      "variantAnswer": [
+        "Ich möchte an dem Projekt teilnehmen",
+        "Unverändert fortfahren"
+      ],
+      "childDialogModels": [
+        {
+          "key": "Ich möchte an dem Projekt teilnehmen",
+          "question": "Zum gegenwärtigen Zeitpunkt stehen 6 Bereiche der Zusammenarbeit bereit",
+          "onlyAnswer": true,
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Ich möchte an dem Projekt teilnehmen",
+          "question": "Die übrigen werden etwas später freigeschaltet",
+          "onlyAnswer": true,
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Ich möchte an dem Projekt teilnehmen",
+          "question": "Wählen Sie einen oder mehrere Bereiche",
+          "allVariant": true,
+          "keyRef": "SendDirection",
+          "variantAnswer": [
+            "Vertreter/in der Filmindustrie",
+            "Blogger, Influencer",
+            "Krypto-Investor",
+            "Vertreter/in eines Techno- oder IT-Parks",
+            "Vertreter/in einer staatlichen Behörde",
+            "Aktive/r Nutzer/in, der/die bereit ist, seine/ihre Community auszubauen",
+            "Ich bin keiner davon"
+          ],
+          "childDialogModels": [
+            {
+              "key": "default",
+              "question": "Wählen Sie Ihr Land aus",
+              "keyRef": "SendCountry",
+              "dropdownDialog": {
+                "nameDropdown": "CC_German",
+                "nameField": "name",
+                "nameFirstElement": "Seite"
+              },
+              "variantAnswer": [
+              ],
+              "childDialogModels": [
+                {
+                  "key": "default",
+                  "question": "Bitte geben Sie einen Link zu einem Ihrer sozialen Netzwerke an,",
+                  "onlyAnswer": true,
+                  "variantAnswer": [
+                  ],
+                  "childDialogModels": [],
+                  "answer": ""
+                },
+                {
+                  "key": "default",
+                  "question": "über das Sie am besten zu erreichen sind",
+                  "keyRef": "SendLink",
+                  "errorText": {
+                    "textError": "Verwenden Sie Zahlen und lateinische Buchstaben",
+                    "accessTexts": [
+                      0,
+                      1,
+                      2
+                    ]
+                  },
+                  "variantAnswer": [
+                  ],
+                  "childDialogModels": [
+                    {
+                      "key": "default",
+                      "question": "Geben Sie Ihre E-Mail Adresse oder Telegram ein",
+                      "variantAnswer": [
+                        "E-Mail",
+                        "Telegram"
+                      ],
+                      "childDialogModels": [
+                        {
+                          "key": "E-Mail",
+                          "question": "Geben Sie Ihre E-Mail Adresse ein",
+                          "keyRef": "SetEmail",
+                          "errorText": {
+                            "textError": "Verwenden Sie Zahlen und lateinische Buchstaben",
+                            "accessTexts": [
+                              0,
+                              1,
+                              2
+                            ]
+                          },
+                          "variantAnswer": [
+                          ],
+                          "childDialogModels": [
+                            {
+                              "key": "default",
+                              "label": "email",
+                              "question": "Danke",
+                              "onlyAnswer": true,
+                              "variantAnswer": [
+                              ],
+                              "childDialogModels": [],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "Wenn es der Himmel so will",
+                              "onlyAnswer": true,
+                              "refAfter": true,
+                              "keyRef": "SendE-Mail",
+                              "variantAnswer": [
+                              ],
+                              "childDialogModels": [],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "Bald beginnt die Zusammenarbeit",
+                              "onlyAnswer": true,
+                              "variantAnswer": [
+                              ],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "Halten Sie sich bereit. Wir melden uns bei Ihnen.",
+                              "variantAnswer": [
+                                "Weiter"
+                              ],
+                              "childDialogModels": [
+                                {
+                                  "key": "Weiter",
+                                  "question": "Fahren Sie fort",
+                                  "needUnlock": true,
+                                  "onlyAnswer": true,
+                                  "nextAction": true,
+                                  "variantAnswer": [
+                                  ],
+                                  "answer": ""
+                                }
+                              ]
+                            }
+                          ],
+                          "answer": ""
+                        },
+                        {
+                          "key": "Telegram",
+                          "question": "Geben Sie Ihr Telegram ein",
+                          "keyRef": "SetEmail",
+                          "errorText": {
+                            "textError": "Verwenden Sie Zahlen und lateinische Buchstaben",
+                            "accessTexts": [
+                              0,
+                              1,
+                              2
+                            ]
+                          },
+                          "variantAnswer": [
+                          ],
+                          "childDialogModels": [
+                            {
+                              "key": "default",
+                              "label": "email",
+                              "question": "Danke",
+                              "onlyAnswer": true,
+                              "variantAnswer": [
+                              ],
+                              "childDialogModels": [],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "Wenn es der Himmel so will",
+                              "onlyAnswer": true,
+                              "refAfter": true,
+                              "keyRef": "SendEmail",
+                              "variantAnswer": [
+                              ],
+                              "childDialogModels": [],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "Bald beginnt die Zusammenarbeit",
+                              "onlyAnswer": true,
+                              "variantAnswer": [
+                              ],
+                              "answer": ""
+                            },
+                            {
+                              "key": "default",
+                              "question": "Halten Sie sich bereit. Wir melden uns bei Ihnen.",
+                              "variantAnswer": [
+                                "Weiter"
+                              ],
+                              "childDialogModels": [
+                                {
+                                  "key": "Weiter",
+                                  "question": "Fahren Sie fort",
+                                  "needUnlock": true,
+                                  "onlyAnswer": true,
+                                  "nextAction": true,
+                                  "variantAnswer": [
+                                  ],
+                                  "answer": ""
+                                }
+                              ]
+                            }
+                          ],
+                          "answer": ""
+                        }
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "answer": ""
+                }
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "key": "Unverändert fortfahren",
+          "question": "Fahren Sie fort",
+          "needUnlock": true,
+          "onlyAnswer": true,
+          "nextAction": true,
+          "variantAnswer": [
+          ],
+          "answer": ""
+        }
+      ],
+      "answer": ""
+    }
+  ]
+}

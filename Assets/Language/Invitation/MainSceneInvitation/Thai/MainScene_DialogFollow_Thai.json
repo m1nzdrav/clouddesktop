@@ -1,0 +1,389 @@
+{
+  "font": "TH Sarabun New Regular",
+  "singleTexts": [
+    {
+      "question": "คุณได้รับสิทธิ์เข้าถึงการทดสอบ",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "ดังนั้น ",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "ฉันอยากพบคุณ",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "ท่ามกลางพันธมิตรของโครงการ",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "ดังนั้น ",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "ไม่ว่าคุณจะมีรายละเอียดการติดต่อของผู้บังคับบัญชาของฉันหรือไม่",
+      "onlyAnswer": true,
+      "variantAnswer": [
+      ],
+      "answer": ""
+    },
+    {
+      "question": "หรือฉันสามารถจัดหาให้คุณได้",
+      "variantAnswer": [
+        "ขอบคุณ แต่ฉันมีรายละเอียดการติดต่อแล้ว",
+        "ฉันไม่มีรายละเอียดการติดต่อของพวกเขา",
+        "ฉันต้องการรายละเอียดการติดต่อของผู้บังคับบัญชาเพื่ออะไร"
+      ],
+      "childDialogModels": [
+      
+        {
+          "key": "ขอบคุณ แต่ฉันมีรายละเอียดการติดต่อแล้ว",
+          "question": "ตกลง",
+          "onlyAnswer": true,
+          "childDialogModels": [
+          ],
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "ขอบคุณ แต่ฉันมีรายละเอียดการติดต่อแล้ว",
+          "question": "โชคดี",
+          "onlyAnswer": true,
+          "childDialogModels": [
+          ],
+          "variantAnswer": [
+          ],
+          "answer": ""
+        },
+        {
+          "key": "ขอบคุณ แต่ฉันมีรายละเอียดการติดต่อแล้ว",
+          "question": "แล้วพบกันใหม่",
+          "variantAnswer": [
+            "Telegram",
+            "Email"
+          ],
+          "childDialogModels": [
+            {
+              "key": "Telegram",
+              "question": "Telegram",
+              "refAfter": true,
+              "onlyAnswer": true,
+              "keyRef": "GoTelegram",
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Email",
+              "question": "Email",
+              "refAfter": true,
+              "onlyAnswer": true,
+              "keyRef": "GoMail",
+              "variantAnswer": [
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "key": "ฉันไม่มีรายละเอียดการติดต่อของพวกเขา",
+          "question": "ตอนนี้กำลังแก้ไขอยู่",
+          "variantAnswer": [
+            "Telegram",
+            "Email"
+          ],
+          "childDialogModels": [
+            {
+              "key": "Telegram",
+              "question": "Telegram",
+              "refAfter": true,
+              "onlyAnswer": true,
+              "keyRef": "GoTelegram",
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "Email",
+              "question": "Email",
+              "refAfter": true,
+              "onlyAnswer": true,
+              "keyRef": "GoMail",
+              "variantAnswer": [
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "key": "ฉันต้องการรายละเอียดการติดต่อของผู้บังคับบัญชาเพื่ออะไร",
+          "question": "คุณต้องล้อเล่นแน่ ๆ",
+          "variantAnswer": [
+            "ฉันล้อเล่น",
+            "ไม่ได้พูดเล่น ฉันต้องการรายละเอียดการติดต่อของผู้บังคับบัญชาเพื่ออะไร"
+          ],
+          "childDialogModels": [
+            {
+              "key": "ฉันล้อเล่น",
+              "question": "ตกลง",
+              "variantAnswer": [
+                "ขอบคุณ แต่ฉันมีรายละเอียดการติดต่อแล้ว",
+                "ฉันไม่มีรายละเอียดการติดต่อของพวกเขา"
+              ],
+              "childDialogModels": [
+                {
+                  "key": "ขอบคุณ แต่ฉันมีรายละเอียดการติดต่อแล้ว",
+                  "question": "โชคดี",
+                  "onlyAnswer": true,
+                  "childDialogModels": [
+                  ],
+                  "variantAnswer": [
+                  ],
+                  "answer": ""
+                },
+                {
+                  "key": "ขอบคุณ แต่ฉันมีรายละเอียดการติดต่อแล้ว",
+                  "question": "แล้วพบกันใหม่",
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "Telegram",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "Email",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                },
+                {
+                  "key": "ฉันไม่มีรายละเอียดการติดต่อของพวกเขา",
+                  "question": "ตอนนี้กำลังแก้ไขอยู่",
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "Telegram",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "Email",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                }
+              ],
+              "answer": ""
+            },
+            {
+              "key": "ไม่ได้พูดเล่น ฉันต้องการรายละเอียดการติดต่อของผู้บังคับบัญชาเพื่ออะไร",
+              "question": "จินตนาการดูว่า",
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "ไม่ได้พูดเล่น ฉันต้องการรายละเอียดการติดต่อของผู้บังคับบัญชาเพื่ออะไร",
+              "question": "หากอินเทอร์เน็ต",
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "ไม่ได้พูดเล่น ฉันต้องการรายละเอียดการติดต่อของผู้บังคับบัญชาเพื่ออะไร",
+              "question": "มี Bitcoin ของตัวเอง",
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "ไม่ได้พูดเล่น ฉันต้องการรายละเอียดการติดต่อของผู้บังคับบัญชาเพื่ออะไร",
+              "question": "ในขณะที่กำลังถูกสร้างขึ้น",
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "ไม่ได้พูดเล่น ฉันต้องการรายละเอียดการติดต่อของผู้บังคับบัญชาเพื่ออะไร",
+              "question": "ลองจินตนาการ",
+              "onlyAnswer": true,
+              "childDialogModels": [
+              ],
+              "variantAnswer": [
+              ],
+              "answer": ""
+            },
+            {
+              "key": "ไม่ได้พูดเล่น ฉันต้องการรายละเอียดการติดต่อของผู้บังคับบัญชาเพื่ออะไร",
+              "question": "ว่าคุณกำลังจะผ่านพ้นไป...",
+              "variantAnswer": [
+                "ขอบคุณ แต่ฉันมีรายละเอียดการติดต่อแล้ว",
+                "ฉันไม่มีรายละเอียดการติดต่อของพวกเขา"
+              ],
+              "childDialogModels": [
+                {
+                  "key": "ขอบคุณ แต่ฉันมีรายละเอียดการติดต่อแล้ว",
+                  "question": "โชคดี",
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "Telegram",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "Email",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                },
+                {
+                  "key": "ขอบคุณ แต่ฉันมีรายละเอียดการติดต่อแล้ว",
+                  "question": "แล้วพบกันใหม่",
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "Telegram",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "Email",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                },
+                {
+                  "key": "ฉันไม่มีรายละเอียดการติดต่อของพวกเขา",
+                  "question": "ตอนนี้กำลังแก้ไขอยู่",
+                  "childDialogModels": [
+                    {
+                      "key": "Telegram",
+                      "question": "Telegram",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoTelegram",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    },
+                    {
+                      "key": "Email",
+                      "question": "Email",
+                      "refAfter": true,
+                      "onlyAnswer": true,
+                      "keyRef": "GoMail",
+                      "variantAnswer": [
+                      ],
+                      "answer": ""
+                    }
+                  ],
+                  "variantAnswer": [
+                    "Telegram",
+                    "Email"
+                  ],
+                  "answer": ""
+                }
+              ],
+              "answer": ""
+            }
+          ],
+          "answer": ""
+        }
+      ],
+      "answer": ""
+    }
+  ]
+}
